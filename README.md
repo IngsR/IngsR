@@ -1,9 +1,9 @@
-# Hi there! 👋  
-I'm a passionate developer interested in **Machine Learning, Data Science, and Open-Source Projects**.  
-I also have a strong foundation in **Linux** and use it for data processing and system automation.  
+# Hi there! 👋   
+I'm a passionate **Data Specialist** with a strong focus on **Data Science, Data Analytics, and Data Security**.  
+I leverage **Linux** for efficient data processing, automation, and system optimization.  
 
 ## 🔥 Skills  
-- 🐍 **Python** (Pandas, NumPy, Scikit-Learn, TensorFlow, PyTorch)  
+- 🐍 **Python** (Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib TensorFlow, PyTorch)  
 - 📊 **Data Analyst** (EDA, Data Visualization, SQL, Tableau, Power BI)  
 - 🏆 **Data Specialist** (Big Data, ETL, Data Pipelines)  
 - 🤖 **Machine Learning & AI** (Supervised & Unsupervised Learning, Deep Learning)  
