@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&color=F7A619&vCenter=true&lines=Hello...;Halo...+👋)](https://github.com/IngsR)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&color=F7A619&vCenter=true&lines=Hello...;Hello...+👋)](https://github.com/IngsR)
 
 
 I'm a passionate **Data Specialist** with a strong focus on **Data Science, Data Analytics, and Data Security**.  
