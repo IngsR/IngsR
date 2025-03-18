@@ -15,7 +15,9 @@ I leverage **Linux** for efficient data processing, automation, and system optim
 - 📈 [ Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)  
 - 🤖 [Data Analyst with Python](https://github.com/yourusername/sentiment-analysis)  
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=tokyonight&hide_border=true)
+
 ## 📫 Connect with me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/ikhwan-ramadhan-4435692b0/)     [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github)](https://github.com/IngsR)  
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=tokyonight&hide_border=true)
+
