@@ -8,7 +8,7 @@ I leverage **Linux** for efficient data processing, automation, and system optim
 
 ## 🔥 Skills  
 - 🐍 **Python** (Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib TensorFlow, PyTorch)  
-- 📊 **Data Analyst** (EDA, Data Visualization, SQL, Tableau, Power BI)  
+- 📊 **Data Analyst** (EDA, Data Visualization, SQL, Tableau, Power BI, Hadoop)  
 - 🏆 **Data Specialist** (Big Data, ETL, Data Pipelines,Data Warehouse)  
 - 🤖 **Machine Learning & AI** (Supervised & Unsupervised Learning, Deep Learning)  
 - 🖥️ **Linux & Windows Automation** (Bash, PowerShell, Automation, Performance Tuning)  
@@ -21,6 +21,6 @@ I leverage **Linux** for efficient data processing, automation, and system optim
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=tokyonight&hide_border=true)
 
 ## 📫 Connect with me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/ikhwan-ramadhan-4435692b0/)     [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github)](https://github.com/IngsR)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/ikhwan-ramadhan-4435692b0/)     
 
 
