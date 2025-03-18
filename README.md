@@ -16,4 +16,5 @@ I leverage **Linux** for efficient data processing, automation, and system optim
 ## 📫 Connect with me
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/ikhwan-ramadhan-4435692b0/)     [![GitHub](https://img.shields.io/badge/GitHub-000?logo=github)](https://github.com/IngsR)  
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=light&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=light&hide_border=true)    ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=IngsR&show_icons=true&theme=light&hide_border=true)
+
