@@ -7,7 +7,7 @@ I leverage **Linux** for efficient data processing, automation, and system optim
 - 📊 **Data Analyst** (EDA, Data Visualization, SQL, Tableau, Power BI)  
 - 🏆 **Data Specialist** (Big Data, ETL, Data Pipelines)  
 - 🤖 **Machine Learning & AI** (Supervised & Unsupervised Learning, Deep Learning)  
-- 🖥️ **Linux & Shell Scripting** (Bash, Automation, Performance Tuning)  
+- 🖥️ **Linux & Windows Automation** (Bash, PowerShell, Automation, Performance Tuning)  
 
 ## 🚀 Projects  
 - 📈 [ Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)  
