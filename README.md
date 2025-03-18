@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hi there! 👋  
+I'm a passionate developer interested in **Machine Learning, Data Science, and Open-Source Projects**.  
+I also have a strong foundation in **Linux** and use it for data processing and system automation.  
 
-<!--
-**IngsR/IngsR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🔥 Skills  
+- 🐍 **Python** (Pandas, NumPy, Scikit-Learn, TensorFlow, PyTorch)  
+- 📊 **Data Analyst** (EDA, Data Visualization, SQL, Tableau, Power BI)  
+- 🏆 **Data Specialist** (Big Data, ETL, Data Pipelines)  
+- 🤖 **Machine Learning & AI** (Supervised & Unsupervised Learning, Deep Learning)  
+- 🖥️ **Linux & Shell Scripting** (Bash, Automation, Performance Tuning)  
 
-Here are some ideas to get you started:
+## 🚀 Projects  
+- 📈 [ Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)  
+- 🤖 [Data Analyst with Python](https://github.com/yourusername/sentiment-analysis)  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📫 Connect with me  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/ikhwan-ramadhan-4435692b0/)  
+[![GitHub](https://img.shields.io/badge/GitHub-000?logo=github)](https://github.com/IngsR)  
