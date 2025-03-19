@@ -13,10 +13,11 @@ I leverage **Linux** for efficient data processing, automation, and system optim
 - 🤖 **Machine Learning & AI** (Supervised & Unsupervised Learning, Deep Learning)  
 - 🖥️ **Linux & Windows Automation** (Bash, PowerShell, Automation, Performance Tuning)  
 
-
 ## 🚀 Projects  
-- 📈 [ Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)  
+- 📈 [Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)  
 - 🤖 [Data Analyst with Python](https://github.com/yourusername/sentiment-analysis)  
+- 🌐 [Django Website Project](https://github.com/IngsR/Django-Project)  
+
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=tokyonight&hide_border=true)
 
