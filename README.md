@@ -8,7 +8,7 @@ I leverage **Linux** for efficient data processing, automation, and system optim
 
 ## 🔥 Skills  
 - 🐍 **Python** (Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib TensorFlow, PyTorch)  
-- 📊 **Data Analyst** (EDA, Data Visualization, SQL, Tableau, Power BI, Hadoop)  
+- 📊 **Data Analyst** (EDA, Cleaning, Wrangling, Data Visualization, SQL, Tableau, Power BI, Hadoop)  
 - 🏆 **Data Specialist** (Big Data, ETL, Data Pipelines,Data Warehouse)  
 - 🤖 **Machine Learning & AI** (Supervised & Unsupervised Learning, Deep Learning)  
 - 🖥️ **Linux & Windows Automation** (Bash, PowerShell, Automation, Performance Tuning)  
