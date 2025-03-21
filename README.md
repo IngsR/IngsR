@@ -1,8 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&color=F7A619&vCenter=true&lines=Hello...;Hello...+👋)](https://github.com/IngsR)
 
 
-Saya seorang **Spesialis Data** yang bersemangat dengan fokus kuat pada **Ilmu Data, Analisis Data, dan Keamanan Data**.
-Saya memanfaatkan **Linux(WSL)** & **Windows** untuk pemrosesan data yang efisien, otomatisasi, dan pengoptimalan sistem.
+Saya adalah seorang **Spesialis Data** yang bersemangat dan sedang mengembangkan karir di bidang **Data Science**, **Analisis Data**, dan **Keamanan Data**. Saat ini, saya memanfaatkan **Linux (WSL)** dan Windows untuk memproses data secara efisien, mengotomatisasi tugas-tugas rutin, dan mengoptimalkan sistem. Meskipun saya belum memiliki pengalaman **profesional** formal, saya **berkomitmen untuk terus belajar dan mengasah keterampilan saya agar menjadi ahli di bidang data**, khususnya sebagai **Data Scientist**.
 
 
 
