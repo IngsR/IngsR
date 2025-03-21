@@ -8,7 +8,7 @@ Saya adalah seorang **Spesialis Data** yang bersemangat dan sedang mengembangkan
 ## 🔥 Skills  
 - 🐍 **Python** (Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib TensorFlow, PyTorch)  
 - 📊 **Data Analyst** (EDA, Cleaning, Wrangling, Data Visualization, SQL, Tableau, Power BI, Hadoop)  
-- 🏆 **Data Specialist** (Big Data, ETL, Data Pipelines,Data Warehouse)  
+- 🏆 **Data Specialist** (Big Data, ETL, Data Pipelines,Data Warehouse,Web Scraping)  
 - 🤖 **Machine Learning & AI** (Supervised & Unsupervised Learning, Deep Learning)  
 - 🖥️ **Linux & Windows Automation** (Bash, PowerShell, Automation, Performance Tuning)  
 
