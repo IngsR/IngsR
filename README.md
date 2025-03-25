@@ -17,6 +17,7 @@ Saya adalah seorang yang **Hobi Mengolah Data** dan sedang mengembangkan karir d
 - 📈 [Data Analyst with Python](https://github.com/yourusername/sentiment-analysis) | **Notebook**  
 - 🌐 [Django Website Project](https://github.com/IngsR/Django-Project) | **Python**
 - 🧠 [Neural Network Project](https://github.com/IngsR/Neural-network-notebook) | **Notebook**
+- 📱 [MobileAps E-comerce React Expo](https://github.com/IngsR/ReactExpo-Mobile-Ecomerce) | **Javascript**
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=tokyonight&hide_border=true)
