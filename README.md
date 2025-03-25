@@ -13,10 +13,10 @@ Saya adalah seorang yang **Hobi Mengolah Data** bersemangat dan sedang mengemban
 - 🖥️ **Linux & Windows Automation** (Bash, PowerShell, Automation, Performance Tuning)  
 
 ## 🚀 Projects  
-- 🤖 [Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)  
-- 📈 [Data Analyst with Python](https://github.com/yourusername/sentiment-analysis)  
-- 🌐 [Django Website Project](https://github.com/IngsR/Django-Project)
-- 🧠 [Nural Network Project](https://github.com/IngsR/Neural-network-notebook)
+- 🤖 [Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models) | **Notebook**  
+- 📈 [Data Analyst with Python](https://github.com/yourusername/sentiment-analysis) | **Notebook**  
+- 🌐 [Django Website Project](https://github.com/IngsR/Django-Project) | **Python**
+- 🧠 [Neural Network Project](https://github.com/IngsR/Neural-network-notebook) | **Notebook**
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=tokyonight&hide_border=true)
