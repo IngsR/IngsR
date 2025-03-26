@@ -20,7 +20,7 @@ Saya adalah seorang **Data Enthusiast** yang berkomitmen mengembangkan karir di 
 - **Proses:** ETL, Data Warehouse, Web Scraping
   
 ### <img src="https://img.icons8.com/color/24/000000/artificial-intelligence.png" alt="Machine Learning & AI" style="vertical-align:middle;"> Machine Learning & AI
-- **Metode:** Clustering, Classification, Regression, Neural Networks
+- **Metode:** Supervised, Unsupervised Learning, and Neural Networks
 
 ### <img src="https://img.icons8.com/color/24/000000/server.png" alt="Automation" style="vertical-align:middle;"> Otomasi & Administrasi Sistem
 - **Platform:** Linux, Windows  
