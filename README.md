@@ -12,7 +12,7 @@ Saya adalah seorang yang **Hobi Mengolah Data** dan sedang mengembangkan karir d
 
 ### <img src="https://img.icons8.com/color/24/000000/combo-chart.png" alt="Data Analysis" style="vertical-align:middle;"> Analisis & Visualisasi Data
 - **Teknik:** EDA, Data Cleaning, Data Wrangling, Data Visualization  
-- **Alat:** SQL, Tableau, Power BI, Hadoop
+- **Alat:** SQL, Tableau, Superset, Power BI, Hadoop
 
 ### <img src="https://img.icons8.com/color/24/000000/database.png" alt="Data Engineering" style="vertical-align:middle;"> Data Engineering
 - **Proses:** ETL, Data Warehouse, Web Scraping
