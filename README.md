@@ -9,8 +9,8 @@ Saya adalah seorang **Data Enthusiast** yang berkomitmen mengembangkan karir di 
 ## 🔥 Hard Skills
 
 ### <img src="https://img.icons8.com/color/24/000000/python.png" alt="Python" style="vertical-align:middle;"> Pemrograman & Data Science
-- **Python:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, XGBoost, TensorFlow, PyTorch  
-- **R:** ggplot2, dplyr, tidyr, caret, Shiny
+- **Python:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, XGBoost, TensorFlow, PyTorch, LightGBM
+- **R:** ggplot2, dplyr, tidyr, caret, Shiny, randomForest, pROC
 
 ### <img src="https://img.icons8.com/color/24/000000/combo-chart.png" alt="Data Analysis" style="vertical-align:middle;"> Analisis & Visualisasi Data
 - **Teknik:** EDA, Data Cleaning, Data Wrangling, Data Visualization  
