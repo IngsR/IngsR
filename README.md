@@ -41,7 +41,7 @@ Berikut adalah beberapa proyek yang menampilkan kemampuan saya dalam mengelola d
 - 🌐 **[Django Website Project](https://github.com/IngsR/Django-Project)**  
   *Penerapan framework Django untuk membangun website dengan konsep backend yang terstruktur.*
 
-- 🧠 **[Neural Network Project](https://github.com/IngsR/Neural-network-notebook)**  
+- 🧠 **[Deep Learning Portofolio](https://github.com/IngsR/Deep-learning_portofolio)**  
   *Implementasi jaringan neural untuk menyelesaikan permasalahan prediksi data.*
 
 - 📱 **[ReactExpo Mobile E-Commerce](https://github.com/IngsR/ReactExpo-Mobile-Ecomerce)**  
