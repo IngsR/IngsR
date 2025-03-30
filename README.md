@@ -13,7 +13,7 @@ Saya adalah seorang **Data Enthusiast** yang berkomitmen mengembangkan karir di 
 - **R:** ggplot2, dplyr, tidyr, caret, Shiny, randomForest, pROC
 
 ### <img src="https://img.icons8.com/color/24/000000/combo-chart.png" alt="Data Analysis" style="vertical-align:middle;"> Analisis & Visualisasi Data
-- **Teknik:** EDA, Data Cleaning, Data Wrangling, Data Visualization  
+- **Teknik:** EDA, Data Wrangling, Data Visualization  
 - **Alat:** SQL, Tableau, Superset, Power BI, Hadoop
 
 ### <img src="https://img.icons8.com/color/24/000000/database.png" alt="Data Engineering" style="vertical-align:middle;"> Data Engineering
