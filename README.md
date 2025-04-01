@@ -4,7 +4,9 @@
 
 Saya adalah seorang **Data Enthusiast** yang berkomitmen mengembangkan karir di bidang **Data Science**, **Analisis Data**, dan **Data engineer**. Saat ini saya mengoptimalkan penggunaan **Linux (WSL)** dan Windows untuk memproses data, mengotomatisasi tugas rutin, serta mengoptimalkan sistem. Meskipun saya belum memiliki pengalaman profesional formal, saya terus belajar dan mengasah keterampilan agar menjadi ahli di bidang data, khususnya sebagai **Data Scientist**.
 
----
+--- danadasdwadsdsa 
+sfnsidhfpsf
+fgndfogbjgrerge
 
 ## 🔥 Hard Skills
 
