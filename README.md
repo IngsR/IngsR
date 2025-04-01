@@ -58,7 +58,7 @@ Berikut adalah beberapa proyek yang menampilkan kemampuan saya dalam mengelola d
 
 ---
 
-## 📫 Terhubung dengan Saya
+## 📫 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/ikhwan-ramadhan-4435692b0/)
 
