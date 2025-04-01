@@ -24,7 +24,7 @@ Saya adalah seorang **Data Enthusiast** yang berkomitmen mengembangkan karir di 
 
 ### <img src="https://img.icons8.com/color/24/000000/server.png" alt="Automation" style="vertical-align:middle;"> Otomasi & Administrasi Sistem
 - **Platform:** Linux, Windows  
-- **Alat:** Bash, PowerShell, Automation, Performance Tuning
+- **Alat:** Bash, PowerShell, Automation
 
 ---
 
