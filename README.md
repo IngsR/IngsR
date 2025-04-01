@@ -64,6 +64,4 @@ Berikut adalah beberapa proyek yang menampilkan kemampuan saya dalam mengelola d
 
 ---
 
-### Tentang Saya
-Saya selalu mencari tantangan baru untuk meningkatkan kemampuan teknis dan memecahkan masalah kompleks di dunia data. Jika Anda tertarik untuk berdiskusi lebih lanjut atau ingin mengajak saya berkolaborasi, jangan ragu untuk menghubungi saya melalui LinkedIn.
 
