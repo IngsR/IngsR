@@ -1,6 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&color=F7A619&vCenter=true&lines=Hello...;Hello...+👋)](https://github.com/IngsR)
-
-# Halo, Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
+# Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
 
 Saya adalah seorang **Data Enthusiast** yang berkomitmen mengembangkan karir di bidang **Data Science**, **Analisis Data**, dan **Data engineer**. Saat ini saya mengoptimalkan penggunaan **Linux (WSL)** dan Windows untuk memproses data, automation, serta mengoptimalkan sistem. Meskipun saya belum memiliki pengalaman profesional formal, saya terus belajar dan mengasah keterampilan agar menjadi ahli di bidang data, khususnya sebagai **Data Scientist**.
 
