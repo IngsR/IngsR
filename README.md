@@ -56,16 +56,14 @@ Berikut berberapa proyek dalam kategori ini dikembangkan menggunakan Jupyter Not
 
 ---
 
-## 📊 Bahasa Pemrograman
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=tokyonight)
- 
----
-
-## 📫 
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/ikhwan-ramadhan-4435692b0/)
+<p align="center">
+  <i>Created by Ikhwan Ramadhan. IngsR</i>
+</p>
 
 ---
+
+
+
 
 
