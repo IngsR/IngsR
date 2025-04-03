@@ -2,7 +2,7 @@
 
 # Halo, Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
 
-Saya adalah seorang **Data Enthusiast** yang berkomitmen mengembangkan karir di bidang **Data Science**, **Analisis Data**, dan **Data engineer**. Saat ini saya mengoptimalkan penggunaan **Linux (WSL)** dan Windows untuk memproses data, mengotomatisasi tugas rutin, serta mengoptimalkan sistem. Meskipun saya belum memiliki pengalaman profesional formal, saya terus belajar dan mengasah keterampilan agar menjadi ahli di bidang data, khususnya sebagai **Data Scientist**.
+Saya adalah seorang **Data Enthusiast** yang berkomitmen mengembangkan karir di bidang **Data Science**, **Analisis Data**, dan **Data engineer**. Saat ini saya mengoptimalkan penggunaan **Linux (WSL)** dan Windows untuk memproses data, automation, serta mengoptimalkan sistem. Meskipun saya belum memiliki pengalaman profesional formal, saya terus belajar dan mengasah keterampilan agar menjadi ahli di bidang data, khususnya sebagai **Data Scientist**.
 
 --- 
 
@@ -28,9 +28,13 @@ Saya adalah seorang **Data Enthusiast** yang berkomitmen mengembangkan karir di 
 
 ---
 
-## 🚀 Proyek Unggulan
+##  My Project  
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-Berikut adalah beberapa proyek yang menampilkan kemampuan saya dalam mengelola data, mengembangkan model, serta membangun aplikasi:
+Berikut berberapa proyek dalam kategori ini dikembangkan menggunakan Jupyter Notebook, memungkinkan Anda untuk mengeksplorasi hasilnya secara langsung tanpa perlu menjalankannya di perangkat Anda. Proyek-proyek ini mencakup pengolahan data, eksplorasi statistik, serta pengembangan model machine learning dan deep learning. Selain itu, beberapa proyek juga berfokus pada pengembangan web menggunakan Django Framework serta pengembangan aplikasi mobile dengan Node.js dan React.
 
 - 🤖 **[Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)**  
   *Eksplorasi dan pengembangan berbagai model machine learning dengan dokumentasi lengkap dalam notebook.*
@@ -52,10 +56,10 @@ Berikut adalah beberapa proyek yang menampilkan kemampuan saya dalam mengelola d
 
 ---
 
-## 📊 Statistik & Bahasa Pemrograman
+## 📊 Bahasa Pemrograman
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=tokyonight&hide_border=true)
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=tokyonight)
+ 
 ---
 
 ## 📫 
