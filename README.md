@@ -1,11 +1,10 @@
 <div align="center">
-  
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&vCenter=true&width=500&lines=Data+Enthusiast;Python+Developer;Aspiring+Data+Scientist;Loves+Working+with+Jupyter+%26+Python+%26+R;Currently+Exploring+Machine+Learning+%F0%9F%A7%A0" alt="Typing SVG" />
 
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=500&lines=Data+Enthusiast;Aspiring+Data+Scientist;Loves+Python+%26+Jupyter" alt="Typing SVG" />
 
 </div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=32&color=00BFFF&vCenter=true&lines=Hello...;Hello...+👋)](https://github.com/IngsR)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=32&color=00FF00&vCenter=true&lines=Hello...;Hello...+👋)](https://github.com/IngsR)
 
 
 # Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
@@ -67,16 +66,16 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**
 
 <div align="center">
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=chartreuse-dark)
 
 </div>
 
 ---
 
-
 <p align="center">
-  <i>Created by Ikhwan Ramadhan. IngsR</i>
+  <img src="https://img.shields.io/badge/Created_by-Ikhwan_Ramadhan_(IngsR)-FFFFFF?style=flat&logoColor=000000" alt="Created by Ikhwan Ramadhan" width="300">
 </p>
+
 
 ---
 
