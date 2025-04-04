@@ -34,7 +34,7 @@ Saya adalah seorang **Data Enthusiast** yang berkomitmen mengembangkan karir di 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-Berikut berberapa proyek dalam kategori ini dikembangkan menggunakan Jupyter Notebook, memungkinkan Anda untuk mengeksplorasi hasilnya secara langsung tanpa perlu menjalankannya di perangkat Anda. Proyek-proyek ini mencakup pengolahan data, eksplorasi statistik, serta pengembangan model machine learning dan deep learning. Selain itu, beberapa proyek juga berfokus pada pengembangan web menggunakan Django Framework serta pengembangan aplikasi mobile dengan Node.js dan React.
+Sejumlah proyek dalam kategori ini dikembangkan menggunakan Jupyter Notebook, yang memungkinkan pengguna untuk secara langsung mengeksplorasi hasil dan proses kerja tanpa harus mengeksekusinya secara lokal pada perangkat masing-masing. Proyek-proyek tersebut mencakup berbagai aspek, mulai dari pengolahan data dan eksplorasi statistik, hingga perancangan serta penerapan model machine learning deep learning. Di selain itu, terdapat pula proyek-proyek yang secara khusus diarahkan pada pengembangan aplikasi web dengan memanfaatkan kerangka kerja Django, serta pengembangan aplikasi mobile berbasis Node.js dan React.
 
 - 🤖 **[Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)**  
   *Eksplorasi dan pengembangan berbagai model machine learning dengan dokumentasi lengkap dalam notebook.*
