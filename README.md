@@ -1,9 +1,11 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=24&color=F7A619&vCenter=true&lines=Hello...;Hello...+👋)](https://github.com/IngsR)
 # Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
 
-Saya adalah seorang penggemar data **Data Enthusiast** yang memiliki komitmen tinggi dalam mengembangkan karier di bidang Data Science, Analisis Data, dan Data Engineering. Saat ini, saya secara aktif memanfaatkan sistem operasi Linux (melalui WSL2) dan Windows untuk mendukung proses otomatisasi, pengolahan data, serta optimisasi sistem.
+
+Saya adalah seorang penggemar data **Data Enthusiast** yang memiliki komitmen tinggi dalam mengembangkan karier di bidang Data Science, Analisis Data, dan Data Engineering. Saat ini, saya secara aktif memanfaatkan sistem operasi Linux (**WSL2**) dan Windows11 untuk mendukung proses otomatisasi, pengolahan data, serta optimisasi sistem.
 Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendalami berbagai keterampilan teknis dan teoretis guna memantapkan diri sebagai seorang Data Scientist yang andal dan memiliki daya saing.
---- 
+
+
 
 ## 🔥 Hard Skills
 
@@ -34,7 +36,7 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-Sejumlah proyek dalam kategori ini dikembangkan menggunakan Jupyter Notebook, yang memungkinkan pengguna untuk secara langsung mengeksplorasi hasil dan proses kerja tanpa harus mengeksekusinya secara lokal pada perangkat masing-masing. Proyek-proyek tersebut mencakup berbagai aspek, mulai dari pengolahan data dan eksplorasi statistik, hingga perancangan serta penerapan model machine learning deep learning. Di selain itu, terdapat pula proyek-proyek yang secara khusus diarahkan pada pengembangan aplikasi web dengan memanfaatkan kerangka kerja Django, serta pengembangan aplikasi mobile berbasis Node.js dan React.
+Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**, yang menyediakan hasil output secara langsung serta mengeksplorasi hasil dan proses kerja tanpa harus mengeksekusinya codenya secara lokal pada perangkat. Proyek-proyek tersebut mencakup berbagai aspek, mulai dari **pengolahan data**, **eksplorasi statistik**, **preprocessing**, hingga perancangan penerapan model **machine learning**, **deep learning** serta **Hyperparameter Tuning** untuk mendapatkan hasil pemodelan yang memuaskan. selain itu, terdapat pula proyek-proyek yang secara khusus diarahkan pada pengembangan aplikasi web dengan memanfaatkan kerangka kerja backend menggunakan  framework **Django**, serta pengembangan aplikasi mobile berbasis **Node.js** dan **React**.
 
 - 🤖 **[Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)**  
   *Eksplorasi dan pengembangan berbagai model machine learning dengan dokumentasi lengkap dalam notebook.*
