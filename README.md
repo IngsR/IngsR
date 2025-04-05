@@ -73,9 +73,8 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Created_by-Ikhwan_Ramadhan_(IngsR)-FFFFFF?style=flat&logoColor=000000" alt="Created by Ikhwan Ramadhan" width="300">
+  <img src="https://img.shields.io/badge/Created_by-Ikhwan_Ramadhan_(IngsR)-00FF00?style=flat&labelColor=808080" alt="Created by Ikhwan Ramadhan" width="300">
 </p>
-
 
 ---
 
