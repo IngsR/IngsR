@@ -15,7 +15,8 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 
 
 
-## 🔥 Hard Skills
+##  Hard Skills
+
 
 ### <img src="https://img.icons8.com/color/24/000000/python.png" alt="Python" style="vertical-align:middle;"> Pemrograman & Data Science
 - **Python:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, XGBoost, TensorFlow, PyTorch, LightGBM
@@ -37,7 +38,9 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 
 ---
 
-##  My Project  
+
+## 📁 My Project
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
