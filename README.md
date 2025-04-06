@@ -50,7 +50,7 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**, yang menyediakan hasil output secara langsung serta mengeksplorasi hasil dan proses kerja tanpa harus mengeksekusinya codenya secara lokal pada perangkat. Proyek-proyek tersebut mencakup berbagai aspek, mulai dari **pengolahan data**, **eksplorasi statistik**, **preprocessing**, hingga perancangan penerapan model **machine learning**, **deep learning** serta **Hyperparameter Tuning** untuk mendapatkan hasil pemodelan yang memuaskan. selain itu, terdapat pula proyek-proyek yang secara khusus diarahkan pada pengembangan aplikasi web dengan memanfaatkan kerangka kerja backend menggunakan  framework **Django**, serta pengembangan aplikasi mobile berbasis **Node.js** dan **React**.
 
 - 🌧️ **[Binary Prediction with a Rainfall Dataset](https://github.com/IngsR/Binary-Prediction-with-a-Rainfall-Dataset)**  
-  *Eksplorasi dan pengembangan moenggunakan model Random Foresta acc91-auc96, LTSM acc89-auc95, XGboost acc92-auc97 akurasi *
+  *Eksplorasi dan pengembangan moenggunakan model Random Forest (acc91-auc96), LTSM (acc89-auc95), XGboost (acc92-auc97)*
 
 - 🤖 **[Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)**  
   *Eksplorasi dan pengembangan berbagai model machine learning dengan dokumentasi lengkap dalam notebook.*
