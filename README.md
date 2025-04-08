@@ -28,10 +28,9 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 ### <img src="https://img.icons8.com/color/24/000000/artificial-intelligence.png" alt="Machine Learning & AI" style="vertical-align:middle;"> Machine Learning & AI
 - **Metode:** Supervised, Unsupervised Learning, Neural Networks
 
-### <img src="https://img.icons8.com/color/24/000000/statistics.png" alt="Statistics" style="vertical-align:middle;"> Statistik & Probabilitas
-- **Statistik Deskriptif:** Rata-rata, median, modus, varians, standar deviasi, skewness, kurtosis    
+### <img src="https://img.icons8.com/color/24/000000/statistics.png" alt="Statistics" style="vertical-align:middle;"> Probabilitas & Statistik
+- **Statistik:** Rata-rata, median, modus, varians, standar deviasi, skewness, kurtosis    
 - **Probabilitas:** Distribusi (Normal, Binomial, Poisson, Exponential), Teorema Bayes    
-- **Asumsi Statistik:** Normalitas & independensi    
 
 ### <img src="https://img.icons8.com/color/24/000000/combo-chart.png" alt="Data Analysis" style="vertical-align:middle;"> Analisis & Visualisasi Data
 - **Teknik:** EDA, Data Wrangling, Data Visualization  
