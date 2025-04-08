@@ -59,8 +59,14 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**
 - 🌧️ **[Binary Prediction with a Rainfall Dataset](https://github.com/IngsR/Binary-Prediction-with-a-Rainfall-Dataset)**  
   *Eksplorasi dan pengembangan moenggunakan model Random Forest (acc91-auc96), LTSM (acc89-auc95), XGboost (acc92-auc97)*
 
+- 📖 **[Portofolio Coursera](https://github.com/IngsR/Coursera-protofolio)**  
+  *Kumpulan proyek yang dihasilkan dari berbagai kursus Coursera, menggunakan Python, R, dan notebook.*
+
 - 🤖 **[Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)**  
   *Eksplorasi dan pengembangan berbagai model machine learning dengan dokumentasi lengkap dalam notebook.*
+
+- 🧠 **[Deep Learning Portofolio](https://github.com/IngsR/Deep-learning_portofolio)**  
+  *Implementasi jaringan neural untuk menyelesaikan permasalahan prediksi data.*
 
 - 📈 **[Data Analyst with Python](https://github.com/yourusername/sentiment-analysis)**  
   *Analisis sentimen menggunakan Python dengan pendekatan eksploratif melalui notebook.*
@@ -68,14 +74,8 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**
 - 🌐 **[Django Website Project](https://github.com/IngsR/Django-Project)**  
   *Penerapan framework Django untuk membangun website dengan konsep backend yang terstruktur.*
 
-- 🧠 **[Deep Learning Portofolio](https://github.com/IngsR/Deep-learning_portofolio)**  
-  *Implementasi jaringan neural untuk menyelesaikan permasalahan prediksi data.*
-
 - 📱 **[ReactExpo Mobile E-Commerce](https://github.com/IngsR/ReactExpo-Mobile-Ecomerce)**  
   *Pengembangan aplikasi mobile menggunakan ReactExpo dengan konsep e-commerce.*
-
-- 📖 **[Portofolio Coursera](https://github.com/IngsR/Coursera-protofolio)**  
-  *Kumpulan proyek yang dihasilkan dari berbagai kursus Coursera, menggunakan Python, R, dan notebook.*
 
 <div align="center">
 
@@ -90,8 +90,3 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**
 </p>
 
 ---
-
-
-
-
-
