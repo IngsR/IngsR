@@ -17,10 +17,21 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 
 ##  Hard Skills
 
-
-### <img src="https://img.icons8.com/color/24/000000/python.png" alt="Python" style="vertical-align:middle;"> Pemrograman & Data Science
+### <img src="https://img.icons8.com/color/24/000000/python.png" alt="Python" style="vertical-align:middle;"> Pemrograman
 - **Python:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, XGBoost, TensorFlow, PyTorch, LightGBM
 - **R:** ggplot2, dplyr, tidyr, caret, Shiny, randomForest, pROC
+
+### <img src="https://img.icons8.com/color/24/000000/server.png" alt="Automation" style="vertical-align:middle;"> Otomasi & Administrasi Sistem
+- **Platform:** Linux, Windows  
+- **Alat:** Bash, PowerShell, Automation
+
+### <img src="https://img.icons8.com/color/24/000000/artificial-intelligence.png" alt="Machine Learning & AI" style="vertical-align:middle;"> Machine Learning & AI
+- **Metode:** Supervised, Unsupervised Learning, Neural Networks
+
+### <img src="https://img.icons8.com/color/24/000000/statistics.png" alt="Statistics" style="vertical-align:middle;"> Statistik & Probabilitas
+- **Statistik Deskriptif:** Rata-rata, median, modus, varians, standar deviasi, skewness, kurtosis    
+- **Probabilitas:** Distribusi (Normal, Binomial, Poisson, Exponential), Teorema Bayes    
+- **Asumsi Statistik:** Normalitas & independensi    
 
 ### <img src="https://img.icons8.com/color/24/000000/combo-chart.png" alt="Data Analysis" style="vertical-align:middle;"> Analisis & Visualisasi Data
 - **Teknik:** EDA, Data Wrangling, Data Visualization  
@@ -28,14 +39,11 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 
 ### <img src="https://img.icons8.com/color/24/000000/database.png" alt="Data Engineering" style="vertical-align:middle;"> Data Engineering
 - **Proses:** ETL, Data Warehouse, Web Scraping
+
+###  Aljabar Linier
+- **Pemahaman Konseptual** Vektor, Matriks, Transpos, Determinan, Invers, Eigenvalue & Eigenvector
+
   
-### <img src="https://img.icons8.com/color/24/000000/artificial-intelligence.png" alt="Machine Learning & AI" style="vertical-align:middle;"> Machine Learning & AI
-- **Metode:** Supervised, Unsupervised Learning, Neural Networks
-
-### <img src="https://img.icons8.com/color/24/000000/server.png" alt="Automation" style="vertical-align:middle;"> Otomasi & Administrasi Sistem
-- **Platform:** Linux, Windows  
-- **Alat:** Bash, PowerShell, Automation
-
 ---
 
 
