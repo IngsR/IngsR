@@ -37,7 +37,7 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 - **Alat:** SQL, Power BI, Superset, Hadoop
 
 ### <img src="https://img.icons8.com/color/24/000000/database.png" alt="Data Engineering" style="vertical-align:middle;"> Data Engineering
-- **Proses:** ETL, Data Warehouse, Web Scraping
+- **Proses:** Excel, ETL, Data Warehouse, Web Scraping
 
 ###  Aljabar Linier
 - **Pemahaman Konseptual** Vektor, Matriks, Transpos, Determinan, Invers, Eigenvalue & Eigenvector
