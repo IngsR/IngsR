@@ -23,7 +23,7 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 
 ### <img src="https://img.icons8.com/color/24/000000/server.png" alt="Automation" style="vertical-align:middle;"> Otomasi & Administrasi Sistem
 - **Platform:** Linux, Windows  
-- **Alat:** Bash, PowerShell, Automation
+- **Tools:** Bash, PowerShell, Automation
 
 ### <img src="https://img.icons8.com/color/24/000000/artificial-intelligence.png" alt="Machine Learning & AI" style="vertical-align:middle;"> Machine Learning & AI
 - **Metode:** Supervised, Unsupervised Learning, Neural Networks
@@ -34,13 +34,13 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 
 ### <img src="https://img.icons8.com/color/24/000000/combo-chart.png" alt="Data Analysis" style="vertical-align:middle;"> Analisis & Visualisasi Data
 - **Teknik:** EDA, Data Wrangling, Data Visualization  
-- **Alat:** SQL, Power BI, Superset, Hadoop
+- **Tools:** SQL, Power BI, Superset, Hadoop
 
 ### <img src="https://img.icons8.com/color/24/000000/database.png" alt="Data Engineering" style="vertical-align:middle;"> Data Engineering
-- **Proses:** Excel, ETL, Data Warehouse, Web Scraping
+- **Proses:** :Excel, ETL, Data Warehouse, Web Scraping
 
 ###  Aljabar Linier
-- **Pemahaman Konseptual** Vektor, Matriks, Transpos, Determinan, Invers, Eigenvalue & Eigenvector
+- **Pemahaman Konseptual** : Vektor, Matriks, Transpos, Determinan, Invers, Eigenvalue & Eigenvector
 
   
 ---
