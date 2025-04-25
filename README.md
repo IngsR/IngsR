@@ -56,7 +56,7 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 
 Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**, yang menyediakan hasil output secara langsung serta mengeksplorasi hasil dan proses kerja tanpa harus mengeksekusinya codenya secara lokal pada perangkat. Proyek-proyek tersebut mencakup berbagai aspek, mulai dari **pengolahan data**, **eksplorasi statistik**, **preprocessing**, hingga perancangan penerapan model **machine learning**, **deep learning** serta **Hyperparameter Tuning** untuk mendapatkan hasil pemodelan yang memuaskan. selain itu, terdapat pula proyek-proyek yang secara khusus diarahkan pada pengembangan aplikasi web dengan memanfaatkan kerangka kerja backend menggunakan  framework **Django**, serta pengembangan web aplication berbasis **Node.js, React & Next.js**.
 
-- 🔍 **[Web Dinamis TF-IDF](https://github.com/IngsR/Web-dinamis_TF-IDF)**  
+- 🔍 **[DockRank TF-IDF](https://github.com/IngsR/DockRank_TF-IDF)**  
   *Web Dinamis untuk Pencarian dokumen menggunakan metode TF-IDF berdasarkan skor kemiripan tertinggi.*
 
 - 🌧️ **[Binary Prediction with a Rainfall Dataset](https://github.com/IngsR/Binary-Prediction-with-a-Rainfall-Dataset)**  
