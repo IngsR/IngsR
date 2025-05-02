@@ -29,7 +29,7 @@ Meskipun belum memiliki pengalaman profesional secara formal, saya terus mendala
 - **Metode :** Supervised, Unsupervised Learning, Neural Networks
 
 ### <img src="https://img.icons8.com/color/24/000000/statistics.png" alt="Statistics" style="vertical-align:middle;"> Probabilitas & Statistik
-- **Statisti k:** Rata-rata, median, modus, varians, standar deviasi, skewness, kurtosis    
+- **Statistik:** Rata-rata, median, modus, varians, standar deviasi, skewness, kurtosis    
 - **Probabilitas :** Distribusi (Normal, Binomial, Poisson, Exponential), Teorema Bayes    
 
 ### <img src="https://img.icons8.com/color/24/000000/combo-chart.png" alt="Data Analysis" style="vertical-align:middle;"> Analisis & Visualisasi Data
