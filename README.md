@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=500&lines=Data+Enthusiast;Data+Scientist;Predictive+Analyst" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=0000FF&center=true&vCenter=true&width=500&lines=Data+Enthusiast;Data+Scientist;Predictive+Analyst" alt="Typing SVG" />
 
 </div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=32&color=00FF00&vCenter=true&lines=Hello...;Hello...+👋)](https://github.com/IngsR)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=32&color=0000FF&vCenter=true&lines=Hello...;Hello...+👋)](https://github.com/IngsR)
 
 
 # Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
