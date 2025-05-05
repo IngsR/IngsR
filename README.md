@@ -71,7 +71,7 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**
 - 🧠 **[Deep Learning Portofolio](https://github.com/IngsR/Deep-learning_portofolio)**  
   *Implementasi jaringan neural untuk menyelesaikan permasalahan prediksi data.*
 
-- 📈 **[Data Analyst with Python](https://github.com/yourusername/sentiment-analysis)**  
+- 📈 **[Data Analyst with Python](https://github.com/IngsR/Data-Analyst_Python)**  
   *Analisis sentimen menggunakan Python dengan pendekatan eksploratif melalui notebook.*
 
 - 🌐 **[Django Website Project](https://github.com/IngsR/Django-Project)**  
