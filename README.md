@@ -17,15 +17,15 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 ##  Hard Skills
 
 ### <img src="https://img.icons8.com/color/24/000000/python.png" alt="Python" style="vertical-align:middle;"> Pemrograman
-- **Python :** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, XGBoost, TensorFlow, PyTorch, LightGBM
+- **Python :** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, PyTorch.
 - **R :** ggplot2, dplyr, tidyr, caret, Shiny, randomForest, pROC
 
 ### <img src="https://img.icons8.com/color/24/000000/server.png" alt="Automation" style="vertical-align:middle;"> Otomasi & Administrasi Sistem
 - **Platform :** Linux, Windows  
 - **Tools :** Bash, PowerShell, Automation
 
-### <img src="https://img.icons8.com/color/24/000000/artificial-intelligence.png" alt="Machine Learning & AI" style="vertical-align:middle;"> Machine Learning & AI
-- **Metode :** Supervised, Unsupervised Learning, Neural Networks
+### <img src="https://img.icons8.com/color/24/000000/artificial-intelligence.png" alt="Machine Learning & AI" style="vertical-align:middle;"> Machine Learning & Deep Learning
+- **Metode :** Supervised, Unsupervised Learning, Neural Networks, Back Propagaration, LTSM
 
 ### <img src="https://img.icons8.com/color/24/000000/statistics.png" alt="Statistics" style="vertical-align:middle;"> Probabilitas & Statistik
 - **Statistik:** Rata-rata, median, modus, varians, standar deviasi, skewness, kurtosis    
