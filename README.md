@@ -21,6 +21,17 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 - **R:** ggplot2, dplyr, tidyr, caret, Shiny, randomForest, pROC  
 - **JavaScript:** React.js, Next.js, TypeScript  
 
+### 🛠️ Data Engineering
+- **Tools & Proses:** ETL, Data Warehouse, Web Scraping, Excel  
+
+### ⚙️ Otomasi & Administrasi Sistem
+- **Platform:** Linux WSL, Windows  
+- **Tools:** Bash, PowerShell, Automation Scripts
+
+### 📈 Analisis & Visualisasi Data
+- **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling, Data Visualization  
+- **Tools:** SQL, Power BI, Apache Superset, Hadoop  
+
 ### 🧠 Machine Learning & Deep Learning
 - **Metode:** Supervised Learning, Unsupervised Learning, Neural Networks, Backpropagation, LSTM  
 
@@ -28,16 +39,6 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 - **Statistik:** Mean, Median, Modus, Varians, Standar Deviasi, Skewness, Kurtosis  
 - **Probabilitas:** Distribusi (Binomial, Poisson, Eksponensial), Teorema Bayes  
 
-### 📈 Analisis & Visualisasi Data
-- **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling, Data Visualization  
-- **Tools:** SQL, Power BI, Apache Superset, Hadoop  
-
-### 🛠️ Data Engineering
-- **Tools & Proses:** ETL, Data Warehouse, Web Scraping, Excel  
-
-### ⚙️ Otomasi & Administrasi Sistem
-- **Platform:** Linux, Windows  
-- **Tools:** Bash, PowerShell, Automation Scripts  
 
 
 ---
