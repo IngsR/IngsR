@@ -14,29 +14,30 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 
 
 
-##  Hard Skills
+## 🛠️ Hard Skills
 
-### <img src="https://img.icons8.com/color/24/000000/python.png" alt="Python" style="vertical-align:middle;"> Pemrograman
-- **Python :** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, PyTorch.
-- **R :** ggplot2, dplyr, tidyr, caret, Shiny, randomForest, pROC
+### 🐍 Bahasa Pemrograman
+- **Python:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, PyTorch  
+- **R:** ggplot2, dplyr, tidyr, caret, Shiny, randomForest, pROC  
+- **JavaScript:** React.js, Next.js, TypeScript  
 
-### <img src="https://img.icons8.com/color/24/000000/server.png" alt="Automation" style="vertical-align:middle;"> Otomasi & Administrasi Sistem
-- **Platform :** Linux, Windows  
-- **Tools :** Bash, PowerShell, Automation
+### 🧠 Machine Learning & Deep Learning
+- **Metode:** Supervised Learning, Unsupervised Learning, Neural Networks, Backpropagation, LSTM  
 
-### <img src="https://img.icons8.com/color/24/000000/artificial-intelligence.png" alt="Machine Learning & AI" style="vertical-align:middle;"> Machine Learning & Deep Learning
-- **Metode :** Supervised, Unsupervised Learning, Neural Networks, Back Propagaration, LTSM
+### 📊 Probabilitas & Statistik
+- **Statistik:** Mean, Median, Modus, Varians, Standar Deviasi, Skewness, Kurtosis  
+- **Probabilitas:** Distribusi (Binomial, Poisson, Eksponensial), Teorema Bayes  
 
-### <img src="https://img.icons8.com/color/24/000000/statistics.png" alt="Statistics" style="vertical-align:middle;"> Probabilitas & Statistik
-- **Statistik:** Rata-rata, median, modus, varians, standar deviasi, skewness, kurtosis    
-- **Probabilitas :** Distribusi (Normal, Binomial, Poisson, Exponential), Teorema Bayes    
+### 📈 Analisis & Visualisasi Data
+- **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling, Data Visualization  
+- **Tools:** SQL, Power BI, Apache Superset, Hadoop  
 
-### <img src="https://img.icons8.com/color/24/000000/combo-chart.png" alt="Data Analysis" style="vertical-align:middle;"> Analisis & Visualisasi Data
-- **Teknik:** EDA, Data Wrangling, Data Visualization  
-- **Tools :** SQL, Power BI, Superset, Hadoop
+### 🛠️ Data Engineering
+- **Tools & Proses:** ETL, Data Warehouse, Web Scraping, Excel  
 
-### <img src="https://img.icons8.com/color/24/000000/database.png" alt="Data Engineering" style="vertical-align:middle;"> Data Engineering
-- **Proses :** Excel, ETL, Data Warehouse, Web Scraping
+### ⚙️ Otomasi & Administrasi Sistem
+- **Platform:** Linux, Windows  
+- **Tools:** Bash, PowerShell, Automation Scripts  
 
 
 ---
