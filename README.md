@@ -22,7 +22,7 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 - **JavaScript:** React.js, Next.js, TypeScript  
 
 ### 🛠️ Data Engineering
-- **Tools & Proses:** ETL, Data Warehouse, Web Scraping, Excel  
+- **Tools & Proses:** Docker, ETL|ELT, Data Warehouse, Web Scraping, Excel  
 
 ### ⚙️ Otomasi & Administrasi Sistem
 - **Platform:** Linux WSL, Windows  
