@@ -22,7 +22,7 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 - **JavaScript:** React.js, Next.js, TypeScript  
 
 ### 🛠️ Data Engineering
-- **Tools & Proses:** Docker, ETL|ELT, Data Warehouse, Web Scraping, Excel  
+- **Tools & Proses:** Docker, ETL|ELT, Data Warehouse, Web Scraping  
 
 ### ⚙️ Otomasi & Administrasi Sistem
 - **Platform:** Linux WSL, Windows  
@@ -30,7 +30,7 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 
 ### 📈 Analisis & Visualisasi Data
 - **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling, Data Visualization  
-- **Tools:** SQL, Power BI, Apache Superset, Hadoop  
+- **Tools:** SQL, Power BI, Apache Superset, Hadoop, Excel
 
 ### 🧠 Machine Learning & Deep Learning
 - **Metode:** Supervised Learning, Unsupervised Learning, Neural Networks, Backpropagation, LSTM  
