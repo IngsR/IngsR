@@ -12,7 +12,7 @@
 
 Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam mengembangkan karier di bidang Data Science, Analisis Data, dan Data Engineering. Saat ini, saya secara aktif memanfaatkan sistem operasi Linux (**WSL2**) dan Windows11 untuk mendukung proses otomatisasi, pengolahan data, serta optimisasi sistem.
 
-
+---
 
 ## 💻 Hard Skills
 
