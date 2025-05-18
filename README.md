@@ -14,14 +14,14 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 
 
 
-## 🛠️ Hard Skills
+## 💻 Hard Skills
 
 ### 🐍 Bahasa Pemrograman
 - **Python:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, PyTorch  
 - **R:** ggplot2, dplyr, tidyr, caret, Shiny, randomForest, pROC  
 - **JavaScript:** React.js, Next.js, TypeScript
   
-### 🛠️ Database RDBMS
+### 🗄️ Database RDBMS
 - **Tools:** PostgreSQL, MySQL.
 
 ### 🛠️ Data Engineering
