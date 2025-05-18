@@ -33,7 +33,7 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 
 ### 📈 Analisis & Visualisasi Data
 - **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling, Data Visualization  
-- **Tools:** SQL, Power BI, Apache Superset, Hadoop, Excel
+- **Tools:** Tableau, Power BI, Spark, Excel
 
 ### 🧠 Machine Learning & Deep Learning
 - **Metode:** Supervised Learning, Unsupervised Learning, Neural Networks, Backpropagation, LSTM  
@@ -41,8 +41,6 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 ### 📊 Probabilitas & Statistik
 - **Statistik:** Mean, Median, Modus, Varians, Standar Deviasi, Skewness, Kurtosis  
 - **Probabilitas:** Distribusi (Binomial, Poisson, Eksponensial), Teorema Bayes  
-
-
 
 ---
 
