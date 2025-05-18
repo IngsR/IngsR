@@ -32,7 +32,7 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 - **Tools:** Bash, PowerShell, Automation Scripts
 
 ### 📈 Analisis & Visualisasi Data
-- **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling, Data Visualization  
+- **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling, Data Visualization, Preprocessing 
 - **Tools:** Tableau, Power BI, Spark, Excel
 
 ### 🧠 Machine Learning & Deep Learning
