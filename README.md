@@ -25,7 +25,7 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 - **Tools:** PostgreSQL, MySQL, SQLite
 
 ### 🛠️ Data Engineering
-- **Tools & Proses:** Docker, ETL/ELT, Data Warehouse, Web Scraping  
+- **Tools & Proses:** Docker, ETL/ELT, Data Warehouse, Web Scraping, Kafka
 
 ### ⚙️ Otomasi & Administrasi Sistem
 - **Platform:** Linux WSL, Windows  
