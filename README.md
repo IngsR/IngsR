@@ -22,7 +22,7 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 - **JavaScript:** React.js, Next.js, TypeScript
   
 ### 🗄️ Database RDBMS
-- **Tools:** PostgreSQL, MySQL.
+- **Tools:** PostgreSQL, MySQL, SQLite
 
 ### 🛠️ Data Engineering
 - **Tools & Proses:** Docker, ETL/ELT, Data Warehouse, Web Scraping  
