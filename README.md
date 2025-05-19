@@ -14,7 +14,7 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 
 ---
 
-## 💻 Hard Skills
+## 💻 My Skills
 
 ### 🐍 Bahasa Pemrograman
 - **Python:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, PyTorch  
