@@ -61,7 +61,7 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**
 - 🌧️ **[Binary Prediction with a Rainfall Dataset](https://github.com/IngsR/Binary-Prediction-with-a-Rainfall-Dataset)**  
   *Eksplorasi dan pengembangan moenggunakan model Random Forest (acc91-auc96), LTSM (acc89-auc95), XGboost (acc92-auc97)*
 
-- 📖 **[Portofolio Coursera](https://github.com/IngsR/Coursera-protofolio)**  
+- 📖 **[Analysis Klasification with R lang Coursera](https://github.com/IngsR/Coursera-protofolio)**  
   *Kumpulan proyek yang dihasilkan dari berbagai kursus Coursera, menggunakan Python, R, dan notebook.*
 
 - 🤖 **[Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)**  
