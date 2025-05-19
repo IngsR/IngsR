@@ -39,7 +39,7 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 - **Metode:** Supervised Learning, Unsupervised Learning, Neural Networks, Backpropagation, LSTM  
 
 ### 📊 Probabilitas & Statistik
-- **Statistik:** Mean, Median, Modus, Varians, Standar Deviasi, Skewness, Kurtosis  
+- **Statistik:** Mean, Median, Modus, Varians, Standar Deviasi 
 - **Probabilitas:** Distribusi (Binomial, Poisson, Eksponensial), Teorema Bayes  
 
 ---
