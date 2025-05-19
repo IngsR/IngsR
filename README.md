@@ -27,7 +27,7 @@ Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam meng
 ### 🛠️ Data Engineering
 - **Tools & Proses:** Docker, ETL/ELT, Data Warehouse, Web Scraping, Kafka
 
-### ⚙️ Otomasi & Administrasi Sistem
+### ⚙️ Otomasi
 - **Platform:** Linux WSL, Windows  
 - **Tools:** Bash, PowerShell, Automation Scripts
 
