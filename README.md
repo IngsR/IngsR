@@ -9,40 +9,46 @@
 
 # Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
 
+Saya adalah seorang **mahasiswa Informatika** yang akan lulus pada tahun **2026**, dengan minat yang kuat dan berfokus pada **Data Engineering**. Saya bersemangat untuk belajar dan berkontribusi dalam membangun serta mengelola **pipeline data yang efisien dan skalabel**. Melalui proyek-proyek akademik dan inisiatif pribadi, saya telah aktif mempelajari bagaimana mengubah data mentah menjadi informasi berharga, serta membangun infrastruktur data yang andal.
 
-Saya adalah seorang **Data Enthusiast** yang memiliki komitmen tinggi dalam mengembangkan karier di bidang Data Science, Analisis Data, dan Data Engineering. Saat ini, saya secara aktif memanfaatkan sistem operasi Linux (**WSL2**) dan Windows11 untuk mendukung proses otomatisasi, pengolahan data, serta optimisasi sistem.
+Saat ini, saya terbiasa mengembangkan dan mengotomatisasi proses data menggunakan sistem operasi Linux (**WSL2**) dan Windows 11.
+
+---
+
+## 💻 My Skills & Learning Focus
+
+### 🛠️ Data Engineering Fundamentals
+- **Konsep:** ETL/ELT, Data Ingestion, Data Transformation, Data Quality
+- **Arsitektur:** Pemahaman **menengah** tentang Data Warehouse dan Data Lake, mampu menjelaskan perbedaan dan kasus penggunaan dasar.
+- **Orkestrasi:** Mempelajari Apache Airflow, Penggunaan Cron Jobs untuk otomatisasi.
+- **Data Streaming:** Mengenal konsep dasar Kafka.
+- **Containerization:** Penggunaan Docker untuk isolasi lingkungan pengembangan.
+
+### 🗄️ Database & Data Storage
+- **Relational Databases (RDBMS):** **Mahir** menggunakan PostgreSQL, MySQL, dan SQLite untuk desain skema, input/output data, dan administrasi dasar.
+- **SQL:** **Mahir** dalam menulis SQL untuk manipulasi data kompleks, agregasi, pemahaman mendalam tentang *JOIN*, *subqueries*, *CTE (Common Table Expressions)*, dan *window functions*.
+
+### 🐍 Programming & Scripting
+- **Python:**
+    - **Data Manipulation:** Pandas, NumPy
+    - **Database Interaction:** SQLAlchemy
+    - **Web Scraping:** BeautifulSoup, Scrapy
+    - **Basic API Development:** Flask/FastAPI (untuk API data sederhana)
+- **Shell Scripting:** **Mahir** dalam Bash dan PowerShell untuk otomatisasi tugas sistem, pengelolaan file, dan deployment sederhana.
+
+### 📈 Data Analysis & Visualization
+- **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling.
+- **Tools:** **Mahir** menggunakan Excel dan Tableau pada tingkat menengah untuk visualisasi hasil olahan data dan pembuatan dashboard dasar.
+
+### ☁️ Cloud Platform Exposure (Pilih yang relevan dan paling banyak dieksplorasi)
+- **Konsep Dasar:** Mempelajari layanan penyimpanan (misalnya S3 di AWS, Cloud Storage di GCP), komputasi (EC2/Compute Engine), dan database (RDS/Cloud SQL) di platform cloud.
+- **Proyek Pribadi:** Mengimplementasikan pipeline data sederhana di lingkungan *free tier* atau edukasi cloud.
+
 
 ---
 
-## 💻 My Skills
 
-### 🐍 Bahasa Pemrograman
-- **Python:** Pandas, NumPy, Scikit-Learn, Seaborn, Matplotlib, TensorFlow, PyTorch  
-- **R:** ggplot2, dplyr, tidyr, caret, Shiny, randomForest, pROC  
-- **JavaScript:** React.js, Next.js, TypeScript
-  
-### 🗄️ Database RDBMS
-- **Tools:** PostgreSQL, MySQL, SQLite
 
-### 🛠️ Data Engineering
-- **Tools & Proses:** Docker, ETL/ELT, Data Warehouse, Web Scraping, Kafka
-
-### ⚙️ Otomasi
-- **Platform:** Linux WSL, Windows  
-- **Tools:** Bash, PowerShell, Automation Scripts
-
-### 📈 Analisis & Visualisasi Data
-- **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling, Data Visualization, Preprocessing 
-- **Tools:** Tableau, Power BI, Spark, Excel
-
-### 🧠 Machine Learning & Deep Learning
-- **Metode:** Supervised Learning, Unsupervised Learning, Neural Networks, Backpropagation, LSTM  
-
-### 📊 Probabilitas & Statistik
-- **Statistik:** Mean, Median, Modus, Varians, Standar Deviasi 
-- **Probabilitas:** Distribusi (Binomial, Poisson, Eksponensial), Teorema Bayes  
-
----
 
 
 ## 📁 My Project
@@ -86,6 +92,7 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**
 </div>
 
 ---
+<p align="center"> Saya antusias untuk memulai karier di bidang Data Engineering dan siap untuk terus belajar serta mengembangkan keahlian saya dalam lingkungan profesional. </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Created_by-Ikhwan_Ramadhan_(IngsR)-808080?style=flat&labelColor=000000" alt="Created by Ikhwan Ramadhan" width="300">
