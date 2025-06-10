@@ -40,11 +40,6 @@ Saat ini, saya terbiasa mengembangkan dan mengotomatisasi proses data menggunaka
 - **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling.
 - **Tools:** **Mahir** menggunakan Excel dan Tableau pada tingkat menengah untuk visualisasi hasil olahan data dan pembuatan dashboard dasar.
 
-### ☁️ Cloud Platform Exposure (Pilih yang relevan dan paling banyak dieksplorasi)
-- **Konsep Dasar:** Mempelajari layanan penyimpanan (misalnya S3 di AWS, Cloud Storage di GCP), komputasi (EC2/Compute Engine), dan database (RDS/Cloud SQL) di platform cloud.
-- **Proyek Pribadi:** Mengimplementasikan pipeline data sederhana di lingkungan *free tier* atau edukasi cloud.
-
-
 ---
 
 
