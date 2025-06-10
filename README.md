@@ -9,7 +9,7 @@
 
 # Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
 
-Saya adalah seorang **mahasiswa Informatika** yang akan lulus pada tahun **2026**, dengan minat yang kuat dan berfokus pada **Data Engineering**. Saya bersemangat untuk belajar dan berkontribusi dalam membangun serta mengelola **pipeline data yang efisien dan skalabel**. Melalui proyek-proyek akademik dan inisiatif pribadi, saya telah aktif mempelajari bagaimana mengubah data mentah menjadi informasi berharga, serta membangun infrastruktur data yang andal.
+Saya adalah seorang **mahasiswa Informatika** yang akan lulus pada tahun **2026**, dengan minat yang kuat dan berfokus pada **Data Engineering**. Saya bersemangat untuk belajar dan berkontribusi dalam membangun serta mengelola **pipeline data yang efisien dan skalabel**. Melalui proyek-proyek inisiatif pribadi, saya telah aktif mempelajari bagaimana mengubah data mentah menjadi informasi berharga, serta membangun infrastruktur data yang andal.
 
 Saat ini, saya terbiasa mengembangkan dan mengotomatisasi proses data menggunakan sistem operasi Linux (**WSL2**) dan Windows 11.
 
