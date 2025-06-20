@@ -18,7 +18,7 @@ Saat ini, saya terbiasa mengembangkan dan mengotomatisasi proses data menggunaka
 ## 💻 My Skills & Learning Focus
 
 ### 🛠️ Data Engineering Fundamentals
-- **Konsep:** ETL/ELT, Data Ingestion, Data Transformation, Data Quality
+- **Konsep:** ETL, Data Ingestion, Data Transformation, Data Quality
 - **Arsitektur:** Pemahaman **menengah** tentang Data Warehouse dan Data Lake, mampu menjelaskan perbedaan dan kasus penggunaan dasar.
 - **Orkestrasi:** Mempelajari Apache Airflow, Penggunaan Cron Jobs untuk otomatisasi.
 - **Data Streaming:** Mengenal konsep dasar Kafka.
