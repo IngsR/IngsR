@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=0000FF&center=true&vCenter=true&width=500&lines=Data+Enthusiast;Problem+Solving;Predictive+Analyst" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=0000FF&center=true&vCenter=true&width=600&lines=Software+Engineer;Problem+Solving;DevOps+Enthusiast;Competitive+FPS+Gamer" alt="Typing SVG" />
 
 </div>
 
@@ -9,37 +9,50 @@
 
 # Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
 
-Saya adalah seorang **mahasiswa Informatika** yang akan lulus pada tahun **2026**, dengan minat yang kuat dan berfokus pada **Data Engineering**. Saya bersemangat untuk belajar dan berkontribusi dalam membangun serta mengelola **pipeline data yang efisien dan skalabel**. Melalui proyek-proyek inisiatif pribadi, saya telah aktif mempelajari bagaimana mengubah data mentah menjadi informasi berharga, serta membangun infrastruktur data yang andal.
+Saya adalah calon lulusan Sarjana Informatika (tahun 2026) dengan fokus pada **Software Engineering** dan **DevOps**. Saya memiliki minat kuat dalam **problem solving**, baik melalui pemecahan tantangan algoritmik maupun strategi dalam game FPS kompetitif. Melalui berbagai proyek mandiri, saya telah membangun aplikasi end‑to‑end, mengotomatiskan pipeline CI/CD, dan memastikan infrastruktur yang dapat diandalkan dan mudah diskalakan.
 
-Saat ini, saya terbiasa mengembangkan dan mengotomatisasi proses data menggunakan sistem operasi Linux (**WSL2**) dan Windows 11.
-
+Saya terbiasa bekerja di lingkungan Linux (WSL2) dan Windows 11, menggunakan Bash, PowerShell, serta Docker untuk isolasi dan reproduktibilitas.
 ---
 
-## 💻 My Skills & Learning Focus
+## 💻 Core Competencies
 
-### 🛠️ Data Engineering Fundamentals
-- **Konsep:** ETL, Data Ingestion, Data Transformation, Data Quality
-- **Arsitektur:** Pemahaman **menengah** tentang Data Warehouse dan Data Lake, mampu menjelaskan perbedaan dan kasus penggunaan dasar.
-- **Orkestrasi:** Mempelajari Apache Airflow, Penggunaan Cron Jobs untuk otomatisasi.
-- **Data Streaming:** Mengenal konsep dasar Kafka.
-- **Containerization:** Penggunaan Docker untuk isolasi lingkungan pengembangan.
+### 💡 Problem Solving & Algorithmic Thinking
+- **DSA & Big O Analysis**: Analisis kompleksitas waktu dan ruang.
+- **LeetCode Focus**:
+  - Array & String Manipulation
+  - Dynamic Programming
+  - Linked List
+  - Greedy Algorithms
+  - Binary Search
+  - Two Pointers & Sliding Window
 
-### 🗄️ Database & Data Storage
-- **Relational Databases (RDBMS):** **Mahir** menggunakan PostgreSQL, MySQL, dan SQLite untuk desain skema, input/output data, dan administrasi dasar.
-- **SQL:** **Mahir** dalam menulis SQL untuk manipulasi data kompleks, agregasi, pemahaman mendalam tentang *JOIN*, *subqueries*, *CTE (Common Table Expressions)*, dan *window functions*.
+### 🏗️ System Design
+- **Low-Level Design (LLD)**: Perancangan kelas, pola desain (OOP, SOLID).
+- **High-Level Design (HLD)**: Penentuan komponen, flow data, skenario scaling.
+- **Arsitektur Aplikasi**:
+  - Modular Monolith
+  - Microservices
+  - RESTful APIs & gRPC
 
-### 🐍 Programming & Scripting
-- **Python:**
-    - **Data Manipulation:** Pandas, NumPy
-    - **Database Interaction:** SQLAlchemy
-    - **Web Scraping:** BeautifulSoup, Scrapy
-    - **Basic API Development:** Flask/FastAPI (untuk API data sederhana)
-- **Shell Scripting:** **Mahir** dalam Bash dan PowerShell untuk otomatisasi tugas sistem, pengelolaan file, dan deployment sederhana.
+### 🗄️ Database & Storage
+- **Relational**: MySQL, PostgreSQL, SQLite
+- **NoSQL**: MongoDB, Firebase Realtime Database & Firestore
+- **Query Optimization**: Indexing, query profiling, CTE
 
-### 📈 Data Analysis & Visualization
-- **Teknik:** Exploratory Data Analysis (EDA), Data Wrangling.
-- **Tools:** **Mahir** menggunakan Excel dan Tableau pada tingkat menengah untuk visualisasi hasil olahan data dan pembuatan dashboard dasar.
+### 🐍 Programming & Frameworks
+- **Python & Data Analysis**  
+  - Pandas, NumPy, Jupyter Notebook (exploratory data analysis, prototyping, visualisasi)  
+- **JavaScript & TypeScript**  
+  - React.js, Next.js (SPA, server-side rendering, full‑stack development)  
+- **Frameworks Backend**  
+  - Flask, FastAPI, Django (RESTful API, web application)  
 
+
+### ☁️ DevOps, Tools & Operating Systems
+- **Containerization**: Docker, Docker Compose
+- **Orkestrasi & Monitoring**: Kubernetes (dasar)
+- **CI/CD**: GitHub Actions
+- **Operating Systems**: Linux (CLI proficiency)
 ---
 
 
