@@ -61,11 +61,28 @@ Saya terbiasa bekerja di lingkungan Linux (WSL2) dan Windows 11, menggunakan Bas
 
 ## 📁 My Project
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+<div align="center">
+
+  <!-- Python -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <!-- JavaScript -->
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <!-- Next.js -->
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <!-- TypeScript -->
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <!-- Node.js -->
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <!-- React.js -->
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js" />
+  <!-- Go (Golang) -->
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Golang" />
+  <!-- Jupyter -->
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
+  
+
+</div>
+
 
 Sejumlah proyek dalam kategori ini dikembangkan menggunakan **Jupyter Notebook**, yang menyediakan hasil output secara langsung serta mengeksplorasi hasil dan proses kerja tanpa harus mengeksekusinya codenya secara lokal pada perangkat. Proyek-proyek tersebut mencakup berbagai aspek, mulai dari **pengolahan data**, **eksplorasi statistik**, **preprocessing**, hingga perancangan penerapan model **machine learning**, **deep learning** serta **Hyperparameter Tuning** untuk mendapatkan hasil pemodelan yang memuaskan. selain itu, terdapat pula proyek-proyek yang secara khusus diarahkan pada pengembangan aplikasi web dengan memanfaatkan kerangka kerja backend menggunakan  framework **Django**, serta pengembangan web aplication berbasis **Node.js, React & Next.js**.
 
