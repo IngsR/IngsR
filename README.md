@@ -7,38 +7,38 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=32&color=0000FF&vCenter=true&lines=Hello...;Hello...+👋)](https://github.com/IngsR)
 
 
-# Aku Ikhwan Ramadhan biasa di panggil Ing! 👋
+# Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
 
-## 🎯 Tujuan
+##  Focus
 Saya adalah calon Sarjana Informatika (’26) dengan fokus penuh pada **Software Engineering** dan **DevOps**, berkomitmen tinggi. Semua layanan yang saya bangun berlandaskan **API‑first**, menggabungkan **React.js** dan **Next.js** untuk frontend, serta **REST API** yang terhubung dengan **PostgreSQL**, **MySQL**, dan **MongoDB** masing‑masing dipilih sesuai kebutuhan transaksional, analitis, atau penyimpanan dokumen. Arsitektur microservices modular saya terapkan khusus untuk sistem bisnis seperti **ERP**, **CMS**, dan **CRM**, memastikan setiap modul (inventori, penjualan, konten, manajemen pelanggan) dapat diskalakan dan diintegrasikan ke alur kerja nyata tanpa revisi besar.
 
-Di sisi infrastruktur, saya memanfaatkan **Linux (Debian)** dalam kontainer **Docker** untuk konsistensi dan reproduktibilitas penuh. Pipeline CI/CD yang saya rancang berjalan otomatis—mulai build, test, hingga deploy—dengan prinsip zero‑downtime dan self‑healing. Untuk scripting dan automasi, saya mengandalkan Python lanjutan (asyncio, multi‑threading/processing), plus integrasi message broker (RabbitMQ, Kafka) dan cakupan testing menyeluruh (unit & integration), sehingga setiap perubahan dikelola dengan aman dan terukur.
+Di sisi infrastruktur, saya memanfaatkan **Linux (Debian)** dalam kontainer **Docker** untuk konsistensi dan reproduktibilitas penuh. Pipeline CI/CD yang saya rancang berjalan otomatis mulai build, test, hingga deploy dengan prinsip zero downtime dan self‑healing. Untuk scripting dan automasi, saya mengandalkan Python lanjutan (asyncio, multi‑threading/processing), plus integrasi message broker (RabbitMQ, Kafka) dan cakupan testing menyeluruh (unit & integration), sehingga setiap perubahan dikelola dengan aman dan terukur.
 
-## 👨‍🎓 Tentang Saya
+## 👨‍🎓 About Me
 - Calon Sarjana Informatika (’26), **Software Engineering** & **DevOps**
-- Passion: LeetCode & HackerRank problem solving ⚙️ & competitive gaming strategy 🎯
+- Passion: LeetCode & HackerRank problem solving ⚙ & competitive gaming strategy 
   
 ---
 
-## 💻 Core Competencies
+## 💻 Competencies
 
 ### 💡 Problem Solving & Algorithmic Thinking
 - **DSA & Big O Analysis**.
 - **LeetCode Focus**:
   - Array & String Manipulation
+  - Binary Search
+  - Two Pointers & Sliding Window
   - Dynamic Programming
   - Linked List
   - Greedy Algorithms
-  - Binary Search
-  - Two Pointers & Sliding Window
+  - Sorting & Merge Intervals
+  - Breadth-First Search
+  
 
  Python (intermediate) · TypeScript · React.js · Next.js · REST API · PostgreSQL · MySQL · MongoDB · ERP · CMS · CRM  · Docker · Linux (Debian)
 
 
 ---
-
-
-
 
 
 ## 📁 My Project
