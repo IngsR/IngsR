@@ -69,6 +69,10 @@ Di sisi infrastruktur, saya memanfaatkan **Linux (Debian)** dalam kontainer **Do
 Sejumlah proyek dalam kategori ini dikembangkan menggunakan **React.js** dan **Next.js**, yang menyediakan antarmuka responsif serta server‑side rendering untuk pengalaman pengguna mulus. Proyek-proyek tersebut mencakup berbagai aspek, mulai dari **desain dan implementasi komponen UI dinamis**, **manajemen state dan routing**, **integrasi REST API**, hingga **optimasi performa** dan **keamanan aplikasi**, dengan data disimpan di **PostgreSQL**, **MySQL**, dan **MongoDB** sesuai skenario. Selain itu, terdapat pula proyek-proyek yang secara khusus diarahkan pada otomasi pipeline CI/CD menggunakan **Docker** di lingkungan **Linux (Debian)**, penerapan arsitektur **microservices**, serta **unit & integration testing** untuk memastikan kualitas dan skalabilitas aplikasi.  
 
 
+- 🖼️ **[Static Website](https://github.com/IngsR/Desa)**  
+  *Situs web statis bertema Kecamatan Lubuk Begalung, Kota Padang — dibuat sebagai proyek hobi pribadi tanpa afiliasi resmi. Dibangun menggunakan React.js, Next.js, dan Tailwind CSS, situs ini terdiri dari tiga halaman utama: Beranda, Tentang, dan Galeri.*  
+  **Live Demo:** [begalung.vercel.app](https://begalung.vercel.app)
+
 - 🔍 **[DockRank TF-IDF](https://github.com/IngsR/DockRank_TF-IDF)**  
   *Web Dinamis untuk Pencarian dokumen menggunakan metode TF-IDF berdasarkan skor kemiripan tertinggi.*  
   **Live Demo:** [tfidf.vercel.app](https://tfidf.vercel.app)
