@@ -73,6 +73,9 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **React.js** dan **N
   *Situs web statis bertema Kecamatan Lubuk Begalung, Kota Padang — dibuat sebagai proyek hobi pribadi tanpa afiliasi resmi. Dibangun menggunakan React.js, Next.js, dan Tailwind CSS, situs ini terdiri dari tiga halaman utama: Beranda, Tentang, dan Galeri.*  
   **Live Demo:** [begalung.vercel.app](https://begalung.vercel.app)
 
+- 📦 **[Aplikasi Web Pengelolaan Gudang](https://github.com/IngsR/manajemen-iventory)**  
+  *Situs web manajemen inventaris berbasis fullstack dibangun sebagai proyek Pribadi. Menggunakan teknologi Next.js, Express.js, PostgreSQL, dan Tailwind CSS, aplikasi ini mencakup fitur autentikasi, pengelolaan produk, dan statistik stok. dilengkapi dengan sistem       Role-Based Access Control (RBAC) untuk membedakan hak akses admin dan karyawan, menggunakan JWT (JSON Web Token) untuk otorisasi, serta bcrypt untuk hashing password demi menjaga keamanan data pengguna. *  
+
 - 🔍 **[DockRank TF-IDF](https://github.com/IngsR/DockRank_TF-IDF)**  
   *Web Dinamis untuk Pencarian dokumen menggunakan metode TF-IDF berdasarkan skor kemiripan tertinggi.*  
   **Live Demo:** [tfidf.vercel.app](https://tfidf.vercel.app)
