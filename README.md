@@ -10,9 +10,11 @@
 # Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
 
 ##  Focus
-Saya adalah calon Sarjana Informatika (’26) dengan fokus penuh pada **Fullstack Developer** dan **DevOps**, berkomitmen tinggi. Semua layanan yang saya bangun berlandaskan **API‑first**, menggabungkan **React.js** dan **Next.js** untuk frontend, serta **REST API** yang terhubung dengan **PostgreSQL**, **MySQL**, dan **MongoDB** masing‑masing dipilih sesuai kebutuhan transaksional, analitis, atau penyimpanan dokumen. Arsitektur microservices modular saya terapkan khusus untuk sistem bisnis seperti **ERP**, **CMS**, dan **CRM**, memastikan setiap modul (inventori, penjualan, konten, manajemen pelanggan) dapat diskalakan dan diintegrasikan ke alur kerja nyata tanpa revisi besar.
+Calon Sarjana Informatika (2026). Fokus penuh pada Fullstack Web Development berbasis Next.js, React (TypeScript), dan PostgreSQL. Saya bangun semua proyek dengan prinsip API-first, sistem auth yang solid pakai JWT dan Bcrypt, serta integrasi Docker sejak awal untuk memastikan environment yang konsisten dan siap scaling.
 
-Di sisi infrastruktur, saya memanfaatkan **Linux (Debian)** dalam kontainer **Docker** untuk konsistensi dan reproduktibilitas penuh. Pipeline CI/CD yang saya rancang berjalan otomatis mulai build, test, hingga deploy dengan prinsip zero downtime dan self‑healing. Untuk scripting dan automasi, saya mengandalkan Python lanjutan (asyncio, multi‑threading/processing), plus integrasi message broker (RabbitMQ, Kafka) dan cakupan testing menyeluruh (unit & integration), sehingga setiap perubahan dikelola dengan aman dan terukur.
+Saya terbiasa menyusun proyek secara modular, dengan struktur direktori yang rapi dan penerapan clean code, agar tiap bagian sistem mudah dikembangkan, diuji, dan dipelihara dalam jangka panjang.
+
+Di waktu senggang, saya rutin melatih kemampuan algoritma dan struktur data (DSA) menggunakan Python sebagai investasi jangka panjang untuk problem solving dan kesiapan menghadapi tantangan software engineering tingkat lanjut.
 
 ## 👨‍🎓 About Me
 - Calon Sarjana Informatika (’26), **Software Engineering** & **DevOps**
