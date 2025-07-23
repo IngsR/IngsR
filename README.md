@@ -17,7 +17,7 @@ Saya terbiasa menyusun proyek secara modular, dengan struktur direktori yang rap
 Di waktu senggang, saya rutin melatih kemampuan algoritma dan struktur data (DSA) menggunakan Python sebagai investasi jangka panjang untuk problem solving dan kesiapan menghadapi tantangan software engineering tingkat lanjut.
 
 ## 👨‍🎓 About Me
-- Calon Sarjana Informatika (’26), **Software Engineering** & **DevOps**
+- Calon Sarjana Informatika (’26), **Full Stack Developer** & **DevOps**
 - Passion: LeetCode & HackerRank problem solving ⚙ & competitive gaming strategy 
   
 ---
