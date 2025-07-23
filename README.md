@@ -18,7 +18,7 @@ Di waktu senggang, saya rutin melatih kemampuan algoritma dan struktur data (DSA
 
 ## 👨‍🎓 About Me
 - Calon Sarjana Informatika (’26), **Full Stack Developer** & **DevOps**
-- Passion: LeetCode & HackerRank problem solving ⚙ & competitive gaming strategy 
+- Passion: Fullstack Web  Dev, problem solving ⚙ & competitive gaming strategy 
   
 ---
 
@@ -30,14 +30,12 @@ Di waktu senggang, saya rutin melatih kemampuan algoritma dan struktur data (DSA
   - Array & String Manipulation
   - Binary Search
   - Two Pointers & Sliding Window
-  - Dynamic Programming
+  - Dynamic Programming Basic
   - Linked List
-  - Greedy Algorithms
   - Sorting & Merge Intervals
-  - Breadth-First Search
   
 
- Python (intermediate) · TypeScript · React.js · Next.js · REST API · PostgreSQL · MySQL · MongoDB · ERP · CMS · CRM  · Docker · Linux (Debian)
+ Python · TypeScript · React.js · Next.js · REST API · PostgreSQL · MySQL · Prisma · ERP · CMS · CRM  · Docker · Linux (Debian)
 
 
 ---
@@ -63,6 +61,10 @@ Di waktu senggang, saya rutin melatih kemampuan algoritma dan struktur data (DSA
 
 Sejumlah proyek dalam kategori ini dikembangkan menggunakan **React.js** dan **Next.js**, yang menyediakan antarmuka responsif serta server‑side rendering untuk pengalaman pengguna mulus. Proyek-proyek tersebut mencakup berbagai aspek, mulai dari **desain dan implementasi komponen UI dinamis**, **manajemen state dan routing**, **integrasi REST API**, hingga **optimasi performa** dan **keamanan aplikasi**, dengan data disimpan di **PostgreSQL**, **MySQL**, dan **MongoDB** sesuai skenario. Selain itu, terdapat pula proyek-proyek yang secara khusus diarahkan pada otomasi pipeline CI/CD menggunakan **Docker** di lingkungan **Linux (Debian)**, penerapan arsitektur **microservices**, serta **unit & integration testing** untuk memastikan kualitas dan skalabilitas aplikasi.  
 
+- 🖼️ **[E-Commerce Platform untuk Penjualan Mobil](https://github.com/IngsR/web_store)**  
+  *Ing-Store adalah website penjualan mobil yang dibangun menggunakan Next.js (React + TypeScript), Tailwind CSS, Prisma ORM, dan PostgreSQL (Neon) serta Blob Storage untuk pengelolaan gambar mobil.
+  Website ini mendukung fitur autentikasi login untuk user dan admin*  
+  **Live Demo:** [ing-store.vercel.app](https://ing-store.vercel.app)
 
 - 🖼️ **[Static Website](https://github.com/IngsR/Desa)**  
   *Situs web statis bertema Kecamatan Lubuk Begalung, Kota Padang — dibuat sebagai proyek hobi pribadi tanpa afiliasi resmi. Dibangun menggunakan React.js, Next.js, dan Tailwind CSS, situs ini terdiri dari tiga halaman utama: Beranda, Tentang, dan Galeri.*  
