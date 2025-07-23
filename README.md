@@ -18,7 +18,7 @@ Di waktu senggang, saya rutin melatih kemampuan algoritma dan struktur data (DSA
 
 ## 👨‍🎓 About Me
 - Calon Sarjana Informatika (’26), **Full Stack Developer** & **DevOps**
-- Passion: Fullstack Web  Dev, problem solving ⚙ & competitive gaming strategy 
+- Passion: Fullstack Web  Dev, problem solving ⚙ & NodeJS
   
 ---
 
@@ -35,7 +35,7 @@ Di waktu senggang, saya rutin melatih kemampuan algoritma dan struktur data (DSA
   - Sorting & Merge Intervals
   
 
- Python · TypeScript · React.js · Next.js · REST API · PostgreSQL · MySQL · Prisma · ERP · CMS · CRM  · Docker · Linux (Debian)
+ Python · TypeScript · React.js · NodeJS · Next.js · REST API · PostgreSQL · MySQL · Prisma · ERP · CMS · CRM  · Docker · Linux (Debian)
 
 
 ---
