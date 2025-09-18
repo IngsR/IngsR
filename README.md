@@ -94,7 +94,10 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **React.js** dan **N
 
 <div align="center">
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=chartreuse-dark)
+## 🔧 Top Languages
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
 
 </div>
 
