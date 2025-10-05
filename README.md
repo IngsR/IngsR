@@ -6,10 +6,10 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=32&color=0000FF&vCenter=true&lines=Hello...;Hello...+👋)](https://github.com/IngsR)
 
-
 # Saya Ikhwan Ramadhan biasa di panggil Ing! 👋
 
-##  Focus
+## Focus
+
 Calon Sarjana Informatika (2026). Fokus penuh pada Fullstack Web Development berbasis Next.js, React (TypeScript), dan PostgreSQL. Saya bangun semua proyek dengan prinsip API-first, sistem auth yang solid pakai JWT dan Bcrypt, serta integrasi Docker sejak awal untuk memastikan environment yang konsisten dan siap scaling.
 
 Saya terbiasa menyusun proyek secara modular, dengan struktur direktori yang rapi dan penerapan clean code, agar tiap bagian sistem mudah dikembangkan, diuji, dan dipelihara dalam jangka panjang.
@@ -17,29 +17,28 @@ Saya terbiasa menyusun proyek secara modular, dengan struktur direktori yang rap
 Di waktu senggang, saya rutin melatih kemampuan algoritma dan struktur data (DSA) menggunakan Python sebagai investasi jangka panjang untuk problem solving dan kesiapan menghadapi tantangan software engineering tingkat lanjut.
 
 ## 👨‍🎓 About Me
-- Calon Sarjana Informatika (’26), **Full Stack Developer** & **DevOps**
-- Passion: Fullstack Web  Dev, problem solving ⚙ & NodeJS
-  
+
+-   Calon Sarjana Informatika (’26), **Full Stack Developer** & **DevOps**
+-   Passion: Fullstack Web Dev, problem solving ⚙ & NodeJS
+
 ---
 
 ## 💻 Competencies
 
 ### 💡 Problem Solving & Algorithmic Thinking
-- **DSA & Big O Analysis**.
-- **LeetCode Focus**:
-  - Array & String Manipulation
-  - Binary Search
-  - Two Pointers & Sliding Window
-  - Dynamic Programming Basic
-  - Linked List
-  - Sorting & Merge Intervals
-  
 
- Python · TypeScript · React.js · NodeJS · Next.js · REST API · PostgreSQL · MySQL · Prisma · ERP · CMS · CRM  · Docker · Linux (Debian)
+-   **DSA & Big O Analysis**.
+-   **LeetCode Focus**:
+    -   Array & String Manipulation
+    -   Binary Search
+    -   Two Pointers & Sliding Window
+    -   Dynamic Programming Basic
+    -   Linked List
+    -   Sorting & Merge Intervals
 
+Python · TypeScript · React.js · NodeJS · Next.js · REST API · PostgreSQL · MySQL · Prisma · ERP · CMS · CRM · Docker · Linux (Debian)
 
 ---
-
 
 ## 📁 My Project
 
@@ -54,43 +53,44 @@ Di waktu senggang, saya rutin melatih kemampuan algoritma dan struktur data (DSA
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React.js" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Golang" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" />
-  
+
 
 </div>
 
+Sejumlah proyek dalam kategori ini dikembangkan menggunakan **React.js** dan **Next.js**, yang menyediakan antarmuka responsif serta server‑side rendering untuk pengalaman pengguna mulus. Proyek-proyek tersebut mencakup berbagai aspek, mulai dari **desain dan implementasi komponen UI dinamis**, **manajemen state dan routing**, **integrasi REST API**, hingga **optimasi performa** dan **keamanan aplikasi**, dengan data disimpan di **PostgreSQL**, **MySQL**, dan **MongoDB** sesuai skenario. Selain itu, terdapat pula proyek-proyek yang secara khusus diarahkan pada otomasi pipeline CI/CD menggunakan **Docker** di lingkungan **Linux (Debian)**, penerapan arsitektur **microservices**, serta **unit & integration testing** untuk memastikan kualitas dan skalabilitas aplikasi.
 
-Sejumlah proyek dalam kategori ini dikembangkan menggunakan **React.js** dan **Next.js**, yang menyediakan antarmuka responsif serta server‑side rendering untuk pengalaman pengguna mulus. Proyek-proyek tersebut mencakup berbagai aspek, mulai dari **desain dan implementasi komponen UI dinamis**, **manajemen state dan routing**, **integrasi REST API**, hingga **optimasi performa** dan **keamanan aplikasi**, dengan data disimpan di **PostgreSQL**, **MySQL**, dan **MongoDB** sesuai skenario. Selain itu, terdapat pula proyek-proyek yang secara khusus diarahkan pada otomasi pipeline CI/CD menggunakan **Docker** di lingkungan **Linux (Debian)**, penerapan arsitektur **microservices**, serta **unit & integration testing** untuk memastikan kualitas dan skalabilitas aplikasi.  
+-   🏫 **[Website Resmi SMP Negeri 24 Padang](https://github.com/IngsR/Website-SMPN24padang)**  
+    _Sebagai **Ketua Tim** dan **Fullstack Developer**, saya memimpin pengembangan website resmi untuk SMPN 24 Padang. Proyek ini dibangun menggunakan Next.js, TypeScript, Drizzle ORM, dan PostgreSQL. Saya bertanggung jawab atas arsitektur proyek, pengembangan fitur utama, serta mengelola deployment ke Vercel. Website ini berfungsi sebagai platform informasi dan layanan akademik untuk sekolah._  
+    **Live Demo:** [smpn24padang.sch.id](https://smpn24padang.sch.id)
 
-- 🖼️ **[E-Commerce Platform untuk Penjualan Mobil](https://github.com/IngsR/web_store)**  
-  *Ing-Store adalah website penjualan mobil yang dibangun menggunakan Next.js (React + TypeScript), Tailwind CSS, Prisma ORM, dan PostgreSQL (Neon) serta Blob Storage untuk pengelolaan gambar mobil.
-  Website ini mendukung fitur autentikasi login untuk user dan admin*  
-  **Live Demo:** [ing-store.vercel.app](https://ing-store.vercel.app)
+-   🖼️ **[E-Commerce Platform untuk Penjualan Mobil](https://github.com/IngsR/web_store)**  
+    _Ing-Store adalah website penjualan mobil yang dibangun menggunakan Next.js (React + TypeScript), Tailwind CSS, Prisma ORM, dan PostgreSQL (Neon) serta Blob Storage untuk pengelolaan gambar mobil.
+    Website ini mendukung fitur autentikasi login untuk user dan admin_  
+    **Live Demo:** [ing-store.vercel.app](https://ing-store.vercel.app)
 
-- 🖼️ **[Static Website](https://github.com/IngsR/Desa)**  
-  *Situs web statis bertema Kecamatan Lubuk Begalung, Kota Padang — dibuat sebagai proyek hobi pribadi tanpa afiliasi resmi. Dibangun menggunakan React.js, Next.js, dan Tailwind CSS, situs ini terdiri dari tiga halaman utama: Beranda, Tentang, dan Galeri.*  
-  **Live Demo:** [begalung.vercel.app](https://begalung.vercel.app)
+-   🖼️ **[Static Website](https://github.com/IngsR/Desa)**  
+    _Situs web statis bertema Kecamatan Lubuk Begalung, Kota Padang — dibuat sebagai proyek hobi pribadi tanpa afiliasi resmi. Dibangun menggunakan React.js, Next.js, dan Tailwind CSS, situs ini terdiri dari tiga halaman utama: Beranda, Tentang, dan Galeri._  
+    **Live Demo:** [begalung.vercel.app](https://begalung.vercel.app)
 
-- 📦 **[Aplikasi Web Pengelolaan Gudang](https://github.com/IngsR/manajemen-iventory)**  
-  *Situs web manajemen inventaris berbasis fullstack dibangun sebagai proyek Pribadi. Menggunakan teknologi Next.js, Express.js, PostgreSQL, dan Tailwind CSS, aplikasi ini mencakup fitur autentikasi, pengelolaan produk, dan statistik stok. dilengkapi dengan sistem       Role-Based Access Control (RBAC) untuk membedakan hak akses admin dan karyawan, menggunakan JWT (JSON Web Token) untuk otorisasi, serta bcrypt untuk hashing password demi menjaga keamanan data pengguna.*                
-  **Live Demo:** [kelola-barang.vercel.app](https://kelola-barang.vercel.app)
+-   📦 **[Aplikasi Web Pengelolaan Gudang](https://github.com/IngsR/manajemen-iventory)**  
+    _Situs web manajemen inventaris berbasis fullstack dibangun sebagai proyek Pribadi. Menggunakan teknologi Next.js, Express.js, PostgreSQL, dan Tailwind CSS, aplikasi ini mencakup fitur autentikasi, pengelolaan produk, dan statistik stok. dilengkapi dengan sistem Role-Based Access Control (RBAC) untuk membedakan hak akses admin dan karyawan, menggunakan JWT (JSON Web Token) untuk otorisasi, serta bcrypt untuk hashing password demi menjaga keamanan data pengguna._  
+    **Live Demo:** [kelola-barang.vercel.app](https://kelola-barang.vercel.app)
 
-- 🔍 **[DockRank TF-IDF](https://github.com/IngsR/DockRank_TF-IDF)**  
-  *Web Dinamis untuk Pencarian dokumen menggunakan metode TF-IDF berdasarkan skor kemiripan tertinggi.*  
-  **Live Demo:** [tfidf.vercel.app](https://tfidf.vercel.app)
+-   🔍 **[DockRank TF-IDF](https://github.com/IngsR/DockRank_TF-IDF)**  
+    _Web Dinamis untuk Pencarian dokumen menggunakan metode TF-IDF berdasarkan skor kemiripan tertinggi._  
+    **Live Demo:** [tfidf.vercel.app](https://tfidf.vercel.app)
 
-- 🌐 **[Django Website Project](https://github.com/IngsR/Django-Project)**  
-  *Penerapan framework Django untuk membangun website dengan konsep backend yang terstruktur.*
+-   🌐 **[Django Website Project](https://github.com/IngsR/Django-Project)**  
+    _Penerapan framework Django untuk membangun website dengan konsep backend yang terstruktur._
 
-- 📱 **[ReactExpo Mobile E-Commerce](https://github.com/IngsR/ReactExpo-Mobile-Ecomerce)**  
-  *Pengembangan aplikasi mobile menggunakan ReactExpo dengan konsep e-commerce.*
+-   📱 **[ReactExpo Mobile E-Commerce](https://github.com/IngsR/ReactExpo-Mobile-Ecomerce)**  
+    _Pengembangan aplikasi mobile menggunakan ReactExpo dengan konsep e-commerce._
 
-- 🤖 **[Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)**  
-  *Eksplorasi dan pengembangan berbagai model machine learning dengan dokumentasi lengkap dalam notebook.*
+-   🤖 **[Machine Learning Models](https://github.com/IngsR/Machine-Learning-Models)**  
+    _Eksplorasi dan pengembangan berbagai model machine learning dengan dokumentasi lengkap dalam notebook._
 
-- 📈 **[Data Analyst with Python](https://github.com/IngsR/Data-Analyst_Python)**  
-  *Analisis sentimen menggunakan Python dengan pendekatan eksploratif melalui notebook.*
-
-
+-   📈 **[Data Analyst with Python](https://github.com/IngsR/Data-Analyst_Python)**  
+    _Analisis sentimen menggunakan Python dengan pendekatan eksploratif melalui notebook._
 
 <div align="center">
 
@@ -98,13 +98,11 @@ Sejumlah proyek dalam kategori ini dikembangkan menggunakan **React.js** dan **N
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
-
 </div>
 
 ---
+
 <h1 align="center"><font color="darkblue">Hanya tujuan. Hanya hasil.</font></h1>
-
-
 
 <p align="center">
   <img src="https://img.shields.io/badge/Created_by-Ikhwan_Ramadhan_(IngsR)-808080?style=flat&labelColor=000000" alt="Created by Ikhwan Ramadhan" width="300">
