@@ -50,11 +50,18 @@ Saya seorang **Fullstack Developer** yang berfokus pada pengembangan **aplikasi 
 
 ### 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=IngsR&show_icons=true&theme=transparent&hide_title=false&hide_border=true&hide_rank=true" alt="Ikhwan's GitHub Stats" />
-</div>
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+<p align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=IngsR&show_icons=true&theme=transparent&hide_title=false&hide_border=true&hide_rank=true" 
+    alt="Ikhwan's GitHub Stats" 
+    height="165" 
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=radical&hide_border=true" 
+    alt="Top Languages" 
+    height="165" 
+  />
+</p>
 
 </div>
 
