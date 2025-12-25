@@ -6,7 +6,7 @@
 
 ### 👋 Halo, saya **Ikhwan Ramadhan (Ings)**
 
-Saya seorang **Fullstack Developer** yang berfokus pada pengembangan **aplikasi web modern** dengan pendekatan **clean architecture** dan performa tinggi. Saya berkomitmen untuk menciptakan solusi digital yang inovatif, efisien, serta mudah di-scale. Saat ini, saya sedang menempuh studi di **Teknik Informatika** sambil terus memperdalam keahlian di bidang **web development**, **system design**, dan **software engineering best practices**.
+Saya seorang **Fullstack Developer** yang berfokus pada pengembangan **aplikasi web modern** dengan pendekatan **clean architecture** dan performa tinggi. Saya berkomitmen untuk menciptakan solusi digital yang inovatif, efisien, serta mudah di-scale. Saat ini, saya sedang menempuh studi di **Teknik Informatika** sambil terus memperdalam keahlian di bidang **web development**, **system design**, dan **software engineering **.
 
 ---
 
