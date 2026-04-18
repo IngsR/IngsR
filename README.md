@@ -6,7 +6,7 @@
 
 ### 👋 Halo, saya **Ikhwan Ramadhan (Ings)**
 
-Saya seorang **Fullstack Developer** yang berfokus pada pengembangan **aplikasi web modern** dengan pendekatan **clean architecture** dan performa tinggi. Saya berkomitmen untuk menciptakan solusi digital yang inovatif, efisien, serta mudah di-scale. Saat ini, saya sedang menempuh studi di **Teknik Informatika** sambil terus memperdalam keahlian di bidang **web development**, **system design**, dan **software engineering **.
+Saya seorang **Fullstack Developer** yang berfokus pada pengembangan **aplikasi web modern** dengan pendekatan **clean architecture** dan performa tinggi. Saya berkomitmen untuk menciptakan solusi digital yang inovatif, efisien, serta mudah di-scale. Saat ini, saya sedang menempuh studi di **Teknik Informatika** sambil terus memperdalam keahlian di bidang **web development**, **system design**, dan **software engineering**.
 
 ---
 
@@ -43,6 +43,14 @@ Saya seorang **Fullstack Developer** yang berfokus pada pengembangan **aplikasi 
 -   🤖 **[DockRank TF-IDF](https://github.com/IngsR/DockRank_TF-IDF)**  
     Aplikasi pencarian dokumen berbasis **TF-IDF**.  
     **Live Demo:** [tfidf.vercel.app](https://tfidf.vercel.app)
+
+-   🛠️ **Dev Blog Platform (Fullstack Next.js & Flutter)** *(Recent AI-Assisted Project)*  
+    Sistem blog end-to-end modern dengan fokus pada performa dan arsitektur scalable.  
+    **Stack:** Next.js, Flutter, Supabase  
+    **Highlight Fitur:**
+    - **Next.js Admin Dashboard:** Optimasi via Server Components, Suspense-based skeleton loading, dan integrasi client-side image cropping.
+    - **Flutter Mobile Client:** Refactoring dengan Clean Architecture & Atomic Design, serta UI/UX premium (floating glass navigation).
+    - **Supabase Backend:** Secure database dengan implementasi strict Row Level Security (RLS) dan optimalisasi file storage.
 
 ---
 
