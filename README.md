@@ -44,7 +44,7 @@ Saya seorang **Fullstack Developer** yang berfokus pada pengembangan **aplikasi 
     Aplikasi pencarian dokumen berbasis **TF-IDF**.  
     **Live Demo:** [tfidf.vercel.app](https://tfidf.vercel.app)
 
--   🛠️ **Dev Blog Platform (Fullstack Next.js & Flutter)** *(Recent AI-Assisted Project)*  
+-   🛠️ **Dev Blog Platform (Fullstack Next.js & Flutter)**  
     Sistem blog end-to-end modern dengan fokus pada performa dan arsitektur scalable.  
     **Stack:** Next.js, Flutter, Supabase  
     **Highlight Fitur:**
