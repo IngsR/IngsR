@@ -6,7 +6,7 @@
 
 ### Halo, saya **Ikhwan Ramadhan (Ings)**
 
-Saya mahasiswa Teknik Informatika yang senang membangun aplikasi web dari sisi frontend sampai backend. Saya paling sering menggunakan Next.js, TypeScript, PostgreSQL, dan Docker. Beberapa proyek yang saya kerjakan sudah digunakan atau dapat dicoba secara online.
+Saya merupakan lulusan baru Teknik Informatika yang akan diwisuda pada Oktober. Saya tertarik membangun aplikasi web dari sisi frontend hingga backend, terutama menggunakan Next.js, TypeScript, PostgreSQL, dan Docker.
 
 ---
 
@@ -50,18 +50,7 @@ Saya mahasiswa Teknik Informatika yang senang membangun aplikasi web dari sisi f
 
 ### Statistik GitHub
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=IngsR&show_icons=true&theme=transparent&hide_title=false&hide_border=true&hide_rank=true"
-    alt="Ikhwan's GitHub Stats"
-    height="165"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=IngsR&layout=compact&theme=radical&hide_border=true"
-    alt="Top Languages"
-    height="165"
-  />
-</p>
+Lihat aktivitas dan repositori terbaru saya di [profil GitHub](https://github.com/IngsR).
 
 </div>
 
