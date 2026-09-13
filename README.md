@@ -7,13 +7,13 @@
 ### 👋 Halo, saya **Ikhwan Ramadhan (Ings)**
 
 **Junior Web Developer / Full-Stack Web Developer**  
-Fresh Graduate S1 Teknik Informatika — **Universitas Putra Indonesia "YPTK" Padang** (2022–2026 · IPK 3.27/4.0)
+Fresh Graduate S1 Teknik Informatika
 
 Saya mengembangkan aplikasi web dengan pemahaman alur menyeluruh: merancang antarmuka frontend, membangun backend REST API, mengelola database relasional, menangani autentikasi dan otorisasi, mengeksekusi logika bisnis, menulis pengujian, hingga deployment ke production. Terbiasa bekerja dengan ekosistem **TypeScript**, **Next.js**, **React**, **Angular**, **NestJS**, **PostgreSQL**, **Prisma**, dan **Drizzle ORM**. Melalui riset skripsi, saya juga memiliki nilai tambah di bidang **Data Science dan AI/ML** untuk analisis data dan eksperimen pemodelan prediktif.
 
 ---
 
-## Pengalaman & Project Pilihan
+## Pengalaman & Portofolio
 
 ### 1. Website Resmi & Sistem Informasi SMP Negeri 24 Padang — Pengalaman Magang / PKL
 
