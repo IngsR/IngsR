@@ -1,117 +1,70 @@
 <div align="center">
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=2000&pause=800&color=0078FF&center=true&vCenter=true&width=800&lines=Junior+Web+Developer;Full+Stack+Web+Developer;Building+Web+Solutions+from+Real+Problems" alt="Typing SVG" />
-
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=24&duration=2500&pause=1000&color=0078FF&center=true&vCenter=true&width=800&lines=Frontend+Engineering;React+%2F+Next.js+%2F+TypeScript;Architecture+%7C+Performance+%7C+UX;Supported+by+Full-Stack+Foundation" alt="Typing SVG" />
 </div>
 
-### 👋 Halo, saya **Ikhwan Ramadhan (Ings)**
+# Ikhwan Ramadhan
 
-**Junior Web Developer / Full-Stack Web Developer**  
-Fresh Graduate S1 Teknik Informatika
+I am a software engineer specializing in frontend development, supported by a genuine understanding of backend systems, databases, APIs, and deployment.
 
-Saya mengembangkan aplikasi web dengan pemahaman alur menyeluruh: merancang antarmuka frontend, membangun backend REST API, mengelola database relasional, menangani autentikasi dan otorisasi, mengeksekusi logika bisnis, menulis pengujian, hingga deployment ke production. Terbiasa bekerja dengan ekosistem **TypeScript**, **Next.js**, **React**, **Angular**, **NestJS**, **PostgreSQL**, **Prisma**, dan **Drizzle ORM**. Melalui riset skripsi, saya juga memiliki nilai tambah di bidang **Data Science dan AI/ML** untuk analisis data dan eksperimen pemodelan prediktif.
+Currently, I am deliberately deepening my practice in **React, TypeScript, and modern frontend architecture**. Rather than just building interfaces, I am increasingly focused on engineering questions: where state should live, how rendering strategies affect performance, and how to maintain clean client boundaries as applications scale. My foundation in full-stack development allows me to reason about these frontend decisions within the context of a complete system.
 
 ---
 
-## Pengalaman & Portofolio
+### 🎯 Current Engineering Direction
 
-### 1. Website Resmi & Sistem Informasi SMP Negeri 24 Padang — Pengalaman Magang / PKL
+- **Specialization:** React, Next.js, TypeScript, and Frontend Architecture.
+- **Deepening:** State management (Zustand, Redux, TanStack Query), rendering optimization, and component composition.
+- **Interest:** Performance-conscious architecture, including server-first rendering, smaller client bundles, and exploring minimal-runtime approaches where they provide architectural advantages.
 
-**Peran:** Ketua Tim & Full-Stack Web Developer (Magang / PKL, Agustus – September 2025 · 96 Jam)  
-**Tautan:** [smpn24padang.sch.id](https://smpn24padang.sch.id) · [Repository](https://github.com/IngsR/Website-SMPN24padang)  
-**Stack:** Next.js (App Router), TypeScript, Drizzle ORM, Neon PostgreSQL, Tailwind CSS
+---
 
-Pengalaman kerja praktik nyata memimpin tim pengembang web untuk memenuhi kebutuhan digitalisasi SMP Negeri 24 Padang hingga sistem rilis di domain resmi sekolah.
+## 💼 Selected Projects & Practical Experience
 
-- **Masalah:** Kebutuhan sekolah bukan sekadar profil statis. Pihak sekolah (kepala sekolah, wakil kurikulum, dan staf tata usaha) membutuhkan sistem terpadu: portal publik informasi sekolah, panel admin (CMS) untuk pembaruan konten mandiri tanpa bantuan teknis, serta modul digital untuk mengelola bank sampah sekolah.
-- **Solusi & Keputusan Teknis:**
-  - Berkomunikasi langsung dengan kepala sekolah untuk memetakan kebutuhan operasional ke arsitektur aplikasi full-stack menggunakan Next.js App Router.
-  - Membangun portal publik yang terhubung langsung dengan CMS terproteksi autentikasi Auth.js dan middleware route untuk pengelolaan berita, pengumuman, data guru, dan galeri.
-  - Merancang modul **Sispendik** (Bank Sampah Digital) dengan alur data: `setoran → kategori sampah → berat (kg) → kalkulasi nilai → penyimpanan database → rekapitulasi → laporan`.
-  - Mengelola skema dan migrasi database via Drizzle ORM dengan optimasi index pada kolom tanggal dan relasi penyetor untuk efisiensi query agregasi admin.
-  - Menerapkan script pengujian otomatis (unit, integration, e2e, dan pemeriksaan dasar keamanan web).
-- **Hasil:** Skor **Google Lighthouse Performance 99/100** (FCP ~0,5 detik), CMS aktif digunakan staf sekolah untuk update berkala, modul Sispendik menyediakan dashboard data publik serta rekap admin dengan fitur cetak/export PDF (`window.print`), dan sistem berhasil dideploy ke domain resmi `smpn24padang.sch.id`.
+### 1. SMP Negeri 24 Padang — School Information System & CMS
 
-### 2. B2B Auction Marketplace
+_Real-world internship / PKL experience (August–September 2025 · 96 Hours)_
 
-**Repository:** [github.com/IngsR/Monorepo-B2B](https://github.com/IngsR/Monorepo-B2B)  
-**Stack:** Angular, NestJS, TypeScript, Prisma ORM, PostgreSQL, Turborepo
+**Role:** Team Lead & Full-Stack Web Developer  
+**Links:** [smpn24padang.sch.id](https://smpn24padang.sch.id) · [Repository](https://github.com/IngsR/Website-SMPN24padang)
 
-Platform lelang barang B2B yang dibangun dalam arsitektur monorepo, memisahkan client Single Page Application (Angular) dan backend REST API (NestJS) dalam satu workspace pengembangan terpadu.
+- **Problem:** The school required more than a static profile. Stakeholders needed a unified system: a public portal for information, a protected CMS for staff to update content independently, and a digital module to manage the school's waste-bank workflow.
+- **Contribution:** Led a development team to map these operational requirements into a full-stack architecture. I managed stakeholder communication, coordinated the build process, and established the technical foundation.
+- **Technical Decisions:** Built with Next.js (App Router), protected the CMS via Auth.js and route middleware, and handled database schemas and migrations using Drizzle ORM. I optimized indexing for efficient aggregation queries on the administrative dashboard.
+- **Outcome:** Delivered a production system scoring **99/100 on Lighthouse Performance** (FCP ~0.5s). The CMS is actively used by school staff, the waste-bank module handles automated calculations and PDF reporting, and the system is successfully deployed to the school's official domain.
 
-- **Masalah:** Menjaga integritas dan konsistensi transaksi lelang multi-pengguna agar aturan bisnis tidak bergantung pada validasi client yang rentan dimanipulasi.
-- **Solusi & Keputusan Teknis:**
-  - Mengatur batasan akses tegas untuk tiga peran: **Admin** (verifikasi vendor & kategori), **Vendor** (katalog barang & sesi lelang), dan **Bidder** (eksplorasi lelang & penawaran) menggunakan autentikasi JWT dan guard role-based (RBAC).
-  - Mengunci aturan bisnis di server: lelang memiliki siklus hidup terstruktur (draft, aktif, selesai, batal). Tawaran hanya diterima jika lelang berstatus aktif dan nominal secara valid lebih tinggi dari penawaran tertinggi saat itu, divalidasi melalui DTO sebelum diproses ke PostgreSQL via Prisma ORM.
-  - Menormalisasi response dan exception layer agar struktur error dan data yang diterima client selalu konsisten.
-- **Hasil:** Logika transaksi lelang terlindungi secara terpusat di backend, dengan verifikasi otomatis alur login, siklus lelang, dan konsistensi bid melalui integration testing (Vitest & Supertest).
+### 4. Tropical Cyclone Trajectory Prediction — Undergraduate Thesis
+
+**Links:** [Live Demo](https://prediksi.ikhwann.my.id) · [Repository](https://github.com/IngsR/PrediksiSIklon-LSTM)
+
+- **Research Context:** Predictive modeling using Long Short-Term Memory (LSTM) networks on historical IBTrACS data (1980–2025).
+- **Technical Contribution:** Addressed data heterogeneity between the North and South Indian Oceans through rigorous statistical validation before modeling. Designed 12 experimental LSTM architectures. Exported the best model to **ONNX** format for client-side browser inference via **ONNX Runtime**, eliminating server overhead.
+- **Outcome:** Integrated the predictive model into an interactive geospatial web interface built with Astro and TypeScript, allowing users to run simulations directly in the browser with high accuracy.
 
 ### 3. Automotive Commerce & Sales Workflow
 
-**Repository:** [github.com/IngsR/web_store](https://github.com/IngsR/web_store) · **Live Demo:** [cars.ikhwann.my.id](https://cars.ikhwann.my.id)  
-**Stack:** Next.js (App Router), TypeScript, Prisma ORM, PostgreSQL, Tailwind CSS
+**Links:** [Live Demo](https://cars.ikhwann.my.id) · [Repository](https://github.com/IngsR/web_store)
 
-Aplikasi penjualan mobil full-stack yang mengombinasikan etalase kendaraan pelanggan dengan otomasi alur operasional penugasan sales berbasis workflow.
+- **Business Problem:** Manual, uneven, and slow distribution of prospective buyer leads among dealership sales staff.
+- **Technical Solution:** Designed an automated lead-processing workflow. After administrative verification, the system uses a round-robin algorithm to assign leads to active sales consultants based on lowest quota and oldest assignment time.
+- **Outcome:** Automated the distribution of prospective buyers fairly across the sales team, automatically generating formatted messages ready for direct WhatsApp handoff.
 
-- **Masalah:** Mengatasi penanganan prospek calon pembeli (_leads_) yang lambat atau tidak merata akibat proses penugasan manual oleh staf dealer.
-- **Solusi & Keputusan Teknis:**
-  - Merancang alur otomasi pemrosesan lead:
-    `Customer Submit Pemesanan → Admin Review & Validasi → Otomasi Penugasan Round-Robin → Handoff WhatsApp`.
-  - Menerapkan aturan bisnis penugasan round-robin: setelah pesanan diverifikasi admin, sistem menugaskan prospek ke sales consultant aktif secara bergilir berdasarkan kuota penugasan terendah dan waktu penugasan paling lampau.
-  - Membangun dashboard manajemen operasional untuk inventaris mobil (kondisi baru/bekas, kilometer, harga), status order, tim sales aktif, dan analitik penjualan via Route Handlers dan Prisma ORM.
-- **Hasil:** Distribusi calon pembeli berjalan otomatis dan adil antar-sales, serta sistem menyiapkan pesan terformat yang siap diteruskan langsung ke komunikasi personal WhatsApp sales bersangkutan.
+### 4. B2B Auction Marketplace
 
-### 4. Prediksi Lintasan Siklon Tropis — Project Skripsi
+**Links:** [Repository](https://github.com/IngsR/Monorepo-B2B)
 
-**Tautan:** [prediksi.ikhwann.my.id](https://prediksi.ikhwann.my.id) · [Repository](https://github.com/IngsR/PrediksiSIklon-LSTM)  
-**Periode:** Juni – Agustus 2026  
-**Stack:** Python, TensorFlow/Keras, LSTM, ONNX Runtime, Astro, TypeScript, Geospatial UI
-
-Proyek riset skripsi yang memprediksi lintasan siklon tropis menggunakan arsitektur Long Short-Term Memory (LSTM) berbasis data historis IBTrACS (1980–2025). Berfungsi sebagai bukti kemampuan analitis, eksplorasi data mendalam, dan penerapan model AI/ML ke dalam sistem web interaktif.
-
-- **Masalah:** Data historis mencakup dua wilayah laut dengan karakteristik yang sangat heterogen: North Indian Ocean (NI: 17.801 observasi, 458 siklon pada 0°–30° LU) dan South Indian Ocean (SI: 68.668 observasi, 903 siklon pada -60°–0° LS). Pola musimannya berlawanan (puncak NI Oktober vs puncak SI Februari), sehingga penggabungan data secara naif berisiko mengaburkan akurasi model.
-- **Solusi & Keputusan Teknis:**
-  - Melakukan validasi statistik sebelum pemodelan: Uji Kolmogorov-Smirnov membuktikan perbedaan distribusi secara signifikan ($KS = 0,4802$, $p < 1 \times 10^{-16}$) serta uji Mann-Whitney pada kecepatan perpindahan, turning angle, dan panjang lintasan.
-  - Menjadikan temuan heterogenitas data sebagai acuan perancangan **12 skenario eksperimen** arsitektur LSTM untuk menentukan model terbaik secara objektif.
-  - Mengonversi model terbaik ke format **ONNX** dan mengeksekusi inferensi langsung di browser pengguna via **ONNX Runtime** (_client-side inference_ tanpa beban server).
-  - Mengintegrasikan hasil model ke antarmuka web interaktif berbasis Astro dan TypeScript dengan visualisasi peta geospasial.
-- **Hasil:** Model terbaik mencatatkan rata-rata error Haversine **14,2 km** dan **$R^2 = 0,999$**, dapat diuji langsung oleh pengguna melalui simulasi peta interaktif di web browser.
+- **Technical Focus:** Monorepo architecture separating a single-page application (Angular) and a REST API (NestJS).
+- **Architectural Problem:** Ensuring the integrity of multi-user auction transactions so that business rules were immune to client-side manipulation.
+- **Engineering Decision:** Locked core business logic—such as auction lifecycles and bid validity—on the server side. Implemented strict role-based access control (RBAC) via JWT for Admins, Vendors, and Bidders, ensuring that state transitions only occurred through validated DTOs processed via Prisma into PostgreSQL.
+- **Outcome:** Secured the auction transaction logic centrally at the backend, with automated verification of the auction lifecycle and bid consistency enforced through integration testing.
 
 ---
 
-## Technology Ecosystem
+## 📈 Professional Alignment
+
+As a recent computer science graduate, I am seeking an opportunity as a **Junior Frontend Engineer** or **Frontend-focused Web Developer**. I am looking for a professional environment where I can contribute to practical product development while continuing to increase the depth of my engineering practice.
 
 <div align="center">
-
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
-
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
-  <img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" alt="Drizzle ORM" />
-
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-
-</div>
-
----
-
-## Repositori Lainnya
-
-- **[Aplikasi Pengelolaan Gudang](https://github.com/IngsR/manajemen-iventory)** — Sistem inventaris dan manajemen stok barang dengan kontrol akses berbasis role. **Stack:** Next.js, PostgreSQL. [Live Demo](https://kelola-barang.vercel.app)
-- **[DockRank TF-IDF](https://github.com/IngsR/DockRank_TF-IDF)** — Mesin pencari dan perangkingan dokumen teks berbasis algoritma Term Frequency-Inverse Document Frequency (TF-IDF). **Stack:** Python, Next.js. [Live Demo](https://tfidf.vercel.app)
-
----
-
-<div align="center">
-
-### 📊 GitHub Stats
+<br>
 
 <p align="center">
   <img 
@@ -126,12 +79,33 @@ Proyek riset skripsi yang memprediksi lintasan siklon tropis menggunakan arsitek
   />
 </p>
 
-</div>
-
 ---
 
-<div align="center">
+<b>🛠️ Technology Ecosystem</b>
+<br>
 
-✨ _“Code. Learn. Build. Repeat.”_ ✨
+**Primary Focus**  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**Secondary & State Management**  
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-20232A?style=for-the-badge)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+
+**Supporting Full-Stack Foundation**  
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
+![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)
+
+**Additional Context**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
+
+## </details>
 
 </div>
