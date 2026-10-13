@@ -1,67 +1,66 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=24&duration=2500&pause=1000&color=0078FF&center=true&vCenter=true&width=800&lines=Frontend+Engineering;React+%2F+Next.js+%2F+TypeScript;Architecture+%7C+Performance+%7C+UX;Supported+by+Full-Stack+Foundation" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=24&duration=2500&pause=1000&color=0078FF&center=true&vCenter=true&width=800&lines=Frontend+Engineering;React+%2F+Next.js+%2F+TypeScript;Component+Architecture+%7C+State+%7C+UX;Supported+by+Full-Stack+Understanding" alt="Typing SVG" />
 </div>
 
 # Ikhwan Ramadhan
 
-I am a software engineer specializing in frontend development, supported by a genuine understanding of backend systems, databases, APIs, and deployment.
+Frontend engineer with a focus on React and TypeScript, developing a working understanding of how component architecture, state management, and server interactions shape the overall quality of web applications.
 
-Currently, I am deliberately deepening my practice in **React, TypeScript, and modern frontend architecture**. Rather than just building interfaces, I am increasingly focused on engineering questions: where state should live, how rendering strategies affect performance, and how to maintain clean client boundaries as applications scale. My foundation in full-stack development allows me to reason about these frontend decisions within the context of a complete system.
-
----
-
-### 🎯 Current Engineering Direction
-
-- **Specialization:** React, Next.js, TypeScript, and Frontend Architecture.
-- **Deepening:** State management (Zustand, Redux, TanStack Query), rendering optimization, and component composition.
-- **Interest:** Performance-conscious architecture, including server-first rendering, smaller client bundles, and exploring minimal-runtime approaches where they provide architectural advantages.
+My work tends to gravitate toward the boundary between interface design and application logic how data flows through components, where state should be owned, and how to keep client-side behavior predictable as an application grows in scope. A working knowledge of backend systems, databases, authentication, and deployment informs these frontend decisions rather than competing with them.
 
 ---
 
-## 💼 Selected Projects & Practical Experience
+### Engineering Focus
 
-### 1. SMP Negeri 24 Padang — School Information System & CMS
+**Primary:** React · Next.js (App Router) · TypeScript  
+**State & Server Data:** TanStack Query · Zustand · Zod · Fetch API  
+**UI:** Tailwind CSS · shadcn/ui · Framer Motion
 
-_Real-world internship / PKL experience (August–September 2025 · 96 Hours)_
+**Supporting foundation:** PostgreSQL · Prisma · Drizzle ORM · Auth.js
 
+---
+
+## Selected Projects
+
+### 1. SMP Negeri 24 Padang | School Information Portal, CMS & Digital Waste Bank
+
+_Internship placement · August–September 2025 · Five-person team_  
 **Role:** Team Lead & Full-Stack Web Developer  
-**Links:** [smpn24padang.sch.id](https://smpn24padang.sch.id) · [Repository](https://github.com/IngsR/Website-SMPN24padang)
+**Links:** [smpn24padang.sch.id](https://smpn24padang.sch.id) · [Repository](https://github.com/Informatics-2025/Website-SMPN24padang)
 
-- **Problem:** The school required more than a static profile. Stakeholders needed a unified system: a public portal for information, a protected CMS for staff to update content independently, and a digital module to manage the school's waste-bank workflow.
-- **Contribution:** Led a development team to map these operational requirements into a full-stack architecture. I managed stakeholder communication, coordinated the build process, and established the technical foundation.
-- **Technical Decisions:** Built with Next.js (App Router), protected the CMS via Auth.js and route middleware, and handled database schemas and migrations using Drizzle ORM. I optimized indexing for efficient aggregation queries on the administrative dashboard.
-- **Outcome:** Delivered a production system scoring **99/100 on Lighthouse Performance** (FCP ~0.5s). The CMS is actively used by school staff, the waste-bank module handles automated calculations and PDF reporting, and the system is successfully deployed to the school's official domain.
+**Stack:** Next.js App Router · React · TypeScript · Tailwind CSS · Drizzle ORM · PostgreSQL · Auth.js
 
-### 4. Tropical Cyclone Trajectory Prediction — Undergraduate Thesis
+The school required more than a static information page. Staff needed to update content independently, and the school's waste-bank program required a dedicated digital module with its own data and reporting workflows. Working in a five-person team, I led the technical design and coordinated delivery while remaining directly involved in implementation.
 
-**Links:** [Live Demo](https://prediksi.ikhwann.my.id) · [Repository](https://github.com/IngsR/PrediksiSIklon-LSTM)
-
-- **Research Context:** Predictive modeling using Long Short-Term Memory (LSTM) networks on historical IBTrACS data (1980–2025).
-- **Technical Contribution:** Addressed data heterogeneity between the North and South Indian Oceans through rigorous statistical validation before modeling. Designed 12 experimental LSTM architectures. Exported the best model to **ONNX** format for client-side browser inference via **ONNX Runtime**, eliminating server overhead.
-- **Outcome:** Integrated the predictive model into an interactive geospatial web interface built with Astro and TypeScript, allowing users to run simulations directly in the browser with high accuracy.
-
-### 3. Automotive Commerce & Sales Workflow
-
-**Links:** [Live Demo](https://cars.ikhwann.my.id) · [Repository](https://github.com/IngsR/web_store)
-
-- **Business Problem:** Manual, uneven, and slow distribution of prospective buyer leads among dealership sales staff.
-- **Technical Solution:** Designed an automated lead-processing workflow. After administrative verification, the system uses a round-robin algorithm to assign leads to active sales consultants based on lowest quota and oldest assignment time.
-- **Outcome:** Automated the distribution of prospective buyers fairly across the sales team, automatically generating formatted messages ready for direct WhatsApp handoff.
-
-### 4. B2B Auction Marketplace
-
-**Links:** [Repository](https://github.com/IngsR/Monorepo-B2B)
-
-- **Technical Focus:** Monorepo architecture separating a single-page application (Angular) and a REST API (NestJS).
-- **Architectural Problem:** Ensuring the integrity of multi-user auction transactions so that business rules were immune to client-side manipulation.
-- **Engineering Decision:** Locked core business logic—such as auction lifecycles and bid validity—on the server side. Implemented strict role-based access control (RBAC) via JWT for Admins, Vendors, and Bidders, ensuring that state transitions only occurred through validated DTOs processed via Prisma into PostgreSQL.
-- **Outcome:** Secured the auction transaction logic centrally at the backend, with automated verification of the auction lifecycle and bid consistency enforced through integration testing.
+The architecture separates the public-facing portal from the protected CMS, with Auth.js handling authentication and route-level access control. The waste-bank module manages automated balance calculations and PDF report generation. The site scored **99/100 on Lighthouse Performance** and is deployed to the school's official domain, actively used by staff.
 
 ---
 
-## 📈 Professional Alignment
+### 2. Inventory Management System
 
-As a recent computer science graduate, I am seeking an opportunity as a **Junior Frontend Engineer** or **Frontend-focused Web Developer**. I am looking for a professional environment where I can contribute to practical product development while continuing to increase the depth of my engineering practice.
+**Stack:** Next.js App Router · TypeScript · Tailwind CSS · shadcn/ui · MongoDB  
+**Repository:** [IngsR/manajemen-iventory](https://github.com/IngsR/manajemen-iventory)
+
+This project addresses the operational complexity of warehouse inventory management — a domain that extends well beyond a basic CRUD interface. The application handles receiving, issuing, returning, transferring, and adjusting stock, alongside stock opname workflows, balance tracking, movement history, and an audit log.
+
+The application is structured around distinct workspaces for administrators, supervisors, and inventory officers. Reusable UI components are built from shadcn/ui, and a dashboard-level store manages shared view state. Domain logic, application actions, and data models are separated by responsibility. The goal was an interface where each role operates within a coherent, purpose-appropriate workspace backed by consistent data integrity.
+
+---
+
+### 3. Automotive Sales Management Platform
+
+**Stack:** Next.js · TypeScript · Prisma · PostgreSQL  
+**Links:** [cars.ikhwann.my.id](https://cars.ikhwann.my.id) · [Repository](https://github.com/IngsR/web_store)
+
+A platform that combines a public vehicle catalog with internal sales workflows: customer booking, sales tracking, and credit simulation. The lead assignment system is the most structurally interesting part — when an administrative user verifies a prospective buyer, the system automatically assigns the lead to an active sales consultant based on the lowest current quota and oldest prior assignment, distributing workload evenly across the team and generating a formatted message ready for WhatsApp handoff.
+
+This required thinking carefully about the relationship between UI state, workflow triggers, and the underlying business logic — the interface needed to reflect assignment outcomes accurately and remain consistent with what the backend had recorded.
+
+---
+
+## Professional Direction
+
+As a recent computer science graduate, I am looking for a **Junior Frontend Engineer** or **React Developer** role where I can contribute to product development while continuing to deepen my understanding of frontend engineering. I am most interested in environments where the quality of the interface and the integrity of the underlying data model are both taken seriously.
 
 <div align="center">
 <br>
@@ -81,31 +80,23 @@ As a recent computer science graduate, I am seeking an opportunity as a **Junior
 
 ---
 
-<b>🛠️ Technology Ecosystem</b>
-<br>
+**Technology Stack**
 
-**Primary Focus**  
+**Primary**  
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-**Secondary & State Management**  
+**State & Server Data**  
 ![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
 ![Zustand](https://img.shields.io/badge/Zustand-20232A?style=for-the-badge)
-![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3068B7?style=for-the-badge&logo=zod&logoColor=white)
 
-**Supporting Full-Stack Foundation**  
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
+**Supporting Foundation**  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black)
-
-**Additional Context**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
-
-## </details>
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 </div>
