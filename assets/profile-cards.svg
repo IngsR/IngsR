@@ -1,184 +1,320 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="850" height="750" viewBox="0 0 850 750" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 540" fill="none" style="width:100%;display:block">
   <style>
-    .title { font: 600 20px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #e6edf3; }
-    .subtitle { font: 400 12px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #8b949e; }
-    .subhead { font: 600 13px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #e6edf3; }
-    .label { font: 400 12px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #c9d1d9; }
-    .pct { font: 400 11px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #c9d1d9; text-anchor: middle; }
-    .day { font: 400 11px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #8b949e; text-anchor: middle; }
-    .repo-title { font: 600 14px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #e6edf3; }
-    .repo-meta { font: 400 11px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #8b949e; text-anchor: end; }
-    .repo-desc { font: 400 12px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #8b949e; }
-    .stack-txt { font: 500 11px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #c9d1d9; }
+    .bg-main   { fill: #171717; }
+    .bg-card   { fill: #1e1e24; stroke: #2a2a35; stroke-width: 1; }
+    .f-base    { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .text-title    { fill: #ffffff; font-size: 18px; font-weight: 700; }
+    .text-subtitle { fill: #8b949e; font-size: 12px; }
+    .text-repo     { fill: #21f1a8; font-size: 14px; font-weight: 700; }
+    .text-link     { fill: #58a6ff; font-size: 11px; }
+    .text-desc     { fill: #c9d1d9; font-size: 12px; }
+    .text-meta     { fill: #8b949e; font-size: 11px; }
+    .text-badge    { fill: #8b949e; font-size: 10px; }
+    .lang-next  { fill: #52525b; }
+    .lang-ts    { fill: #3178c6; }
+    .lang-react { fill: #61dafb; }
+    .lang-py    { fill: #3572A5; }
+    .lang-astro { fill: #ff5a03; }
+    .lang-db    { fill: #336791; }
+    .lang-css   { fill: #38bdf8; }
+    .lang-state { fill: #ff4154; }
+    .bar-bg     { fill: #2a2a35; }
+
+    /* Default: desktop >= 640px */
+    .lay-d { display: block; }
+    .lay-t { display: none; }
+    .lay-m { display: none; }
+
+    /* Tablet 400-639px */
+    @media (max-width: 639px) {
+      .lay-d { display: none; }
+      .lay-t { display: block; }
+      .lay-m { display: none; }
+    }
+
+    /* Mobile < 400px */
+    @media (max-width: 399px) {
+      .lay-d { display: none; }
+      .lay-t { display: none; }
+      .lay-m { display: block; }
+    }
   </style>
 
-  <!-- ==================== 1. TOP LANGUAGES & CORE STACK ==================== -->
-  <rect x="0" y="0" width="850" height="155" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
-  <text x="25" y="34" class="title">Top Languages &amp; Core Ecosystem</text>
-  <text x="25" y="52" class="subtitle">Based on repository size &amp; production architecture</text>
-
-  <!-- Multi-color Progress Bar -->
-  <g transform="translate(25, 66)">
-    <rect x="0" y="0" width="440" height="12" rx="3" fill="#3178c6" />
-    <rect x="442" y="0" width="180" height="12" fill="#61dafb" />
-    <rect x="624" y="0" width="90" height="12" fill="#38bdf8" />
-    <rect x="716" y="0" width="50" height="12" fill="#336791" />
-    <rect x="768" y="0" width="32" height="12" rx="3" fill="#f7df1e" />
+  <!-- ===== DESKTOP >= 640px : 2-col layout, coord-space 840x540 ===== -->
+  <g class="lay-d f-base">
+    <rect width="840" height="540" class="bg-main" rx="8"/>
+    <g transform="translate(30,30)">
+      <text x="0" y="20" class="text-title">Current Focus &amp; Expertise</text>
+      <text x="0" y="38" class="text-subtitle">Frontend Architecture &#x2022; State &#x2022; Performance</text>
+      <rect x="0"   y="52" width="148" height="26" class="bg-card" rx="13"/>
+      <circle cx="15" cy="65" r="5" class="lang-next"/>
+      <text x="27" y="69" class="text-desc">Next.js (App Dir)</text>
+      <rect x="156" y="52" width="118" height="26" class="bg-card" rx="13"/>
+      <circle cx="171" cy="65" r="5" class="lang-ts"/>
+      <text x="183" y="69" class="text-desc">TypeScript</text>
+      <rect x="0"   y="86" width="162" height="26" class="bg-card" rx="13"/>
+      <circle cx="15" cy="99" r="5" class="lang-state"/>
+      <text x="27" y="103" class="text-desc">Zustand &amp; TanStack</text>
+      <rect x="170" y="86" width="156" height="26" class="bg-card" rx="13"/>
+      <circle cx="185" cy="99" r="5" class="lang-db"/>
+      <text x="197" y="103" class="text-desc">PostgreSQL &amp; ORMs</text>
+    </g>
+    <g transform="translate(430,30)">
+      <text x="0" y="20" class="text-title">Top Languages</text>
+      <text x="0" y="38" class="text-subtitle">Based on repository composition</text>
+      <rect x="0"   y="58" width="152" height="8" rx="2" class="lang-ts"/>
+      <rect x="154" y="58" width="114" height="8" rx="2" class="lang-next"/>
+      <rect x="270" y="58" width="57"  height="8" rx="2" class="lang-py"/>
+      <rect x="329" y="58" width="30"  height="8" rx="2" class="lang-astro"/>
+      <rect x="361" y="58" width="19"  height="8" rx="2" class="lang-react"/>
+      <circle cx="5"   cy="82" r="4" class="lang-ts"/>   <text x="14" y="86" class="text-meta">TypeScript 40.0%</text>
+      <circle cx="130" cy="82" r="4" class="lang-next"/> <text x="139" y="86" class="text-meta">Next.js 30.0%</text>
+      <circle cx="255" cy="82" r="4" class="lang-py"/>   <text x="264" y="86" class="text-meta">Python 15.0%</text>
+      <circle cx="5"   cy="100" r="4" class="lang-astro"/><text x="14" y="104" class="text-meta">Astro 8.0%</text>
+      <circle cx="130" cy="100" r="4" class="lang-react"/><text x="139" y="104" class="text-meta">React / UI 7.0%</text>
+    </g>
+    <g transform="translate(30,165)">
+      <text x="0" y="18" class="text-title">Selected Repositories</text>
+      <text x="0" y="34" class="text-subtitle">Featured projects with live deployments</text>
+      <g transform="translate(0,50)">
+        <rect width="380" height="118" class="bg-card" rx="6"/>
+        <text x="14" y="24" class="text-repo">smpn24-padang-portal</text>
+        <text x="366" y="22" class="text-badge" text-anchor="end">Production</text>
+        <text x="14" y="42" class="text-link">smpn24padang.sch.id</text>
+        <text x="14" y="62" class="text-desc">School portal, CMS &amp; digital waste-bank system.</text>
+        <rect x="14" y="88" width="352" height="6" class="bar-bg" rx="2"/>
+        <rect x="14" y="88" width="221" height="6" class="lang-next" rx="2"/>
+        <rect x="237" y="88" width="80"  height="6" class="lang-ts"   rx="2"/>
+        <rect x="319" y="88" width="47"  height="6" class="lang-db"   rx="2"/>
+        <circle cx="17" cy="108" r="3" class="lang-next"/><text x="26" y="112" class="text-meta">Next.js 62.8%</text>
+        <circle cx="120" cy="108" r="3" class="lang-ts"/>  <text x="129" y="112" class="text-meta">TypeScript 23.4%</text>
+        <circle cx="240" cy="108" r="3" class="lang-db"/>  <text x="249" y="112" class="text-meta">PostgreSQL 13.8%</text>
+      </g>
+      <g transform="translate(400,50)">
+        <rect width="380" height="118" class="bg-card" rx="6"/>
+        <text x="14" y="24" class="text-repo">PrediksiSiklon-LSTM</text>
+        <text x="366" y="22" class="text-badge" text-anchor="end">Thesis / Research</text>
+        <text x="14" y="42" class="text-link">siklon.ikhwann.my.id</text>
+        <text x="14" y="62" class="text-desc">LSTM cyclone prediction &amp; early warning (Streamlit).</text>
+        <rect x="14" y="88" width="352" height="6" class="bar-bg" rx="2"/>
+        <rect x="14" y="88" width="191" height="6" class="lang-py"    rx="2"/>
+        <rect x="207" y="88" width="90"  height="6" class="lang-ts"   rx="2"/>
+        <rect x="299" y="88" width="67"  height="6" class="lang-astro" rx="2"/>
+        <circle cx="17" cy="108" r="3" class="lang-py"/>   <text x="26" y="112" class="text-meta">Python 54.3%</text>
+        <circle cx="110" cy="108" r="3" class="lang-ts"/>  <text x="119" y="112" class="text-meta">TypeScript 25.7%</text>
+        <circle cx="220" cy="108" r="3" class="lang-astro"/><text x="229" y="112" class="text-meta">Astro 20.0%</text>
+      </g>
+      <g transform="translate(0,182)">
+        <rect width="380" height="118" class="bg-card" rx="6"/>
+        <text x="14" y="24" class="text-repo">manajemen-inventory</text>
+        <text x="366" y="22" class="text-badge" text-anchor="end">Updated recently</text>
+        <text x="14" y="42" class="text-link">kelola-barang.vercel.app</text>
+        <text x="14" y="62" class="text-desc">Multi-role stock opname &amp; audit log tracking.</text>
+        <rect x="14" y="88" width="352" height="6" class="bar-bg" rx="2"/>
+        <rect x="14" y="88" width="191" height="6" class="lang-next" rx="2"/>
+        <rect x="207" y="88" width="100" height="6" class="lang-ts"  rx="2"/>
+        <rect x="309" y="88" width="57"  height="6" class="lang-css" rx="2"/>
+        <circle cx="17" cy="108" r="3" class="lang-next"/><text x="26" y="112" class="text-meta">Next.js 54.3%</text>
+        <circle cx="120" cy="108" r="3" class="lang-ts"/> <text x="129" y="112" class="text-meta">TypeScript 28.5%</text>
+        <circle cx="240" cy="108" r="3" class="lang-css"/><text x="249" y="112" class="text-meta">Tailwind 17.2%</text>
+      </g>
+      <g transform="translate(400,182)">
+        <rect width="380" height="118" class="bg-card" rx="6"/>
+        <text x="14" y="24" class="text-repo">auto-sales-platform</text>
+        <text x="366" y="22" class="text-badge" text-anchor="end">Production</text>
+        <text x="14" y="42" class="text-link">cars.ikhwann.my.id</text>
+        <text x="14" y="62" class="text-desc">Vehicle catalog &amp; auto round-robin lead engine.</text>
+        <rect x="14" y="88" width="352" height="6" class="bar-bg" rx="2"/>
+        <rect x="14" y="88" width="241" height="6" class="lang-next" rx="2"/>
+        <rect x="257" y="88" width="70"  height="6" class="lang-db"  rx="2"/>
+        <rect x="329" y="88" width="37"  height="6" class="lang-css" rx="2"/>
+        <circle cx="17" cy="108" r="3" class="lang-next"/><text x="26" y="112" class="text-meta">Next.js 68.5%</text>
+        <circle cx="120" cy="108" r="3" class="lang-db"/> <text x="129" y="112" class="text-meta">Prisma 20.0%</text>
+        <circle cx="240" cy="108" r="3" class="lang-css"/><text x="249" y="112" class="text-meta">CSS 11.5%</text>
+      </g>
+    </g>
   </g>
 
-  <!-- Legend Row 1 -->
-  <circle cx="31" cy="105" r="5" fill="#3178c6" /><text x="44" y="109" class="label">TypeScript</text><text x="155" y="109" class="label">55.0%</text>
-  <circle cx="240" cy="105" r="5" fill="#61dafb" /><text x="253" y="109" class="label">React / Next.js</text><text x="385" y="109" class="label">22.5%</text>
-  <circle cx="470" cy="105" r="5" fill="#38bdf8" /><text x="483" y="109" class="label">Tailwind CSS</text><text x="605" y="109" class="label">11.2%</text>
-  <circle cx="690" cy="105" r="5" fill="#336791" /><text x="703" y="109" class="label">PostgreSQL</text><text x="800" y="109" class="label">6.3%</text>
-
-  <!-- Legend Row 2 -->
-  <circle cx="31" cy="130" r="5" fill="#f7df1e" /><text x="44" y="134" class="label">JavaScript</text><text x="155" y="134" class="label">5.0%</text>
-  <circle cx="240" cy="130" r="5" fill="#ff4154" /><text x="253" y="134" class="label">TanStack / Zustand</text><text x="385" y="134" class="label">Core</text>
-  <circle cx="470" cy="130" r="5" fill="#c5f74f" /><text x="483" y="134" class="label">Prisma / Drizzle</text><text x="605" y="134" class="label">ORM</text>
-  <circle cx="690" cy="130" r="5" fill="#47a248" /><text x="703" y="134" class="label">MongoDB</text><text x="800" y="134" class="label">NoSQL</text>
-
-  <!-- ==================== 2. ACTIVITY RHYTHM ==================== -->
-  <rect x="0" y="175" width="850" height="210" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
-  <text x="25" y="210" class="title">Activity Rhythm</text>
-  <text x="25" y="228" class="subtitle">Contributions by weekday (past year) • Recent events by hour (WIB / UTC+7)</text>
-
-  <!-- Left: By Weekday -->
-  <text x="25" y="258" class="subhead">By weekday</text>
-  <text x="275" y="258" class="subtitle">Peak: Wednesday (19%)</text>
-
-  <!-- Weekday Bars (Baseline Y = 345) -->
-  <!-- Mon 14% -->
-  <text x="43" y="303" class="pct">14%</text>
-  <rect x="25" y="310" width="36" height="35" rx="3" fill="#9ecbff" />
-  <text x="43" y="362" class="day">Mon</text>
-  <!-- Tue 16% -->
-  <text x="98" y="298" class="pct">16%</text>
-  <rect x="80" y="305" width="36" height="40" rx="3" fill="#9ecbff" />
-  <text x="98" y="362" class="day">Tue</text>
-  <!-- Wed 19% (Peak) -->
-  <text x="153" y="288" class="pct">19%</text>
-  <rect x="135" y="295" width="36" height="50" rx="3" fill="#e3b341" />
-  <text x="153" y="362" class="day">Wed</text>
-  <!-- Thu 15% -->
-  <text x="208" y="300" class="pct">15%</text>
-  <rect x="190" y="307" width="36" height="38" rx="3" fill="#9ecbff" />
-  <text x="208" y="362" class="day">Thu</text>
-  <!-- Fri 14% -->
-  <text x="263" y="303" class="pct">14%</text>
-  <rect x="245" y="310" width="36" height="35" rx="3" fill="#9ecbff" />
-  <text x="263" y="362" class="day">Fri</text>
-  <!-- Sat 12% -->
-  <text x="318" y="308" class="pct">12%</text>
-  <rect x="300" y="315" width="36" height="30" rx="3" fill="#9ecbff" />
-  <text x="318" y="362" class="day">Sat</text>
-  <!-- Sun 10% -->
-  <text x="373" y="313" class="pct">10%</text>
-  <rect x="355" y="320" width="36" height="25" rx="3" fill="#9ecbff" />
-  <text x="373" y="362" class="day">Sun</text>
-
-  <!-- Right: By Hour (WIB) -->
-  <text x="455" y="258" class="subhead">By hour (WIB)</text>
-  <text x="720" y="258" class="subtitle">Peak: Afternoon / Night</text>
-
-  <!-- 24 Hour Bars (X from 455, step 15px, Baseline Y = 345) -->
-  <g fill="#9ecbff">
-    <rect x="455" y="338" width="10" height="7" rx="2" />
-    <rect x="470" y="341" width="10" height="4" rx="2" />
-    <rect x="485" y="343" width="10" height="2" rx="1" />
-    <rect x="500" y="343" width="10" height="2" rx="1" />
-    <rect x="515" y="343" width="10" height="2" rx="1" />
-    <rect x="530" y="343" width="10" height="2" rx="1" />
-    <rect x="545" y="340" width="10" height="5" rx="2" />
-    <rect x="560" y="333" width="10" height="12" rx="2" />
-    <rect x="575" y="325" width="10" height="20" rx="2" />
-    <rect x="590" y="312" width="10" height="33" rx="2" />
-    <rect x="605" y="303" width="10" height="42" rx="2" fill="#e3b341" />
-    <rect x="620" y="315" width="10" height="30" rx="2" />
-    <rect x="635" y="328" width="10" height="17" rx="2" />
-    <rect x="650" y="305" width="10" height="40" rx="2" fill="#e3b341" />
-    <rect x="665" y="295" width="10" height="50" rx="2" fill="#e3b341" />
-    <rect x="680" y="308" width="10" height="37" rx="2" fill="#e3b341" />
-    <rect x="695" y="322" width="10" height="23" rx="2" />
-    <rect x="710" y="332" width="10" height="13" rx="2" />
-    <rect x="725" y="335" width="10" height="10" rx="2" />
-    <rect x="740" y="318" width="10" height="27" rx="2" />
-    <rect x="755" y="298" width="10" height="47" rx="2" fill="#e3b341" />
-    <rect x="770" y="302" width="10" height="43" rx="2" fill="#e3b341" />
-    <rect x="785" y="318" width="10" height="27" rx="2" />
-    <rect x="800" y="330" width="10" height="15" rx="2" />
-  </g>
-  <text x="465" y="362" class="day">12 AM</text>
-  <text x="550" y="362" class="day">6 AM</text>
-  <text x="640" y="362" class="day">12 PM</text>
-  <text x="730" y="362" class="day">6 PM</text>
-
-  <!-- ==================== 3. SELECTED REPOSITORIES ==================== -->
-  <rect x="0" y="405" width="850" height="340" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
-  <text x="25" y="440" class="title">Selected Repositories</text>
-  <text x="25" y="458" class="subtitle">Featured projects &amp; architecture breakdown</text>
-
-  <!-- Card 1: SMPN 24 Padang -->
-  <g transform="translate(25, 475)">
-    <rect x="0" y="0" width="390" height="115" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="16" y="26" class="repo-title">Informatics-2025/Website-SMPN24padang</text>
-    <text x="374" y="26" class="repo-meta">&#9733; 99 Lighthouse</text>
-    <text x="16" y="46" class="repo-desc">School portal, protected CMS &amp; digital waste-bank module</text>
-    <!-- Tech Bar -->
-    <rect x="16" y="64" width="220" height="6" rx="3" fill="#3178c6" />
-    <rect x="238" y="64" width="90" height="6" fill="#c5f74f" />
-    <rect x="330" y="64" width="44" height="6" rx="3" fill="#336791" />
-    <!-- Tech Dots -->
-    <circle cx="21" cy="90" r="4" fill="#3178c6" /><text x="30" y="94" class="stack-txt">Next.js / TS 62%</text>
-    <circle cx="150" cy="90" r="4" fill="#c5f74f" /><text x="159" y="94" class="stack-txt">Drizzle ORM 25%</text>
-    <circle cx="275" cy="90" r="4" fill="#336791" /><text x="284" y="94" class="stack-txt">PostgreSQL 13%</text>
+  <!-- ===== TABLET 400-639px : single-col, coord 840x1210 scaled 0.595x ===== -->
+  <g class="lay-t f-base" transform="scale(0.595)">
+    <rect width="840" height="1210" class="bg-main" rx="8"/>
+    <g transform="translate(30,30)">
+      <text x="0" y="28" class="text-title" font-size="22">Current Focus &amp; Expertise</text>
+      <text x="0" y="50" class="text-subtitle" font-size="15">Architecture &#x2022; State &#x2022; Performance</text>
+      <rect x="0"   y="66" width="220" height="38" class="bg-card" rx="19"/>
+      <circle cx="22" cy="85" r="8" class="lang-next"/>
+      <text x="38" y="91" class="text-desc" font-size="17">Next.js (App Dir)</text>
+      <rect x="230" y="66" width="170" height="38" class="bg-card" rx="19"/>
+      <circle cx="252" cy="85" r="8" class="lang-ts"/>
+      <text x="268" y="91" class="text-desc" font-size="17">TypeScript</text>
+      <rect x="0"   y="114" width="240" height="38" class="bg-card" rx="19"/>
+      <circle cx="22" cy="133" r="8" class="lang-state"/>
+      <text x="38" y="139" class="text-desc" font-size="17">Zustand &amp; TanStack</text>
+      <rect x="250" y="114" width="230" height="38" class="bg-card" rx="19"/>
+      <circle cx="272" cy="133" r="8" class="lang-db"/>
+      <text x="288" y="139" class="text-desc" font-size="17">PostgreSQL &amp; ORMs</text>
+    </g>
+    <g transform="translate(30,200)">
+      <text x="0" y="28" class="text-title" font-size="22">Top Languages</text>
+      <text x="0" y="50" class="text-subtitle" font-size="15">Based on repository composition</text>
+      <rect x="0"   y="64" width="317" height="10" rx="3" class="lang-ts"/>
+      <rect x="319" y="64" width="211" height="10" rx="3" class="lang-next"/>
+      <rect x="532" y="64" width="120" height="10" rx="3" class="lang-py"/>
+      <rect x="654" y="64" width="63"  height="10" rx="3" class="lang-astro"/>
+      <rect x="719" y="64" width="40"  height="10" rx="3" class="lang-react"/>
+      <circle cx="9"   cy="92" r="7" class="lang-ts"/>   <text x="22" y="97" class="text-meta" font-size="14">TypeScript 40%</text>
+      <circle cx="240" cy="92" r="7" class="lang-next"/> <text x="253" y="97" class="text-meta" font-size="14">Next.js 30%</text>
+      <circle cx="480" cy="92" r="7" class="lang-py"/>   <text x="493" y="97" class="text-meta" font-size="14">Python 15%</text>
+      <circle cx="9"   cy="118" r="7" class="lang-astro"/><text x="22" y="123" class="text-meta" font-size="14">Astro 8%</text>
+      <circle cx="240" cy="118" r="7" class="lang-react"/><text x="253" y="123" class="text-meta" font-size="14">React 7%</text>
+    </g>
+    <g transform="translate(30,382)">
+      <text x="0" y="28" class="text-title" font-size="22">Selected Repositories</text>
+      <g transform="translate(0,48)">
+        <rect width="780" height="148" class="bg-card" rx="8"/>
+        <text x="18" y="32" class="text-repo" font-size="18">smpn24-padang-portal</text>
+        <text x="762" y="30" class="text-badge" font-size="13" text-anchor="end">Production</text>
+        <text x="18" y="56" class="text-link" font-size="15">smpn24padang.sch.id</text>
+        <text x="18" y="80" class="text-desc" font-size="16">School portal, CMS &amp; digital waste-bank system.</text>
+        <rect x="18" y="104" width="744" height="8" class="bar-bg" rx="3"/>
+        <rect x="18" y="104" width="468" height="8" class="lang-next" rx="3"/>
+        <rect x="488" y="104" width="168" height="8" class="lang-ts"   rx="3"/>
+        <rect x="658" y="104" width="104" height="8" class="lang-db"   rx="3"/>
+        <circle cx="22" cy="130" r="5" class="lang-next"/><text x="34" y="135" class="text-meta" font-size="14">Next.js 62.8%</text>
+        <circle cx="230" cy="130" r="5" class="lang-ts"/> <text x="242" y="135" class="text-meta" font-size="14">TypeScript 23.4%</text>
+        <circle cx="440" cy="130" r="5" class="lang-db"/> <text x="452" y="135" class="text-meta" font-size="14">PostgreSQL 13.8%</text>
+      </g>
+      <g transform="translate(0,216)">
+        <rect width="780" height="148" class="bg-card" rx="8"/>
+        <text x="18" y="32" class="text-repo" font-size="18">PrediksiSiklon-LSTM</text>
+        <text x="762" y="30" class="text-badge" font-size="13" text-anchor="end">Thesis / Research</text>
+        <text x="18" y="56" class="text-link" font-size="15">siklon.ikhwann.my.id</text>
+        <text x="18" y="80" class="text-desc" font-size="16">LSTM cyclone prediction &amp; early warning system.</text>
+        <rect x="18" y="104" width="744" height="8" class="bar-bg" rx="3"/>
+        <rect x="18" y="104" width="405" height="8" class="lang-py"    rx="3"/>
+        <rect x="425" y="104" width="191" height="8" class="lang-ts"   rx="3"/>
+        <rect x="618" y="104" width="144" height="8" class="lang-astro" rx="3"/>
+        <circle cx="22" cy="130" r="5" class="lang-py"/>   <text x="34" y="135" class="text-meta" font-size="14">Python 54.3%</text>
+        <circle cx="230" cy="130" r="5" class="lang-ts"/>  <text x="242" y="135" class="text-meta" font-size="14">TypeScript 25.7%</text>
+        <circle cx="440" cy="130" r="5" class="lang-astro"/><text x="452" y="135" class="text-meta" font-size="14">Astro 20.0%</text>
+      </g>
+      <g transform="translate(0,384)">
+        <rect width="780" height="148" class="bg-card" rx="8"/>
+        <text x="18" y="32" class="text-repo" font-size="18">manajemen-inventory</text>
+        <text x="762" y="30" class="text-badge" font-size="13" text-anchor="end">Updated recently</text>
+        <text x="18" y="56" class="text-link" font-size="15">kelola-barang.vercel.app</text>
+        <text x="18" y="80" class="text-desc" font-size="16">Multi-role stock opname &amp; audit log tracking.</text>
+        <rect x="18" y="104" width="744" height="8" class="bar-bg" rx="3"/>
+        <rect x="18" y="104" width="405" height="8" class="lang-next" rx="3"/>
+        <rect x="425" y="104" width="212" height="8" class="lang-ts"  rx="3"/>
+        <rect x="639" y="104" width="123" height="8" class="lang-css" rx="3"/>
+        <circle cx="22" cy="130" r="5" class="lang-next"/><text x="34" y="135" class="text-meta" font-size="14">Next.js 54.3%</text>
+        <circle cx="230" cy="130" r="5" class="lang-ts"/> <text x="242" y="135" class="text-meta" font-size="14">TypeScript 28.5%</text>
+        <circle cx="440" cy="130" r="5" class="lang-css"/><text x="452" y="135" class="text-meta" font-size="14">Tailwind 17.2%</text>
+      </g>
+      <g transform="translate(0,552)">
+        <rect width="780" height="148" class="bg-card" rx="8"/>
+        <text x="18" y="32" class="text-repo" font-size="18">auto-sales-platform</text>
+        <text x="762" y="30" class="text-badge" font-size="13" text-anchor="end">Production</text>
+        <text x="18" y="56" class="text-link" font-size="15">cars.ikhwann.my.id</text>
+        <text x="18" y="80" class="text-desc" font-size="16">Vehicle catalog &amp; auto round-robin lead engine.</text>
+        <rect x="18" y="104" width="744" height="8" class="bar-bg" rx="3"/>
+        <rect x="18" y="104" width="511" height="8" class="lang-next" rx="3"/>
+        <rect x="531" y="104" width="149" height="8" class="lang-db"  rx="3"/>
+        <rect x="682" y="104" width="80"  height="8" class="lang-css" rx="3"/>
+        <circle cx="22" cy="130" r="5" class="lang-next"/><text x="34" y="135" class="text-meta" font-size="14">Next.js 68.5%</text>
+        <circle cx="230" cy="130" r="5" class="lang-db"/> <text x="242" y="135" class="text-meta" font-size="14">Prisma 20.0%</text>
+        <circle cx="440" cy="130" r="5" class="lang-css"/><text x="452" y="135" class="text-meta" font-size="14">CSS 11.5%</text>
+      </g>
+    </g>
   </g>
 
-  <!-- Card 2: Warehouse Inventory -->
-  <g transform="translate(435, 475)">
-    <rect x="0" y="0" width="390" height="115" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="16" y="26" class="repo-title">IngsR/manajemen-iventory</text>
-    <text x="374" y="26" class="repo-meta">&#9733; Multi-Role RBAC</text>
-    <text x="16" y="46" class="repo-desc">Warehouse stock opname, movement tracking &amp; audit log</text>
-    <!-- Tech Bar -->
-    <rect x="16" y="64" width="210" height="6" rx="3" fill="#3178c6" />
-    <rect x="228" y="64" width="95" height="6" fill="#38bdf8" />
-    <rect x="325" y="64" width="49" height="6" rx="3" fill="#47a248" />
-    <!-- Tech Dots -->
-    <circle cx="21" cy="90" r="4" fill="#3178c6" /><text x="30" y="94" class="stack-txt">TypeScript 58%</text>
-    <circle cx="145" cy="90" r="4" fill="#38bdf8" /><text x="154" y="94" class="stack-txt">shadcn / Zustand 27%</text>
-    <circle cx="285" cy="90" r="4" fill="#47a248" /><text x="294" y="94" class="stack-txt">MongoDB 15%</text>
-  </g>
-
-  <!-- Card 3: Automotive Sales Platform -->
-  <g transform="translate(25, 605)">
-    <rect x="0" y="0" width="390" height="115" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="16" y="26" class="repo-title">IngsR/web_store</text>
-    <text x="374" y="26" class="repo-meta">&#9733; Live CRM</text>
-    <text x="16" y="46" class="repo-desc">Vehicle catalog, credit sim &amp; automated lead distribution</text>
-    <!-- Tech Bar -->
-    <rect x="16" y="64" width="230" height="6" rx="3" fill="#3178c6" />
-    <rect x="248" y="64" width="80" height="6" fill="#2d3748" />
-    <rect x="330" y="64" width="44" height="6" rx="3" fill="#336791" />
-    <!-- Tech Dots -->
-    <circle cx="21" cy="90" r="4" fill="#3178c6" /><text x="30" y="94" class="stack-txt">Next.js / TS 64%</text>
-    <circle cx="150" cy="90" r="4" fill="#8b949e" /><text x="159" y="94" class="stack-txt">Prisma 22%</text>
-    <circle cx="255" cy="90" r="4" fill="#336791" /><text x="264" y="94" class="stack-txt">PostgreSQL 14%</text>
-  </g>
-
-  <!-- Card 4: Frontend Architecture & State -->
-  <g transform="translate(435, 605)">
-    <rect x="0" y="0" width="390" height="115" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
-    <text x="16" y="26" class="repo-title">IngsR/frontend-architecture</text>
-    <text x="374" y="26" class="repo-meta">&#9733; Core Stack</text>
-    <text x="16" y="46" class="repo-desc">Predictable client state, schema validation &amp; server sync</text>
-    <!-- Tech Bar -->
-    <rect x="16" y="64" width="180" height="6" rx="3" fill="#61dafb" />
-    <rect x="198" y="64" width="110" height="6" fill="#ff4154" />
-    <rect x="310" y="64" width="64" height="6" rx="3" fill="#3068b7" />
-    <!-- Tech Dots -->
-    <circle cx="21" cy="90" r="4" fill="#61dafb" /><text x="30" y="94" class="stack-txt">React 19 50%</text>
-    <circle cx="135" cy="90" r="4" fill="#ff4154" /><text x="144" y="94" class="stack-txt">TanStack Query 30%</text>
-    <circle cx="280" cy="90" r="4" fill="#3068b7" /><text x="289" y="94" class="stack-txt">Zod / Auth 20%</text>
+  <!-- ===== MOBILE < 400px : single-col compact, coord 840x1600 scaled 0.476x ===== -->
+  <g class="lay-m f-base" transform="scale(0.476)">
+    <rect width="840" height="1600" class="bg-main" rx="8"/>
+    <g transform="translate(24,28)">
+      <text x="0" y="32" class="text-title" font-size="28">Current Focus</text>
+      <text x="0" y="58" class="text-subtitle" font-size="19">Architecture &#x2022; State &#x2022; Performance</text>
+      <rect x="0"   y="74" width="400" height="50" class="bg-card" rx="25"/>
+      <circle cx="26" cy="99" r="10" class="lang-next"/>
+      <text x="46" y="106" class="text-desc" font-size="21">Next.js (App Dir)</text>
+      <rect x="0"   y="134" width="340" height="50" class="bg-card" rx="25"/>
+      <circle cx="26" cy="159" r="10" class="lang-ts"/>
+      <text x="46" y="166" class="text-desc" font-size="21">TypeScript</text>
+      <rect x="0"   y="194" width="420" height="50" class="bg-card" rx="25"/>
+      <circle cx="26" cy="219" r="10" class="lang-state"/>
+      <text x="46" y="226" class="text-desc" font-size="21">Zustand &amp; TanStack</text>
+      <rect x="0"   y="254" width="450" height="50" class="bg-card" rx="25"/>
+      <circle cx="26" cy="279" r="10" class="lang-db"/>
+      <text x="46" y="286" class="text-desc" font-size="21">PostgreSQL &amp; ORMs</text>
+    </g>
+    <g transform="translate(24,360)">
+      <text x="0" y="32" class="text-title" font-size="28">Top Languages</text>
+      <rect x="0"   y="50" width="299" height="12" rx="4" class="lang-ts"/>
+      <rect x="301" y="50" width="225" height="12" rx="4" class="lang-next"/>
+      <rect x="528" y="50" width="113" height="12" rx="4" class="lang-py"/>
+      <rect x="643" y="50" width="60"  height="12" rx="4" class="lang-astro"/>
+      <rect x="705" y="50" width="38"  height="12" rx="4" class="lang-react"/>
+      <circle cx="10" cy="84" r="9" class="lang-ts"/>   <text x="28" y="90" class="text-meta" font-size="19">TypeScript 40%</text>
+      <circle cx="220" cy="84" r="9" class="lang-next"/><text x="238" y="90" class="text-meta" font-size="19">Next.js 30%</text>
+      <circle cx="430" cy="84" r="9" class="lang-py"/>  <text x="448" y="90" class="text-meta" font-size="19">Python 15%</text>
+      <circle cx="10" cy="116" r="9" class="lang-astro"/><text x="28" y="122" class="text-meta" font-size="19">Astro 8%</text>
+      <circle cx="220" cy="116" r="9" class="lang-react"/><text x="238" y="122" class="text-meta" font-size="19">React 7%</text>
+    </g>
+    <g transform="translate(24,530)">
+      <text x="0" y="32" class="text-title" font-size="28">Repositories</text>
+      <g transform="translate(0,52)">
+        <rect width="792" height="172" class="bg-card" rx="10"/>
+        <text x="20" y="38" class="text-repo" font-size="24">smpn24-padang-portal</text>
+        <text x="20" y="68" class="text-link" font-size="19">smpn24padang.sch.id</text>
+        <text x="20" y="98" class="text-desc" font-size="19">School portal, CMS &amp; waste-bank system.</text>
+        <rect x="20" y="124" width="752" height="12" class="bar-bg" rx="4"/>
+        <rect x="20" y="124" width="474" height="12" class="lang-next" rx="4"/>
+        <rect x="496" y="124" width="176" height="12" class="lang-ts"   rx="4"/>
+        <rect x="674" y="124" width="98"  height="12" class="lang-db"   rx="4"/>
+        <circle cx="28" cy="156" r="8" class="lang-next"/><text x="44" y="163" class="text-meta" font-size="18">62.8%</text>
+        <circle cx="120" cy="156" r="8" class="lang-ts"/> <text x="136" y="163" class="text-meta" font-size="18">23.4%</text>
+        <circle cx="212" cy="156" r="8" class="lang-db"/> <text x="228" y="163" class="text-meta" font-size="18">13.8%</text>
+      </g>
+      <g transform="translate(0,244)">
+        <rect width="792" height="172" class="bg-card" rx="10"/>
+        <text x="20" y="38" class="text-repo" font-size="24">PrediksiSiklon-LSTM</text>
+        <text x="20" y="68" class="text-link" font-size="19">siklon.ikhwann.my.id</text>
+        <text x="20" y="98" class="text-desc" font-size="19">LSTM cyclone prediction &amp; early warning.</text>
+        <rect x="20" y="124" width="752" height="12" class="bar-bg" rx="4"/>
+        <rect x="20" y="124" width="410" height="12" class="lang-py"    rx="4"/>
+        <rect x="432" y="124" width="193" height="12" class="lang-ts"   rx="4"/>
+        <rect x="627" y="124" width="145" height="12" class="lang-astro" rx="4"/>
+        <circle cx="28" cy="156" r="8" class="lang-py"/>   <text x="44" y="163" class="text-meta" font-size="18">54.3%</text>
+        <circle cx="120" cy="156" r="8" class="lang-ts"/>  <text x="136" y="163" class="text-meta" font-size="18">25.7%</text>
+        <circle cx="212" cy="156" r="8" class="lang-astro"/><text x="228" y="163" class="text-meta" font-size="18">20.0%</text>
+      </g>
+      <g transform="translate(0,436)">
+        <rect width="792" height="172" class="bg-card" rx="10"/>
+        <text x="20" y="38" class="text-repo" font-size="24">manajemen-inventory</text>
+        <text x="20" y="68" class="text-link" font-size="19">kelola-barang.vercel.app</text>
+        <text x="20" y="98" class="text-desc" font-size="19">Multi-role stock opname &amp; audit log.</text>
+        <rect x="20" y="124" width="752" height="12" class="bar-bg" rx="4"/>
+        <rect x="20" y="124" width="410" height="12" class="lang-next" rx="4"/>
+        <rect x="432" y="124" width="215" height="12" class="lang-ts"  rx="4"/>
+        <rect x="649" y="124" width="123" height="12" class="lang-css" rx="4"/>
+        <circle cx="28" cy="156" r="8" class="lang-next"/><text x="44" y="163" class="text-meta" font-size="18">54.3%</text>
+        <circle cx="120" cy="156" r="8" class="lang-ts"/> <text x="136" y="163" class="text-meta" font-size="18">28.5%</text>
+        <circle cx="212" cy="156" r="8" class="lang-css"/><text x="228" y="163" class="text-meta" font-size="18">17.2%</text>
+      </g>
+      <g transform="translate(0,628)">
+        <rect width="792" height="172" class="bg-card" rx="10"/>
+        <text x="20" y="38" class="text-repo" font-size="24">auto-sales-platform</text>
+        <text x="20" y="68" class="text-link" font-size="19">cars.ikhwann.my.id</text>
+        <text x="20" y="98" class="text-desc" font-size="19">Vehicle catalog &amp; round-robin lead engine.</text>
+        <rect x="20" y="124" width="752" height="12" class="bar-bg" rx="4"/>
+        <rect x="20" y="124" width="519" height="12" class="lang-next" rx="4"/>
+        <rect x="541" y="124" width="152" height="12" class="lang-db"  rx="4"/>
+        <rect x="695" y="124" width="77"  height="12" class="lang-css" rx="4"/>
+        <circle cx="28" cy="156" r="8" class="lang-next"/><text x="44" y="163" class="text-meta" font-size="18">68.5%</text>
+        <circle cx="120" cy="156" r="8" class="lang-db"/> <text x="136" y="163" class="text-meta" font-size="18">20.0%</text>
+        <circle cx="212" cy="156" r="8" class="lang-css"/><text x="228" y="163" class="text-meta" font-size="18">11.5%</text>
+      </g>
+    </g>
   </g>
 </svg>
