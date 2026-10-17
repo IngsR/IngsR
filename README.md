@@ -10,31 +10,31 @@
 
 <h3>🌐 Live Deployments</h3>
 <p>
-  <em>Berikut adalah beberapa aplikasi produksi yang sedang berjalan (live). Tautan akan membuka tab baru.</em>
+  <em>Below are active production environments. The destination domains are explicitly listed for transparency.</em>
 </p>
 <ul>
   <li style="margin-bottom: 10px;">
     <strong>SMPN 24 Padang Portal</strong><br>
-    Website resmi sekolah untuk kebutuhan informasi dan portal akademik.<br>
-    🔗 <a href="https://smpn24padang.sch.id" target="_blank" rel="noopener noreferrer">Kunjungi: smpn24padang.sch.id</a>
+    Official school website serving as an information and academic portal.<br>
+    🔗 <a href="https://smpn24padang.sch.id" target="_blank" rel="noopener noreferrer">Visit: smpn24padang.sch.id</a>
   </li>
   <li style="margin-bottom: 10px;">
     <strong>Automotive Sales Platform</strong><br>
-    Platform katalog digital dan penjualan untuk kendaraan otomotif.<br>
-    🔗 <a href="https://cars.ikhwann.my.id" target="_blank" rel="noopener noreferrer">Kunjungi: cars.ikhwann.my.id</a>
+    Digital catalog and sales platform for automotive vehicles.<br>
+    🔗 <a href="https://cars.ikhwann.my.id" target="_blank" rel="noopener noreferrer">Visit: cars.ikhwann.my.id</a>
   </li>
 </ul>
 
 <h3>📦 Featured Codebases</h3>
 <ul>
   <li>
-    <a href="https://github.com/Informatics-2025/Website-SMPN24padang" target="_blank" rel="noopener noreferrer">Website-SMPN24padang</a> - <em>Source code untuk portal SMPN 24 Padang.</em>
+    <a href="https://github.com/Informatics-2025/Website-SMPN24padang" target="_blank" rel="noopener noreferrer">Website-SMPN24padang</a> - <em>Source code for the SMPN 24 Padang portal.</em>
   </li>
   <li>
-    <a href="https://github.com/IngsR/manajemen-iventory" target="_blank" rel="noopener noreferrer">manajemen-iventory</a> - <em>Sistem manajemen inventaris.</em>
+    <a href="https://github.com/IngsR/manajemen-iventory" target="_blank" rel="noopener noreferrer">manajemen-iventory</a> - <em>Inventory management system architecture.</em>
   </li>
   <li>
-    <a href="https://github.com/IngsR/web_store" target="_blank" rel="noopener noreferrer">web_store</a> - <em>Implementasi toko e-commerce.</em>
+    <a href="https://github.com/IngsR/web_store" target="_blank" rel="noopener noreferrer">web_store</a> - <em>E-commerce store implementation.</em>
   </li>
 </ul>
 
