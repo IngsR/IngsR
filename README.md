@@ -8,7 +8,7 @@ Currently considering **Junior Frontend Engineer** or **React Developer** opport
 - 📦 **Featured Codebases:** [Website-SMPN24padang](https://github.com/Informatics-2025/Website-SMPN24padang) · [manajemen-iventory](https://github.com/IngsR/manajemen-iventory) · [web_store](https://github.com/IngsR/web_store)
 
 <p align="center">
-  <img src="./assets/profile-cards.svg" alt="Ikhwan Ramadhan GitHub Overview, Activity Rhythm, and Selected Repositories" width="100%" />
+  <img src="./assets/profile-card.svg" alt="Ikhwan Ramadhan GitHub Overview, Activity Rhythm, and Selected Repositories" width="100%" />
 </p>
 
 For a more complete picture of my work, case studies, and contact details, visit **[ikhwann.my.id](https://ikhwann.my.id)**.
