@@ -1,77 +1,238 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="840" height="540" viewBox="0 0 840 540" fill="none">
+  <defs>
+    <!-- Clip path for top languages progress bar (380x8, rx=4) -->
+    <clipPath id="top-lang-clip">
+      <rect width="380" height="8" rx="4" />
+    </clipPath>
+    <!-- Clip path for repo language progress bars (350x6, rx=3) -->
+    <clipPath id="repo-lang-clip">
+      <rect width="350" height="6" rx="3" />
+    </clipPath>
+  </defs>
+
   <style>
-    /* Tema Dasar */
-    .bg-main { fill: #171717; }
-    .bg-card { fill: #1e1e24; stroke: #2a2a35; stroke-width: 1; rx: 6px; }
-    
-    /* Tipografi Natural and Bersih */
-    .text-title { fill: #ffffff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 20px; font-weight: 600; }
-    .text-subtitle { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; }
-    
-    .text-repo-title { fill: #21f1a8; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; }
-    .text-link { fill: #58a6ff; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 500; text-decoration: none; }
-    .text-link:hover { text-decoration: underline; fill: #79c0ff; }
-    .text-desc { fill: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 400; }
-    .text-meta { fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 400; }
-    
-    /* Progress Bar Bahasa */
-    .bar-bg { fill: #2a2a35; rx: 2px; }
-    
-    /* Warna Standar Industri (Dioptimalkan untuk Dark Mode) */
-    .lang-next { fill: #52525b; }     /* Charcoal Black (Zinc 600) untuk Next.js - Terlihat hitam tapi tidak menyatu dgn BG */
-    .lang-ts { fill: #3178c6; }       /* Official TypeScript Blue */
-    .lang-react { fill: #61dafb; }    /* React Cyan */
-    .lang-py { fill: #3572A5; }       /* GitHub Python Blue */
-    .lang-astro { fill: #ff5a03; }    /* Astro Orange */
-    .lang-db { fill: #336791; }       /* PostgreSQL Blue / Prisma */
-    .lang-css { fill: #38bdf8; }      /* Tailwind CSS Cyan */
-    .lang-state { fill: #ff4154; }    /* TanStack Red */
+    :root {
+      color-scheme: light dark;
+    }
+
+    /* ========================================================
+       DEFAULT: DARK THEME (GitHub Dark Primer)
+       ======================================================== */
+    .bg-main {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 1px;
+    }
+
+    .bg-card {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1px;
+      rx: 6px;
+    }
+
+    .pill-card {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1px;
+      rx: 14px;
+    }
+
+    .bar-bg {
+      fill: #21262d;
+    }
+
+    /* Typography - Dark Mode */
+    .f-base {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    .text-title {
+      fill: #f0f6fc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .text-subtitle {
+      fill: #8b949e;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    .text-repo-title {
+      fill: #58a6ff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .text-link {
+      fill: #58a6ff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+      text-decoration: none;
+    }
+
+    .text-link:hover {
+      text-decoration: underline;
+      fill: #79c0ff;
+    }
+
+    .text-desc {
+      fill: #8b949e;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 400;
+    }
+
+    .text-pill {
+      fill: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .text-meta {
+      fill: #8b949e;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 400;
+    }
+
+    .text-badge {
+      fill: #7d8590;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+    }
+
+    /* Tech Stack Colors - Official GitHub Linguist and Brand Standards */
+    .lang-next { fill: #f0f6fc; }      /* Clean high-contrast white in dark mode */
+    .lang-ts { fill: #3178c6; }        /* Official TypeScript Blue */
+    .lang-react { fill: #61dafb; }     /* React Cyan */
+    .lang-py { fill: #3572A5; }        /* Official Python Blue */
+    .lang-astro { fill: #ff5a03; }     /* Official Astro Orange */
+    .lang-db { fill: #336791; }        /* PostgreSQL Blue */
+    .lang-prisma { fill: #5a67d8; }    /* Official Prisma Indigo */
+    .lang-tailwind { fill: #38bdf8; }  /* Tailwind Sky Cyan */
+    .lang-css { fill: #563d7c; }       /* Official CSS Purple */
+    .lang-state { fill: #ff4154; }     /* TanStack Red */
+
+    /* ========================================================
+       LIGHT THEME (GitHub Light Primer)
+       ======================================================== */
+    @media (prefers-color-scheme: light) {
+      .bg-main {
+        fill: #ffffff;
+        stroke: #d0d7de;
+      }
+
+      .bg-card {
+        fill: #f6f8fa;
+        stroke: #d0d7de;
+      }
+
+      .pill-card {
+        fill: #ffffff;
+        stroke: #d0d7de;
+      }
+
+      .bar-bg {
+        fill: #eaeef2;
+      }
+
+      .text-title {
+        fill: #1f2328;
+      }
+
+      .text-subtitle {
+        fill: #656d76;
+      }
+
+      .text-repo-title {
+        fill: #0969da;
+      }
+
+      .text-link {
+        fill: #0969da;
+      }
+
+      .text-link:hover {
+        fill: #0550ae;
+      }
+
+      .text-desc {
+        fill: #57606a;
+      }
+
+      .text-pill {
+        fill: #1f2328;
+      }
+
+      .text-meta {
+        fill: #656d76;
+      }
+
+      .text-badge {
+        fill: #656d76;
+      }
+
+      .lang-next { fill: #09090b; }     /* Deep crisp black in light mode */
+      .lang-react { fill: #087ea4; }    /* Contrast React cyan for light background */
+      .lang-tailwind { fill: #0284c7; } /* Contrast Tailwind sky for light background */
+    }
   </style>
 
-  <!-- Background Utama -->
+  <!-- Container Box -->
   <rect width="840" height="540" class="bg-main" rx="8" />
 
   <!-- ==================== TOP LEFT: CURRENT FOCUS ==================== -->
-  <g transform="translate(30, 30)">
+  <g transform="translate(30, 28)">
     <text x="0" y="20" class="text-title">Current Focus &amp; Expertise</text>
-    <text x="0" y="42" class="text-subtitle">Frontend Architecture • State • Performance</text>
+    <text x="0" y="40" class="text-subtitle">Frontend Architecture • State • Performance</text>
     
     <!-- Tech Stack Pills (2x2 Grid) -->
-    <g transform="translate(0, 60)">
+    <g transform="translate(0, 56)">
       <!-- Next.js -->
-      <rect x="0" y="0" width="145" height="28" fill="#1e1e24" stroke="#2a2a35" rx="14" />
+      <rect x="0" y="0" width="150" height="28" class="pill-card" />
       <circle cx="16" cy="14" r="5" class="lang-next" />
-      <text x="28" y="19" class="text-desc">Next.js (App Dir)</text>
+      <text x="28" y="18" class="text-pill">Next.js (App Dir)</text>
       
       <!-- TypeScript -->
-      <rect x="155" y="0" width="115" height="28" fill="#1e1e24" stroke="#2a2a35" rx="14" />
-      <circle cx="171" cy="14" r="5" class="lang-ts" />
-      <text x="183" y="19" class="text-desc">TypeScript</text>
+      <rect x="160" y="0" width="120" height="28" class="pill-card" />
+      <circle cx="176" cy="14" r="5" class="lang-ts" />
+      <text x="188" y="18" class="text-pill">TypeScript</text>
 
       <!-- Zustand / TanStack -->
-      <rect x="0" y="38" width="160" height="28" fill="#1e1e24" stroke="#2a2a35" rx="14" />
-      <circle cx="16" cy="52" r="5" class="lang-state" />
-      <text x="28" y="57" class="text-desc">Zustand &amp; TanStack</text>
+      <rect x="0" y="36" width="168" height="28" class="pill-card" />
+      <circle cx="16" cy="50" r="5" class="lang-state" />
+      <text x="28" y="54" class="text-pill">Zustand &amp; TanStack</text>
 
       <!-- PostgreSQL / Prisma -->
-      <rect x="170" y="38" width="155" height="28" fill="#1e1e24" stroke="#2a2a35" rx="14" />
-      <circle cx="186" cy="52" r="5" class="lang-db" />
-      <text x="198" y="57" class="text-desc">PostgreSQL &amp; ORMs</text>
+      <rect x="178" y="36" width="160" height="28" class="pill-card" />
+      <circle cx="194" cy="50" r="5" class="lang-db" />
+      <text x="206" y="54" class="text-pill">PostgreSQL &amp; ORMs</text>
     </g>
   </g>
 
   <!-- ==================== TOP RIGHT: TOP LANGUAGES ==================== -->
-  <g transform="translate(430, 30)">
+  <g transform="translate(430, 28)">
     <text x="0" y="20" class="text-title">Top Languages</text>
-    <text x="0" y="42" class="text-subtitle">Based on repository composition</text>
+    <text x="0" y="40" class="text-subtitle">Based on repository composition</text>
 
-    <g transform="translate(0, 65)">
-      <!-- Progress Bar (Total width: 380px) -->
-      <rect x="0" y="0" width="152" height="8" rx="2" class="lang-ts" />       <!-- TS: 40% -->
-      <rect x="154" y="0" width="114" height="8" rx="2" class="lang-next" />     <!-- Next.js: 30% -->
-      <rect x="270" y="0" width="57" height="8" rx="2" class="lang-py" />       <!-- Python: 15% -->
-      <rect x="329" y="0" width="30" height="8" rx="2" class="lang-astro" />    <!-- Astro: 8% -->
-      <rect x="361" y="0" width="19" height="8" rx="2" class="lang-react" />    <!-- React/UI: 7% -->
+    <g transform="translate(0, 62)">
+      <!-- Progress Bar (Total width: 380px, rx: 4px) -->
+      <rect width="380" height="8" class="bar-bg" rx="4" />
+      <g clip-path="url(#top-lang-clip)">
+        <rect x="0" y="0" width="152" height="8" class="lang-ts" />
+        <rect x="152" y="0" width="114" height="8" class="lang-next" />
+        <rect x="266" y="0" width="57" height="8" class="lang-py" />
+        <rect x="323" y="0" width="30.4" height="8" class="lang-astro" />
+        <rect x="353.4" y="0" width="26.6" height="8" class="lang-react" />
+      </g>
       
       <!-- Legend Grid -->
       <!-- Row 1 -->
@@ -94,128 +255,136 @@
   </g>
 
   <!-- ==================== BOTTOM SECTION: SELECTED REPOSITORIES ==================== -->
-  <g transform="translate(30, 180)">
+  <g transform="translate(30, 175)">
     <text x="0" y="20" class="text-title">Selected Repositories</text>
-    <text x="0" y="42" class="text-subtitle">Featured projects breakdown with live demonstrations</text>
+    <text x="0" y="40" class="text-subtitle">Featured projects breakdown with live demonstrations</text>
 
     <!-- Grid Repositories (2x2) -->
-    <g transform="translate(0, 65)">
+    <g transform="translate(0, 58)">
       
       <!-- CARD 1: SMPN 24 Padang (KIRI ATAS) -->
       <g transform="translate(0, 0)">
-        <rect width="380" height="120" class="bg-card" />
-        <text x="15" y="26" class="text-repo-title">smpn24-padang-portal</text>
-        <text x="365" y="24" class="text-meta" text-anchor="end">Production</text>
+        <rect width="380" height="124" class="bg-card" />
+        <text x="16" y="25" class="text-repo-title">smpn24-padang-portal</text>
+        <text x="364" y="24" class="text-badge" text-anchor="end">Production</text>
         
         <a href="https://smpn24padang.sch.id" target="_blank">
-          <text x="15" y="44" class="text-link">🔗 smpn24padang.sch.id</text>
+          <text x="16" y="43" class="text-link">smpn24padang.sch.id ↗</text>
         </a>
         
-        <text x="15" y="66" class="text-desc">School portal, CMS &amp; digital waste-bank system.</text>
+        <text x="16" y="65" class="text-desc">School portal, CMS &amp; digital waste-bank system.</text>
         
         <!-- Language Bar -->
-        <rect x="15" y="92" width="350" height="6" class="bar-bg" />
-        <rect x="15" y="92" width="220" height="6" class="lang-next" rx="2" /> <!-- Next.js Black -->
-        <rect x="237" y="92" width="80" height="6" class="lang-ts" rx="2" />    <!-- TS Blue -->
-        <rect x="319" y="92" width="46" height="6" class="lang-db" rx="2" />    <!-- DB Blue -->
+        <rect x="16" y="88" width="348" height="6" class="bar-bg" rx="3" />
+        <g transform="translate(16, 88)" clip-path="url(#repo-lang-clip)">
+          <rect x="0" y="0" width="218" height="6" class="lang-next" />
+          <rect x="218" y="0" width="82" height="6" class="lang-ts" />
+          <rect x="300" y="0" width="48" height="6" class="lang-db" />
+        </g>
         
         <!-- Language Legend -->
-        <circle cx="18" cy="112" r="4" class="lang-next" />
-        <text x="28" y="116" class="text-meta">Next.js 62.8%</text>
+        <circle cx="19" cy="110" r="4" class="lang-next" />
+        <text x="29" y="114" class="text-meta">Next.js 62.8%</text>
         
-        <circle cx="125" cy="112" r="4" class="lang-ts" />
-        <text x="135" y="116" class="text-meta">TypeScript 23.4%</text>
+        <circle cx="125" cy="110" r="4" class="lang-ts" />
+        <text x="135" y="114" class="text-meta">TypeScript 23.4%</text>
         
-        <circle cx="245" cy="112" r="4" class="lang-db" />
-        <text x="255" y="116" class="text-meta">PostgreSQL 13.8%</text>
+        <circle cx="245" cy="110" r="4" class="lang-db" />
+        <text x="255" y="114" class="text-meta">PostgreSQL 13.8%</text>
       </g>
 
       <!-- CARD 2: PrediksiSiklon-LSTM (KANAN ATAS) -->
       <g transform="translate(400, 0)">
-        <rect width="380" height="120" class="bg-card" />
-        <text x="15" y="26" class="text-repo-title">PrediksiSiklon-LSTM</text>
-        <text x="365" y="24" class="text-meta" text-anchor="end">Thesis / Research</text>
+        <rect width="380" height="124" class="bg-card" />
+        <text x="16" y="25" class="text-repo-title">PrediksiSiklon-LSTM</text>
+        <text x="364" y="24" class="text-badge" text-anchor="end">Thesis / Research</text>
         
         <a href="https://siklon.ikhwann.my.id" target="_blank">
-          <text x="15" y="44" class="text-link">🔗 siklon.ikhwann.my.id</text>
+          <text x="16" y="43" class="text-link">siklon.ikhwann.my.id ↗</text>
         </a>
         
-        <text x="15" y="66" class="text-desc">LSTM tropical cyclone track prediction &amp;</text>
-        <text x="15" y="82" class="text-desc">early warning system (Streamlit &amp; Astro).</text>
+        <text x="16" y="63" class="text-desc">LSTM tropical cyclone track prediction &amp;</text>
+        <text x="16" y="77" class="text-desc">early warning system (Streamlit &amp; Astro).</text>
         
         <!-- Language Bar -->
-        <rect x="15" y="92" width="350" height="6" class="bar-bg" />
-        <rect x="15" y="92" width="190" height="6" class="lang-py" rx="2" />
-        <rect x="207" y="92" width="90" height="6" class="lang-ts" rx="2" />
-        <rect x="299" y="92" width="66" height="6" class="lang-astro" rx="2" />
+        <rect x="16" y="88" width="348" height="6" class="bar-bg" rx="3" />
+        <g transform="translate(16, 88)" clip-path="url(#repo-lang-clip)">
+          <rect x="0" y="0" width="189" height="6" class="lang-py" />
+          <rect x="189" y="0" width="89" height="6" class="lang-ts" />
+          <rect x="278" y="0" width="70" height="6" class="lang-astro" />
+        </g>
         
         <!-- Language Legend -->
-        <circle cx="18" cy="112" r="4" class="lang-py" />
-        <text x="28" y="116" class="text-meta">Python 54.3%</text>
+        <circle cx="19" cy="110" r="4" class="lang-py" />
+        <text x="29" y="114" class="text-meta">Python 54.3%</text>
         
-        <circle cx="115" cy="112" r="4" class="lang-ts" />
-        <text x="125" y="116" class="text-meta">TypeScript 25.7%</text>
+        <circle cx="115" cy="110" r="4" class="lang-ts" />
+        <text x="125" y="114" class="text-meta">TypeScript 25.7%</text>
         
-        <circle cx="225" cy="112" r="4" class="lang-astro" />
-        <text x="235" y="116" class="text-meta">Astro 20.0%</text>
+        <circle cx="225" cy="110" r="4" class="lang-astro" />
+        <text x="235" y="114" class="text-meta">Astro 20.0%</text>
       </g>
 
       <!-- CARD 3: Warehouse Inventory (KIRI BAWAH) -->
-      <g transform="translate(0, 135)">
-        <rect width="380" height="120" class="bg-card" />
-        <text x="15" y="26" class="text-repo-title">manajemen-inventory</text>
-        <text x="365" y="24" class="text-meta" text-anchor="end">Updated recently</text>
+      <g transform="translate(0, 140)">
+        <rect width="380" height="124" class="bg-card" />
+        <text x="16" y="25" class="text-repo-title">manajemen-inventory</text>
+        <text x="364" y="24" class="text-badge" text-anchor="end">Updated recently</text>
         
         <a href="https://kelola-barang.vercel.app/" target="_blank">
-          <text x="15" y="44" class="text-link">🔗 kelola-barang.vercel.app</text>
+          <text x="16" y="43" class="text-link">kelola-barang.vercel.app ↗</text>
         </a>
         
-        <text x="15" y="66" class="text-desc">Multi-role stock opname &amp; audit log tracking.</text>
+        <text x="16" y="65" class="text-desc">Multi-role stock opname &amp; audit log tracking.</text>
         
         <!-- Language Bar -->
-        <rect x="15" y="92" width="350" height="6" class="bar-bg" />
-        <rect x="15" y="92" width="190" height="6" class="lang-next" rx="2" />  <!-- Next.js Black -->
-        <rect x="207" y="92" width="100" height="6" class="lang-ts" rx="2" />    <!-- TS Blue -->
-        <rect x="309" y="92" width="56" height="6" class="lang-css" rx="2" />    <!-- Tailwind Cyan -->
+        <rect x="16" y="88" width="348" height="6" class="bar-bg" rx="3" />
+        <g transform="translate(16, 88)" clip-path="url(#repo-lang-clip)">
+          <rect x="0" y="0" width="189" height="6" class="lang-next" />
+          <rect x="189" y="0" width="99" height="6" class="lang-ts" />
+          <rect x="288" y="0" width="60" height="6" class="lang-tailwind" />
+        </g>
         
         <!-- Language Legend -->
-        <circle cx="18" cy="112" r="4" class="lang-next" />
-        <text x="28" y="116" class="text-meta">Next.js 54.3%</text>
+        <circle cx="19" cy="110" r="4" class="lang-next" />
+        <text x="29" y="114" class="text-meta">Next.js 54.3%</text>
         
-        <circle cx="125" cy="112" r="4" class="lang-ts" />
-        <text x="135" y="116" class="text-meta">TypeScript 28.5%</text>
+        <circle cx="125" cy="110" r="4" class="lang-ts" />
+        <text x="135" y="114" class="text-meta">TypeScript 28.5%</text>
         
-        <circle cx="245" cy="112" r="4" class="lang-css" />
-        <text x="255" y="116" class="text-meta">Tailwind 17.2%</text>
+        <circle cx="245" cy="110" r="4" class="lang-tailwind" />
+        <text x="255" y="114" class="text-meta">Tailwind 17.2%</text>
       </g>
 
       <!-- CARD 4: Automotive Sales (KANAN BAWAH) -->
-      <g transform="translate(400, 135)">
-        <rect width="380" height="120" class="bg-card" />
-        <text x="15" y="26" class="text-repo-title">auto-sales-platform</text>
-        <text x="365" y="24" class="text-meta" text-anchor="end">Production</text>
+      <g transform="translate(400, 140)">
+        <rect width="380" height="124" class="bg-card" />
+        <text x="16" y="25" class="text-repo-title">auto-sales-platform</text>
+        <text x="364" y="24" class="text-badge" text-anchor="end">Production</text>
         
         <a href="https://cars.ikhwann.my.id" target="_blank">
-          <text x="15" y="44" class="text-link">🔗 cars.ikhwann.my.id</text>
+          <text x="16" y="43" class="text-link">cars.ikhwann.my.id ↗</text>
         </a>
         
-        <text x="15" y="66" class="text-desc">Vehicle catalog &amp; auto round-robin lead engine.</text>
+        <text x="16" y="65" class="text-desc">Vehicle catalog &amp; auto round-robin lead engine.</text>
         
         <!-- Language Bar -->
-        <rect x="15" y="92" width="350" height="6" class="bar-bg" />
-        <rect x="15" y="92" width="240" height="6" class="lang-next" rx="2" />   <!-- Next.js Black -->
-        <rect x="257" y="92" width="70" height="6" class="lang-db" rx="2" />     <!-- Prisma Blue -->
-        <rect x="329" y="92" width="36" height="6" class="lang-css" rx="2" />    <!-- CSS Cyan -->
+        <rect x="16" y="88" width="348" height="6" class="bar-bg" rx="3" />
+        <g transform="translate(16, 88)" clip-path="url(#repo-lang-clip)">
+          <rect x="0" y="0" width="238" height="6" class="lang-next" />
+          <rect x="238" y="0" width="70" height="6" class="lang-prisma" />
+          <rect x="308" y="0" width="40" height="6" class="lang-css" />
+        </g>
         
         <!-- Language Legend -->
-        <circle cx="18" cy="112" r="4" class="lang-next" />
-        <text x="28" y="116" class="text-meta">Next.js 68.5%</text>
+        <circle cx="19" cy="110" r="4" class="lang-next" />
+        <text x="29" y="114" class="text-meta">Next.js 68.5%</text>
         
-        <circle cx="125" cy="112" r="4" class="lang-db" />
-        <text x="135" y="116" class="text-meta">Prisma 20.0%</text>
+        <circle cx="125" cy="110" r="4" class="lang-prisma" />
+        <text x="135" y="114" class="text-meta">Prisma 20.0%</text>
         
-        <circle cx="245" cy="112" r="4" class="lang-css" />
-        <text x="255" y="116" class="text-meta">CSS 11.5%</text>
+        <circle cx="245" cy="110" r="4" class="lang-css" />
+        <text x="255" y="114" class="text-meta">CSS 11.5%</text>
       </g>
 
     </g>
