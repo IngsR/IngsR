@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="750" viewBox="0 0 850 750" fill="none">
+  <style>
+    .title { font: 600 20px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #e6edf3; }
+    .subtitle { font: 400 12px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #8b949e; }
+    .subhead { font: 600 13px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #e6edf3; }
+    .label { font: 400 12px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #c9d1d9; }
+    .pct { font: 400 11px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #c9d1d9; text-anchor: middle; }
+    .day { font: 400 11px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #8b949e; text-anchor: middle; }
+    .repo-title { font: 600 14px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #e6edf3; }
+    .repo-meta { font: 400 11px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #8b949e; text-anchor: end; }
+    .repo-desc { font: 400 12px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #8b949e; }
+    .stack-txt { font: 500 11px 'Segoe UI', Inter, -apple-system, sans-serif; fill: #c9d1d9; }
+  </style>
+
+  <!-- ==================== 1. TOP LANGUAGES & CORE STACK ==================== -->
+  <rect x="0" y="0" width="850" height="155" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+  <text x="25" y="34" class="title">Top Languages &amp; Core Ecosystem</text>
+  <text x="25" y="52" class="subtitle">Based on repository size &amp; production architecture</text>
+
+  <!-- Multi-color Progress Bar -->
+  <g transform="translate(25, 66)">
+    <rect x="0" y="0" width="440" height="12" rx="3" fill="#3178c6" />
+    <rect x="442" y="0" width="180" height="12" fill="#61dafb" />
+    <rect x="624" y="0" width="90" height="12" fill="#38bdf8" />
+    <rect x="716" y="0" width="50" height="12" fill="#336791" />
+    <rect x="768" y="0" width="32" height="12" rx="3" fill="#f7df1e" />
+  </g>
+
+  <!-- Legend Row 1 -->
+  <circle cx="31" cy="105" r="5" fill="#3178c6" /><text x="44" y="109" class="label">TypeScript</text><text x="155" y="109" class="label">55.0%</text>
+  <circle cx="240" cy="105" r="5" fill="#61dafb" /><text x="253" y="109" class="label">React / Next.js</text><text x="385" y="109" class="label">22.5%</text>
+  <circle cx="470" cy="105" r="5" fill="#38bdf8" /><text x="483" y="109" class="label">Tailwind CSS</text><text x="605" y="109" class="label">11.2%</text>
+  <circle cx="690" cy="105" r="5" fill="#336791" /><text x="703" y="109" class="label">PostgreSQL</text><text x="800" y="109" class="label">6.3%</text>
+
+  <!-- Legend Row 2 -->
+  <circle cx="31" cy="130" r="5" fill="#f7df1e" /><text x="44" y="134" class="label">JavaScript</text><text x="155" y="134" class="label">5.0%</text>
+  <circle cx="240" cy="130" r="5" fill="#ff4154" /><text x="253" y="134" class="label">TanStack / Zustand</text><text x="385" y="134" class="label">Core</text>
+  <circle cx="470" cy="130" r="5" fill="#c5f74f" /><text x="483" y="134" class="label">Prisma / Drizzle</text><text x="605" y="134" class="label">ORM</text>
+  <circle cx="690" cy="130" r="5" fill="#47a248" /><text x="703" y="134" class="label">MongoDB</text><text x="800" y="134" class="label">NoSQL</text>
+
+  <!-- ==================== 2. ACTIVITY RHYTHM ==================== -->
+  <rect x="0" y="175" width="850" height="210" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+  <text x="25" y="210" class="title">Activity Rhythm</text>
+  <text x="25" y="228" class="subtitle">Contributions by weekday (past year) • Recent events by hour (WIB / UTC+7)</text>
+
+  <!-- Left: By Weekday -->
+  <text x="25" y="258" class="subhead">By weekday</text>
+  <text x="275" y="258" class="subtitle">Peak: Wednesday (19%)</text>
+
+  <!-- Weekday Bars (Baseline Y = 345) -->
+  <!-- Mon 14% -->
+  <text x="43" y="303" class="pct">14%</text>
+  <rect x="25" y="310" width="36" height="35" rx="3" fill="#9ecbff" />
+  <text x="43" y="362" class="day">Mon</text>
+  <!-- Tue 16% -->
+  <text x="98" y="298" class="pct">16%</text>
+  <rect x="80" y="305" width="36" height="40" rx="3" fill="#9ecbff" />
+  <text x="98" y="362" class="day">Tue</text>
+  <!-- Wed 19% (Peak) -->
+  <text x="153" y="288" class="pct">19%</text>
+  <rect x="135" y="295" width="36" height="50" rx="3" fill="#e3b341" />
+  <text x="153" y="362" class="day">Wed</text>
+  <!-- Thu 15% -->
+  <text x="208" y="300" class="pct">15%</text>
+  <rect x="190" y="307" width="36" height="38" rx="3" fill="#9ecbff" />
+  <text x="208" y="362" class="day">Thu</text>
+  <!-- Fri 14% -->
+  <text x="263" y="303" class="pct">14%</text>
+  <rect x="245" y="310" width="36" height="35" rx="3" fill="#9ecbff" />
+  <text x="263" y="362" class="day">Fri</text>
+  <!-- Sat 12% -->
+  <text x="318" y="308" class="pct">12%</text>
+  <rect x="300" y="315" width="36" height="30" rx="3" fill="#9ecbff" />
+  <text x="318" y="362" class="day">Sat</text>
+  <!-- Sun 10% -->
+  <text x="373" y="313" class="pct">10%</text>
+  <rect x="355" y="320" width="36" height="25" rx="3" fill="#9ecbff" />
+  <text x="373" y="362" class="day">Sun</text>
+
+  <!-- Right: By Hour (WIB) -->
+  <text x="455" y="258" class="subhead">By hour (WIB)</text>
+  <text x="720" y="258" class="subtitle">Peak: Afternoon / Night</text>
+
+  <!-- 24 Hour Bars (X from 455, step 15px, Baseline Y = 345) -->
+  <g fill="#9ecbff">
+    <rect x="455" y="338" width="10" height="7" rx="2" />
+    <rect x="470" y="341" width="10" height="4" rx="2" />
+    <rect x="485" y="343" width="10" height="2" rx="1" />
+    <rect x="500" y="343" width="10" height="2" rx="1" />
+    <rect x="515" y="343" width="10" height="2" rx="1" />
+    <rect x="530" y="343" width="10" height="2" rx="1" />
+    <rect x="545" y="340" width="10" height="5" rx="2" />
+    <rect x="560" y="333" width="10" height="12" rx="2" />
+    <rect x="575" y="325" width="10" height="20" rx="2" />
+    <rect x="590" y="312" width="10" height="33" rx="2" />
+    <rect x="605" y="303" width="10" height="42" rx="2" fill="#e3b341" />
+    <rect x="620" y="315" width="10" height="30" rx="2" />
+    <rect x="635" y="328" width="10" height="17" rx="2" />
+    <rect x="650" y="305" width="10" height="40" rx="2" fill="#e3b341" />
+    <rect x="665" y="295" width="10" height="50" rx="2" fill="#e3b341" />
+    <rect x="680" y="308" width="10" height="37" rx="2" fill="#e3b341" />
+    <rect x="695" y="322" width="10" height="23" rx="2" />
+    <rect x="710" y="332" width="10" height="13" rx="2" />
+    <rect x="725" y="335" width="10" height="10" rx="2" />
+    <rect x="740" y="318" width="10" height="27" rx="2" />
+    <rect x="755" y="298" width="10" height="47" rx="2" fill="#e3b341" />
+    <rect x="770" y="302" width="10" height="43" rx="2" fill="#e3b341" />
+    <rect x="785" y="318" width="10" height="27" rx="2" />
+    <rect x="800" y="330" width="10" height="15" rx="2" />
+  </g>
+  <text x="465" y="362" class="day">12 AM</text>
+  <text x="550" y="362" class="day">6 AM</text>
+  <text x="640" y="362" class="day">12 PM</text>
+  <text x="730" y="362" class="day">6 PM</text>
+
+  <!-- ==================== 3. SELECTED REPOSITORIES ==================== -->
+  <rect x="0" y="405" width="850" height="340" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.5" />
+  <text x="25" y="440" class="title">Selected Repositories</text>
+  <text x="25" y="458" class="subtitle">Featured projects &amp; architecture breakdown</text>
+
+  <!-- Card 1: SMPN 24 Padang -->
+  <g transform="translate(25, 475)">
+    <rect x="0" y="0" width="390" height="115" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="16" y="26" class="repo-title">Informatics-2025/Website-SMPN24padang</text>
+    <text x="374" y="26" class="repo-meta">&#9733; 99 Lighthouse</text>
+    <text x="16" y="46" class="repo-desc">School portal, protected CMS &amp; digital waste-bank module</text>
+    <!-- Tech Bar -->
+    <rect x="16" y="64" width="220" height="6" rx="3" fill="#3178c6" />
+    <rect x="238" y="64" width="90" height="6" fill="#c5f74f" />
+    <rect x="330" y="64" width="44" height="6" rx="3" fill="#336791" />
+    <!-- Tech Dots -->
+    <circle cx="21" cy="90" r="4" fill="#3178c6" /><text x="30" y="94" class="stack-txt">Next.js / TS 62%</text>
+    <circle cx="150" cy="90" r="4" fill="#c5f74f" /><text x="159" y="94" class="stack-txt">Drizzle ORM 25%</text>
+    <circle cx="275" cy="90" r="4" fill="#336791" /><text x="284" y="94" class="stack-txt">PostgreSQL 13%</text>
+  </g>
+
+  <!-- Card 2: Warehouse Inventory -->
+  <g transform="translate(435, 475)">
+    <rect x="0" y="0" width="390" height="115" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="16" y="26" class="repo-title">IngsR/manajemen-iventory</text>
+    <text x="374" y="26" class="repo-meta">&#9733; Multi-Role RBAC</text>
+    <text x="16" y="46" class="repo-desc">Warehouse stock opname, movement tracking &amp; audit log</text>
+    <!-- Tech Bar -->
+    <rect x="16" y="64" width="210" height="6" rx="3" fill="#3178c6" />
+    <rect x="228" y="64" width="95" height="6" fill="#38bdf8" />
+    <rect x="325" y="64" width="49" height="6" rx="3" fill="#47a248" />
+    <!-- Tech Dots -->
+    <circle cx="21" cy="90" r="4" fill="#3178c6" /><text x="30" y="94" class="stack-txt">TypeScript 58%</text>
+    <circle cx="145" cy="90" r="4" fill="#38bdf8" /><text x="154" y="94" class="stack-txt">shadcn / Zustand 27%</text>
+    <circle cx="285" cy="90" r="4" fill="#47a248" /><text x="294" y="94" class="stack-txt">MongoDB 15%</text>
+  </g>
+
+  <!-- Card 3: Automotive Sales Platform -->
+  <g transform="translate(25, 605)">
+    <rect x="0" y="0" width="390" height="115" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="16" y="26" class="repo-title">IngsR/web_store</text>
+    <text x="374" y="26" class="repo-meta">&#9733; Live CRM</text>
+    <text x="16" y="46" class="repo-desc">Vehicle catalog, credit sim &amp; automated lead distribution</text>
+    <!-- Tech Bar -->
+    <rect x="16" y="64" width="230" height="6" rx="3" fill="#3178c6" />
+    <rect x="248" y="64" width="80" height="6" fill="#2d3748" />
+    <rect x="330" y="64" width="44" height="6" rx="3" fill="#336791" />
+    <!-- Tech Dots -->
+    <circle cx="21" cy="90" r="4" fill="#3178c6" /><text x="30" y="94" class="stack-txt">Next.js / TS 64%</text>
+    <circle cx="150" cy="90" r="4" fill="#8b949e" /><text x="159" y="94" class="stack-txt">Prisma 22%</text>
+    <circle cx="255" cy="90" r="4" fill="#336791" /><text x="264" y="94" class="stack-txt">PostgreSQL 14%</text>
+  </g>
+
+  <!-- Card 4: Frontend Architecture & State -->
+  <g transform="translate(435, 605)">
+    <rect x="0" y="0" width="390" height="115" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <text x="16" y="26" class="repo-title">IngsR/frontend-architecture</text>
+    <text x="374" y="26" class="repo-meta">&#9733; Core Stack</text>
+    <text x="16" y="46" class="repo-desc">Predictable client state, schema validation &amp; server sync</text>
+    <!-- Tech Bar -->
+    <rect x="16" y="64" width="180" height="6" rx="3" fill="#61dafb" />
+    <rect x="198" y="64" width="110" height="6" fill="#ff4154" />
+    <rect x="310" y="64" width="64" height="6" rx="3" fill="#3068b7" />
+    <!-- Tech Dots -->
+    <circle cx="21" cy="90" r="4" fill="#61dafb" /><text x="30" y="94" class="stack-txt">React 19 50%</text>
+    <circle cx="135" cy="90" r="4" fill="#ff4154" /><text x="144" y="94" class="stack-txt">TanStack Query 30%</text>
+    <circle cx="280" cy="90" r="4" fill="#3068b7" /><text x="289" y="94" class="stack-txt">Zod / Auth 20%</text>
+  </g>
+</svg>

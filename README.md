@@ -2,6 +2,10 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Inter&size=24&duration=2500&pause=1000&color=0078FF&center=true&vCenter=true&width=800&lines=Frontend+Engineering;React+%2F+Next.js+%2F+TypeScript;Component+Architecture+%7C+State+%7C+UX;Supported+by+Full-Stack+Understanding" alt="Typing SVG" />
 </div>
 
+<p align="center">
+  <img src="./assets/profile-cards.svg" alt="Ikhwan Ramadhan — GitHub Profile Overview" width="100%" />
+</p>
+
 # Ikhwan Ramadhan
 
 Frontend engineer with a focus on React and TypeScript, developing a working understanding of how component architecture, state management, and server interactions shape the overall quality of web applications.
