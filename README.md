@@ -1,7 +1,7 @@
 <h2><code>const ikhwan = "Ikhwan Ramadhan";</code> 👋</h2>
 
 <p>
-  I go by <strong>Ikhwan</strong>, a <strong>Frontend Engineer</strong> whose work sits at the convergence of interface design, component architecture, and application logic. My primary focus is building predictable, high-performance web applications with <strong>React, Next.js, and TypeScript</strong>, where client-side state management, schema validation, and server data synchronization are treated as first-class concerns. A working knowledge of backend systems including PostgreSQL, Prisma, Drizzle, and Auth.js further grounds that focus, ensuring UI responsiveness and data integrity reinforce rather than compromise each other.
+  My name is <strong>Ikhwan</strong>, a <strong>Frontend Engineer</strong> whose work sits at the convergence of interface design, component architecture, and application logic. My primary focus is building predictable, high-performance web applications with <strong>React, Next.js, and TypeScript</strong>, where client-side state management, schema validation, and server data synchronization are treated as first-class concerns. A working knowledge of backend systems including PostgreSQL, Prisma, Drizzle, and Auth.js further grounds that focus, ensuring UI responsiveness and data integrity reinforce rather than compromise each other.
 </p>
 
 <p>
